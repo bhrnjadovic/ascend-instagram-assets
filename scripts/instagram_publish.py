@@ -53,11 +53,47 @@ GRAPH_API_VERSION = "v21.0"
 GRAPH_BASE = f"https://graph.instagram.com/{GRAPH_API_VERSION}"
 
 
+ENV_PATH = ROOT / ".env"
+
+
 def _env(name: str) -> str:
     value = os.environ.get(name, "").strip()
     if not value:
         raise SystemExit(f"{name} is not set. Add it to ascend_instagram_library/.env")
     return value
+
+
+def _write_env_var(name: str, value: str) -> None:
+    """Rewrites a single KEY=... line in .env, leaving every other line untouched."""
+    lines = ENV_PATH.read_text(encoding="utf-8").splitlines()
+    found = False
+    for i, line in enumerate(lines):
+        if line.startswith(f"{name}="):
+            lines[i] = f"{name}={value}"
+            found = True
+            break
+    if not found:
+        lines.append(f"{name}={value}")
+    ENV_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=20))
+def refresh_token(current_token: str) -> tuple[str, int]:
+    """Exchanges a still-valid long-lived token for a fresh one, good for another ~60 days.
+
+    Meta allows refreshing any token that's at least 24 hours old and not yet expired —
+    calling this on every daily run keeps the token perpetually valid with no manual
+    regeneration ever needed, as long as the script actually runs at least once every
+    ~60 days (it's scheduled daily, so this holds by construction).
+    """
+    resp = requests.get(
+        "https://graph.instagram.com/refresh_access_token",
+        params={"grant_type": "ig_refresh_token", "access_token": current_token},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    payload = resp.json()
+    return payload["access_token"], payload.get("expires_in", 0)
 
 
 def _image_url(local_path: str, base_url: str) -> str:
@@ -139,9 +175,26 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Show what would publish, without calling the API")
     parser.add_argument("--publish-due", action="store_true", help="Actually publish all due, unpublished posts")
+    parser.add_argument("--skip-refresh", action="store_true", help="Skip the automatic token refresh (debugging only)")
     args = parser.parse_args()
 
-    load_dotenv(ROOT / ".env")
+    load_dotenv(ENV_PATH)
+
+    # Refresh unconditionally, before anything else, on every single run — including
+    # dry-run and days with nothing due — so the token never lapses even during idle
+    # stretches. This is what makes the ~60-day expiry a non-issue for a daily-scheduled job.
+    token = _env("INSTAGRAM_ACCESS_TOKEN")
+    if not args.skip_refresh:
+        try:
+            new_token, expires_in = refresh_token(token)
+            _write_env_var("INSTAGRAM_ACCESS_TOKEN", new_token)
+            token = new_token
+            days_left = expires_in // 86400
+            print(f"Token refreshed — valid for another ~{days_left} days.")
+        except Exception as exc:  # noqa: BLE001
+            print(f"WARNING: token refresh failed ({exc}) — continuing with existing token, "
+                  f"which may be close to expiry. Check .env / re-generate manually if this repeats.")
+
     rows = load_manifest()
     due = due_rows(rows)
 
@@ -158,7 +211,6 @@ def main() -> None:
     if not args.publish_due:
         parser.error("Specify --dry-run or --publish-due")
 
-    token = _env("INSTAGRAM_ACCESS_TOKEN")
     ig_user_id = _env("INSTAGRAM_BUSINESS_ID")
     base_url = _env("PUBLIC_IMAGE_BASE_URL")
 
