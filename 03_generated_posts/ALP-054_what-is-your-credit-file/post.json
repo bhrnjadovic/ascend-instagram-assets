@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-054",
+  "slug": "what-is-your-credit-file",
+  "topic": "What Is Your Credit File and Why Does It Matter?",
+  "category": "Preparing for Finance",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain personal and business credit files and their role in lending decisions.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is Your Credit File and Why Does It Matter?",
+      "subheadline": "A record lenders use to assess risk.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a document on a laptop screen with a thoughtful expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a document on a laptop screen with a thoughtful expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Your credit file is a record of your credit history \u2014 accounts held, repayment conduct, defaults and credit enquiries. Both personal and business credit files can be relevant to a lending decision, particularly for newer businesses or unsecured facilities backed by a personal guarantee.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Reflects repayment history and credit conduct",
+        "Includes recent credit enquiries",
+        "Personal file matters more without long trading history",
+        "Can be checked and corrected if inaccurate"
+      ],
+      "bullet_icons": [
+        "history",
+        "fact_check",
+        "badge",
+        "verified"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You can request a copy of your own credit file",
+        "Frequent applications can leave multiple enquiries on file",
+        "Defaults can affect approval and pricing",
+        "A clean file doesn't guarantee approval on its own"
+      ],
+      "bullet_icons": [
+        "description",
+        "priority_high",
+        "priority_high",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Know what lenders will see.",
+      "subheadline": "",
+      "body": "Understanding your credit file helps you prepare before you apply.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about preparing your application.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A credit file is essentially a track record \u2014 how you've managed credit in the past, including repayment history, defaults, and recent enquiries. For business lending, both the business's and the director's personal credit files can come into play, especially where a personal guarantee is involved.\n\nIt's worth reviewing your own file before applying so there are no surprises, and correcting anything inaccurate ahead of time.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "What's actually in a credit file, and why lenders pay attention to it.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#CreditFile",
+    "#BusinessCredit",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a document on a laptop screen with a thoughtful expression",
+  "suggested_icon_set": "history; fact_check; badge; verified; description; priority_high; priority_high; balance",
+  "suggested_filename": "ALP-054_what-is-your-credit-file",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

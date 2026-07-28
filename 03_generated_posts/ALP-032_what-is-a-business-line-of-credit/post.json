@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-032",
+  "slug": "what-is-a-business-line-of-credit",
+  "topic": "What Is a Business Line of Credit?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Business Line of Credit",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain the line-of-credit concept in plain terms, distinct from the product-page post.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is a Business Line of Credit?",
+      "subheadline": "Access funds on your terms, not the bank's.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a tradesperson checking a phone app for available funds while standing beside a work van",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a tradesperson checking a phone app for available funds while standing beside a work van Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A line of credit is a pre-approved facility you can draw from as needed, rather than a lump sum you receive all at once. You typically only pay interest on what you actually draw, and repaid funds become available again \u2014 similar in spirit to a flexible overdraft, structured for business use.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "No need to reapply for every cash gap",
+        "Interest generally applies only to funds drawn",
+        "Funds can be redrawn as you repay",
+        "Useful for irregular or unpredictable costs"
+      ],
+      "bullet_icons": [
+        "repeat",
+        "percent",
+        "autorenew",
+        "priority_high"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Facility limits are set based on lender assessment",
+        "May be secured or unsecured depending on the lender",
+        "Ongoing fees can apply even when undrawn",
+        "Best suited to recurring, not one-off, funding needs"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "shield",
+        "receipt_long",
+        "history"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Flexible access, structured around your business.",
+      "subheadline": "",
+      "body": "A line of credit can give you room to move when cash needs shift \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about a line of credit.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Unlike a term loan, a line of credit isn't a single lump sum \u2014 it's an ongoing facility you draw on, repay, and draw on again as circumstances change.\n\nThat structure suits businesses whose funding needs shift throughout the year, rather than businesses with one clearly defined, one-off cost. Understanding how draw-downs and repayments interact with your limit is key to using the facility well.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A line of credit gives you standing access to funds \u2014 here's how the mechanics actually work.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#LineOfCredit",
+    "#BusinessFinanceExplained",
+    "#FlexibleFinance"
+  ],
+  "suggested_hero_image_concept": "a tradesperson checking a phone app for available funds while standing beside a work van",
+  "suggested_icon_set": "repeat; percent; autorenew; priority_high; fact_check; shield; receipt_long; history",
+  "suggested_filename": "ALP-032_what-is-a-business-line-of-credit",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

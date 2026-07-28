@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-044",
+  "slug": "what-is-business-loan-refinancing",
+  "topic": "What Is Business Loan Refinancing?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Business Loan Refinancing",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain refinancing as a concept, distinct from taking on additional debt.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is Business Loan Refinancing?",
+      "subheadline": "Replacing an existing facility with a better-fitting one.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing two loan statements side by side at a desk",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing two loan statements side by side at a desk Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Refinancing means replacing an existing loan with a new one \u2014 often to secure better terms, consolidate multiple debts, or free up cash flow. The new facility pays out the old one, and repayments continue under the new agreement's terms.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Can consolidate multiple debts into one facility",
+        "May improve rate, term or repayment structure",
+        "Can free up cash flow by adjusting repayment size",
+        "Useful when circumstances have changed since the original loan"
+      ],
+      "bullet_icons": [
+        "merge_type",
+        "percent",
+        "trending_up",
+        "autorenew"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Exit fees on the existing loan may apply",
+        "New establishment fees may apply on the replacement facility",
+        "Full reassessment by the new lender is required",
+        "Timing matters \u2014 compare total cost, not just the rate"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "description",
+        "fact_check",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Is your current facility still the right fit?",
+      "subheadline": "",
+      "body": "Refinancing can be worth exploring as your business's circumstances change \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about refinancing.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Refinancing isn't about taking on more debt \u2014 it's about replacing what you already have with a facility that better suits where your business is now. That might mean a lower rate, a longer term, or consolidating several debts into one manageable repayment.\n\nBefore refinancing, it's worth weighing any exit costs on the existing facility against the new establishment fees and the actual savings on offer, so the total cost \u2014 not just the headline rate \u2014 guides the decision.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Refinancing explained \u2014 when replacing your existing loan can make sense.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#BusinessLoanRefinancing",
+    "#DebtConsolidation",
+    "#FinanceGlossary"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing two loan statements side by side at a desk",
+  "suggested_icon_set": "merge_type; percent; trending_up; autorenew; receipt_long; description; fact_check; balance",
+  "suggested_filename": "ALP-044_what-is-business-loan-refinancing",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

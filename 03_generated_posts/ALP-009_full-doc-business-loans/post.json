@@ -1,0 +1,116 @@
+{
+  "post_id": "ALP-009",
+  "slug": "full-doc-business-loans",
+  "topic": "Full Doc Business Loans",
+  "category": "Core Product",
+  "primary_finance_product": "Full Doc Business Loans",
+  "audience": [
+    "Established businesses with strong financials",
+    "Businesses seeking larger facilities",
+    "Businesses wanting the sharpest available pricing"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain how complete financial documentation can support stronger loan terms and larger facilities.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/high-doc-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Full Doc Business Loans",
+      "subheadline": "Complete financials can unlock stronger loan terms.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Accountant or financial advisor reviewing detailed statements in a polished office, established feel.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. An accountant or financial advisor in professional attire reviewing detailed financial statements and reports at a polished office desk, focused and established atmosphere. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What is full doc lending?",
+      "subheadline": "",
+      "body": "Full doc lending is based on complete financial documentation \u2014 typically two or more years of accountant-prepared statements and tax returns. This depth of information gives lenders greater confidence, which can translate into access to larger loan amounts, longer terms and more competitive pricing for established businesses.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Potential advantages",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Access to larger loan amounts",
+        "Potentially sharper pricing",
+        "Stronger negotiating position",
+        "Longer loan terms available",
+        "Broader lender panel access"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "percent",
+        "gavel",
+        "hourglass_top",
+        "account_balance"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Two or more years' trading history",
+        "Accountant-prepared financial statements",
+        "Strength of credit profile",
+        "Security offered where relevant",
+        "Processing time versus low doc"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "summarize",
+        "credit_card",
+        "shield",
+        "hourglass_top"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Let strong financials work harder for you.",
+      "subheadline": "",
+      "body": "If your business has complete, accountant-prepared financials, full doc lending may unlock stronger terms than a low doc alternative \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about full doc finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Complete financials take more effort to pull together \u2014 but they can also do more work for you.\n\nWith two or more years of accountant-prepared statements and tax returns, lenders have the confidence to offer larger amounts, longer terms and often sharper pricing than a low doc equivalent, though outcomes depend on your overall profile and the lender.\n\nHave strong financials ready? Let's see what they could unlock.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Complete financials can support larger amounts, longer terms and sharper pricing \u2014 subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#FullDocLoans",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#EstablishedBusiness",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#BusinessGrowthAU",
+    "#FinanceBrokerAustralia",
+    "#CorporateFinance"
+  ],
+  "suggested_hero_image_concept": "Accountant reviewing detailed financial statements, navy/gold grade.",
+  "suggested_icon_set": "trending_up, percent, gavel, hourglass_top, account_balance, calendar_month, summarize, credit_card, shield",
+  "suggested_filename": "ALP-009_full-doc-business-loans",
+  "compliance_notes": [
+    "Site's 1-2% rate saving example and up to 80% LVR presented as illustrative, not guaranteed for every applicant.",
+    "Low-doc vs full-doc distinction kept explicit; no claim that full doc guarantees the best rate."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

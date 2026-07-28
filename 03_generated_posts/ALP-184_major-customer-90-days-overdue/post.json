@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-184",
+  "slug": "major-customer-90-days-overdue",
+  "topic": "A Major Customer Is 90 Days Overdue",
+  "category": "Scenario-Based",
+  "primary_finance_product": "Invoice Finance",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Address the scenario of a significantly overdue invoice from an important customer.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "A Major Customer Is 90 Days Overdue",
+      "subheadline": "Protect the relationship and your cash flow, in that order.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing an overdue invoice, composed and methodical",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing an overdue invoice, composed and methodical Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A significantly overdue invoice from an important customer is a delicate situation \u2014 you want payment, but not at the cost of the relationship. A structured follow-up process, and finance to cover the interim gap, can address both.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "A structured follow-up process protects the relationship",
+        "Invoice finance can cover the gap while you resolve it",
+        "Clear documentation supports any formal follow-up",
+        "Address the pattern, not just this one invoice"
+      ],
+      "bullet_icons": [
+        "handshake",
+        "receipt_long",
+        "description",
+        "history"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Escalate calmly and in writing as time passes",
+        "Know your options if the debt becomes genuinely bad",
+        "Review payment terms with this customer going forward",
+        "A broker can advise on finance to cover the interim gap"
+      ],
+      "bullet_icons": [
+        "description",
+        "fact_check",
+        "swap_horiz",
+        "corporate_fare"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Manage the situation without straining your own cash flow.",
+      "subheadline": "",
+      "body": "Finance can cover the gap while you work through resolving an overdue account.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about invoice finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A significantly overdue invoice from an important customer requires a careful balance \u2014 pursuing payment firmly, without damaging a relationship that matters to the business.\n\nWhile that process plays out, invoice finance can cover the interim cash-flow gap, so your own operations aren't held hostage to someone else's payment timeline.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A major customer is 90 days overdue \u2014 how to manage it without straining your own cash flow.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#InvoiceFinance",
+    "#LatePayments",
+    "#CashFlowManagement"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing an overdue invoice, composed and methodical",
+  "suggested_icon_set": "handshake; receipt_long; description; history; description; fact_check; swap_horiz; corporate_fare",
+  "suggested_filename": "ALP-184_major-customer-90-days-overdue",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,117 @@
+{
+  "post_id": "ALP-001",
+  "slug": "business-line-of-credit",
+  "topic": "Business Line of Credit",
+  "category": "Core Product",
+  "primary_finance_product": "Business Line of Credit",
+  "audience": [
+    "Established Australian business owners",
+    "Seasonal businesses",
+    "Growing SMEs managing uneven cash flow"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how a business line of credit gives businesses flexible, on-demand access to working capital without reapplying each time.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-line-of-credit.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Business Line of Credit",
+      "subheadline": "Draw funds when you need them. Pay for only what you use.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: an Australian business owner reviewing figures on a laptop in a modern office, warm confident mood, navy/gold colour grade.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. An established Australian business owner in smart-casual attire reviewing financial figures on a laptop at a minimalist desk in a modern office with natural window light. Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "How does it work?",
+      "subheadline": "",
+      "body": "A business line of credit gives you a pre-approved pool of funds to draw from whenever you need it. Interest generally applies only to the amount you've drawn, not your full limit. As you repay, your available credit is restored \u2014 ready for the next gap or opportunity, without a fresh application.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated line icon of a circular arrow (draw-repay-redraw cycle).",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold circular-arrow line icon positioned in the lower third, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Where it can help",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Smoothing seasonal revenue swings",
+        "Covering short-term cash gaps",
+        "Acting fast on opportunities",
+        "Managing supplier payment timing",
+        "Avoiding repeat loan applications"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "swap_horiz",
+        "bolt",
+        "schedule",
+        "task_alt"
+      ],
+      "visual_concept": "Five matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with five evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Time trading under your ABN",
+        "Monthly revenue and consistency",
+        "Existing credit conduct and defaults",
+        "Facility size versus security offered",
+        "How the funds will be used"
+      ],
+      "bullet_icons": [
+        "history",
+        "trending_up",
+        "credit_card",
+        "shield",
+        "description"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with five thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no icons of money."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Finance structured around your business.",
+      "subheadline": "",
+      "body": "A line of credit can give your business room to move \u2014 funding drawn when you need it and repaid on your terms, subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about a line of credit.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text of its own, no photography."
+    }
+  ],
+  "caption": "A business line of credit isn't a lump-sum loan \u2014 it's a standing facility you can draw from, repay, and redraw as your business needs change. For businesses with seasonal cycles or unpredictable cash-flow timing, that flexibility can matter more than a one-off loan amount.\n\nInterest is typically only charged on funds actually drawn, and approved limits can support both secured and unsecured structures depending on your circumstances.\n\nWant to know if a line of credit suits how your business operates? Send us a message.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Draw it when you need it. Repay it. Redraw it. A business line of credit gives your business standing access to working capital \u2014 subject to lender assessment. Learn more at the link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#BusinessFinanceAustralia",
+    "#WorkingCapital",
+    "#BusinessLineOfCredit",
+    "#CashFlowManagement",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#BusinessGrowthAU",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Abstract navy-and-gold geometric composition suggesting a revolving/circular structure \u2014 no photography, no cash imagery.",
+  "suggested_icon_set": "Thin-line icons: circular arrow (redraw cycle), calendar, handshake outline, clock, document outline",
+  "suggested_filename": "ALP-001_business-line-of-credit",
+  "compliance_notes": [
+    "Site states a $750K maximum facility and 12+ months trading / $10k+ monthly revenue as eligibility guidance \u2014 presented here as illustrative lender considerations, not guaranteed thresholds.",
+    "No approval outcome or timeframe is stated as guaranteed.",
+    "Secured vs unsecured distinction kept explicit per compliance rules."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

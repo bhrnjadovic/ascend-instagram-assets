@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-060",
+  "slug": "what-happens-during-loan-assessment",
+  "topic": "What Happens During the Loan Assessment Process",
+  "category": "Preparing for Finance",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Walk through the general stages of a loan assessment.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Happens During the Loan Assessment Process",
+      "subheadline": "A behind-the-scenes look at what happens next.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a lender and business owner in a meeting discussing paperwork, professional setting",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a lender and business owner in a meeting discussing paperwork, professional setting Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Once you submit an application, a lender typically reviews your documentation, verifies your identity and business details, checks credit history, and assesses serviceability against the requested amount. Timeframes vary \u2014 some facilities are assessed in days, others take longer for more complex lending.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Documentation and identity verification",
+        "Credit history checks",
+        "Serviceability and affordability assessment",
+        "Security valuation, if applicable"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "credit_card",
+        "summarize",
+        "shield"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Timeframes vary by lender and facility complexity",
+        "Additional information may be requested mid-process",
+        "Conditional approval can precede final approval",
+        "A broker can help keep the process moving"
+      ],
+      "bullet_icons": [
+        "hourglass_top",
+        "description",
+        "task_alt",
+        "handshake"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Know what to expect at each stage.",
+      "subheadline": "",
+      "body": "Understanding the assessment process helps you prepare and respond quickly if more is needed.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your application.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Behind the scenes, most lenders move through a similar sequence: verifying who you are and what your business is, checking credit history, and assessing whether the numbers support the amount requested.\n\nBeing ready to respond quickly if a lender asks for additional information is one of the simplest ways to keep an assessment moving rather than stalling.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A behind-the-scenes look at what a lender actually does during assessment.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#LoanAssessment",
+    "#BusinessFinanceProcess",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "a lender and business owner in a meeting discussing paperwork, professional setting",
+  "suggested_icon_set": "fact_check; credit_card; summarize; shield; hourglass_top; description; task_alt; handshake",
+  "suggested_filename": "ALP-060_what-happens-during-loan-assessment",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

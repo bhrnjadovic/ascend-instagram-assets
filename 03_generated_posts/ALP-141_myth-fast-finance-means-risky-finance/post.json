@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-141",
+  "slug": "myth-fast-finance-means-risky-finance",
+  "topic": "Myth: Fast Finance Means Risky Finance",
+  "category": "Myth-Busting",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Correct a common misconception: 'Fast Finance Means Risky Finance'.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Myth: Fast Finance Means Risky Finance",
+      "subheadline": "Speed reflects process, not corner-cutting.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing an approved facility, confident and relieved expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing an approved facility, confident and relieved expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Faster approval timeframes often come from streamlined documentation and digital assessment processes \u2014 not from skipping proper risk assessment. Reputable lenders still assess serviceability and credit history, just more efficiently.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What's actually true",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Streamlined documentation speeds up, not skips, assessment",
+        "Digital processes reduce admin, not scrutiny",
+        "Reputable lenders still assess serviceability",
+        "Speed can matter genuinely for time-sensitive needs"
+      ],
+      "bullet_icons": [
+        "timer",
+        "settings",
+        "fact_check",
+        "priority_high"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Worth knowing",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Check the lender's credentials regardless of speed",
+        "Ask what's actually being assessed in a fast process",
+        "A broker can point you to legitimate fast-turnaround lenders",
+        "Faster doesn't mean unregulated"
+      ],
+      "bullet_icons": [
+        "verified",
+        "description",
+        "handshake",
+        "policy"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Fast doesn't have to mean careless.",
+      "subheadline": "",
+      "body": "Efficient assessment and proper due diligence aren't mutually exclusive.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your timeline.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "It's easy to assume speed means shortcuts, but a fast turnaround is more often the result of efficient, digital-first processes than reduced diligence \u2014 legitimate lenders still assess serviceability and credit history either way.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Fast finance doesn't automatically mean corners are being cut.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#FastFinance",
+    "#BusinessFinanceMyths",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing an approved facility, confident and relieved expression",
+  "suggested_icon_set": "timer; settings; fact_check; priority_high; verified; description; handshake; policy",
+  "suggested_filename": "ALP-141_myth-fast-finance-means-risky-finance",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

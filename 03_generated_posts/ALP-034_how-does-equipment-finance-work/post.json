@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-034",
+  "slug": "how-does-equipment-finance-work",
+  "topic": "How Does Equipment Finance Work?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Equipment Finance",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Walk through how equipment finance is structured and repaid.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How Does Equipment Finance Work?",
+      "subheadline": "Get the equipment now, pay it off over time.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner standing beside new machinery in a workshop, reviewing paperwork",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner standing beside new machinery in a workshop, reviewing paperwork Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Equipment finance lets you acquire vehicles, machinery or tools without paying the full purchase price up front. The asset itself is typically used as security, and you repay the cost \u2014 plus fees and interest \u2014 over an agreed term, keeping cash free for other parts of the business.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Preserves cash instead of a large upfront outlay",
+        "Repayments can be aligned to the asset's useful life",
+        "Available for vehicles, machinery and technology",
+        "May offer tax advantages depending on your structure"
+      ],
+      "bullet_icons": [
+        "account_balance",
+        "schedule",
+        "precision_manufacturing",
+        "summarize"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "The asset usually secures the finance",
+        "Terms commonly range from one to five years",
+        "New and used equipment may be treated differently",
+        "A balloon or residual payment may reduce repayments"
+      ],
+      "bullet_icons": [
+        "shield",
+        "history",
+        "fact_check",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Equip your business without draining cash reserves.",
+      "subheadline": "",
+      "body": "Equipment finance can help you get moving without tying up working capital \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about equipment finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Rather than paying cash for a vehicle, machine or piece of technology, equipment finance spreads the cost over time \u2014 with the asset itself typically standing as security for the facility.\n\nStructures vary: some agreements are set up so you fully own the asset at the end, others include a balloon or residual payment to lower regular repayments. The right structure depends on how the asset will be used and how long you plan to keep it.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Equipment finance explained \u2014 how repayments, security and terms fit together.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#EquipmentFinance",
+    "#AssetFinance",
+    "#BusinessEquipment"
+  ],
+  "suggested_hero_image_concept": "a business owner standing beside new machinery in a workshop, reviewing paperwork",
+  "suggested_icon_set": "account_balance; schedule; precision_manufacturing; summarize; shield; history; fact_check; balance",
+  "suggested_filename": "ALP-034_how-does-equipment-finance-work",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

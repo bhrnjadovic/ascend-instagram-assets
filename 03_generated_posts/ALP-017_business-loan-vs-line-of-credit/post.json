@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-017",
+  "slug": "business-loan-vs-line-of-credit",
+  "topic": "Business Loan vs Line of Credit",
+  "category": "Product Comparison",
+  "primary_finance_product": "Business Loan vs Line of Credit",
+  "audience": [
+    "Business owners choosing a funding structure",
+    "Growing businesses",
+    "Businesses with variable capital needs"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand when a lump-sum loan suits versus an on-demand revolving facility.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-line-of-credit.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Business Loan vs Line of Credit",
+      "subheadline": "A single amount, or ongoing access \u2014 which fits?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing a laptop showing two different financial plans side by side.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing a laptop showing two different financial plans side by side. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "A business loan provides a single lump sum repaid over a fixed term, suited to a defined purpose like an asset or acquisition. A line of credit provides a standing limit you can draw from, repay and redraw as needed, generally charging interest only on the amount actually drawn.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "A business loan may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have one defined funding purpose",
+        "You want a fixed repayment schedule",
+        "You're funding a specific asset",
+        "You prefer certainty over flexibility",
+        "You need the full amount upfront"
+      ],
+      "bullet_icons": [
+        "flag",
+        "schedule",
+        "inventory_2",
+        "shield",
+        "account_balance"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "A line of credit may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your funding needs are variable",
+        "You want to draw only what you use",
+        "You face seasonal cash-flow swings",
+        "You want to avoid repeat applications",
+        "You value ongoing flexibility"
+      ],
+      "bullet_icons": [
+        "swap_horiz",
+        "percent",
+        "calendar_month",
+        "repeat",
+        "task_alt"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Certainty or flexibility \u2014 both have their place.",
+      "subheadline": "",
+      "body": "A defined project may suit a lump-sum loan; ongoing or unpredictable needs may suit a revolving line \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about which structure fits your business.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Not every funding need looks the same, and the right structure depends on the shape of that need.\n\nA business loan gives you a fixed amount for a defined purpose, repaid on a set schedule. A line of credit gives you standing access to draw from, repay and redraw \u2014 useful when your capital needs move around rather than sitting still.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "One defined purpose or ongoing flexible access \u2014 the right structure depends on the shape of your funding need. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#BusinessLoanVsLineOfCredit",
+    "#BusinessFinanceAustralia",
+    "#WorkingCapital",
+    "#CashFlowManagement",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner comparing two funding plans on a laptop, navy/gold grade.",
+  "suggested_icon_set": "flag, schedule, inventory_2, shield, account_balance, swap_horiz, percent, calendar_month, repeat, task_alt",
+  "suggested_filename": "ALP-017_business-loan-vs-line-of-credit",
+  "compliance_notes": [
+    "No guaranteed approval or timing language used; framed as structural comparison only."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

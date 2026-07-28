@@ -1,0 +1,115 @@
+{
+  "post_id": "ALP-011",
+  "slug": "working-capital-loans",
+  "topic": "Working Capital Loans",
+  "category": "Cash Flow and Working Capital",
+  "primary_finance_product": "Working Capital Loans",
+  "audience": [
+    "Stock-heavy retailers",
+    "Payroll-dependent businesses",
+    "Businesses in a growth phase"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how working capital loans fund day-to-day operations rather than a specific asset purchase.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/working-capital-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Working Capital Loans",
+      "subheadline": "Fund the everyday engine of your business.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Warehouse or stockroom scene with staff working, operational energy.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A warehouse or stockroom interior with a staff member actively managing inventory or packing orders, dynamic operational energy, wide practical space. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What is a working capital loan?",
+      "subheadline": "",
+      "body": "Working capital loans fund the operational engine of a business \u2014 inventory, payroll, rent and overheads \u2014 rather than a specific asset. Structured around your revenue cycle, funds may be drawn as a lump sum or in tranches, giving flexibility to manage day-to-day costs as they arise.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What it may fund",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Day-to-day operating costs",
+        "Payroll and staffing",
+        "Inventory and stock",
+        "Rent and overheads",
+        "Growth-phase expenses"
+      ],
+      "bullet_icons": [
+        "business_center",
+        "groups",
+        "inventory_2",
+        "domain",
+        "trending_up"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Revenue and trading history",
+        "Lump sum versus tranched draws",
+        "Revolving versus term facility",
+        "Documentation level required",
+        "Repayment capacity"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "swap_horiz",
+        "autorenew",
+        "description",
+        "balance"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Keep operations moving without missing a beat.",
+      "subheadline": "",
+      "body": "From payroll to stock to rent, working capital finance can be structured around how your revenue actually flows \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about working capital finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Payroll doesn't wait for a slow month, and neither does rent.\n\nWorking capital loans are built to fund the everyday running of a business \u2014 stock, staffing, overheads \u2014 structured around your revenue cycle rather than tied to a single asset. Facilities can often be drawn as a lump sum or in tranches, and structured as revolving or term finance depending on what suits.\n\nWant to see what a facility built around your cycle looks like? Get in touch.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Payroll, stock, rent, overheads \u2014 working capital finance is structured around your revenue cycle, subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#WorkingCapitalLoans",
+    "#CashFlowManagement",
+    "#BusinessFinanceAustralia",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#BusinessGrowthAU",
+    "#RetailFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Warehouse/stockroom with staff actively working, navy/gold grade.",
+  "suggested_icon_set": "business_center, groups, inventory_2, domain, trending_up, swap_horiz, autorenew, description, balance",
+  "suggested_filename": "ALP-011_working-capital-loans",
+  "compliance_notes": [
+    "No specific rates or fees stated on-site source; none fabricated here."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

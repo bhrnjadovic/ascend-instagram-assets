@@ -1,0 +1,1 @@
+Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with five thin gold checkmark placeholders arranged in a vertical list on the left third, no text.

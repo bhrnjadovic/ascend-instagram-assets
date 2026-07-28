@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-018",
+  "slug": "cashflow-loan-vs-working-capital-loan",
+  "topic": "Cashflow Loan vs Working Capital Loan",
+  "category": "Product Comparison",
+  "primary_finance_product": "Cashflow Loan vs Working Capital Loan",
+  "audience": [
+    "Businesses managing timing gaps",
+    "Businesses funding day-to-day operations",
+    "Growing SMEs"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners distinguish short-term timing finance from ongoing operational funding.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/cashflow-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Cashflow Loan vs Working Capital Loan",
+      "subheadline": "A short-term bridge, or an ongoing operational fund?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing financial charts on a tablet in a bright modern office.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing financial charts on a tablet in a bright modern office. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "A cashflow loan is typically a short-term facility addressing a specific timing gap between expenses and revenue. A working capital loan tends to fund broader, ongoing operational needs \u2014 stock, payroll, overheads \u2014 often over a longer term and with more flexible draw structures.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "A cashflow loan may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have a specific timing gap",
+        "You need a short-term facility",
+        "You're awaiting a known payment",
+        "You want a defined repayment period",
+        "Your need is temporary, not ongoing"
+      ],
+      "bullet_icons": [
+        "hourglass_top",
+        "flag",
+        "schedule",
+        "calendar_month",
+        "task_alt"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Working capital may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You need ongoing operational funding",
+        "You want flexible draw structures",
+        "Your needs shift with revenue cycles",
+        "You want revolving or term options",
+        "You're funding growth-phase costs"
+      ],
+      "bullet_icons": [
+        "autorenew",
+        "swap_horiz",
+        "trending_up",
+        "repeat",
+        "business_center"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Timing gap or ongoing operations \u2014 the label matters.",
+      "subheadline": "",
+      "body": "Matching the facility to the actual need helps avoid paying for flexibility you don't use, or outgrowing a short-term fix \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Ask Ascend Lending Partners which structure fits your situation.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "These two products get used interchangeably in conversation, but they're built for different situations.\n\nA cashflow loan addresses a specific, short-term timing gap \u2014 expenses landing before revenue does. A working capital loan is built for the ongoing, ordinary running of the business, often with more flexible structures for needs that don't have a single end date.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Short-term timing gap or ongoing operational need \u2014 the two aren't interchangeable. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#CashflowVsWorkingCapital",
+    "#CashFlowManagement",
+    "#WorkingCapital",
+    "#BusinessFinanceAustralia",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing financial charts on a tablet, navy/gold grade.",
+  "suggested_icon_set": "hourglass_top, flag, schedule, calendar_month, task_alt, autorenew, swap_horiz, trending_up, repeat, business_center",
+  "suggested_filename": "ALP-018_cashflow-loan-vs-working-capital-loan",
+  "compliance_notes": [
+    "No specific rates or guaranteed timeframes stated."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

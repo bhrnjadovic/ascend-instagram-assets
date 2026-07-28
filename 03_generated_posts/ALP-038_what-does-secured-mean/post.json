@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-038",
+  "slug": "what-does-secured-mean",
+  "topic": "What Does \"Secured\" Mean?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Secured Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain secured lending in plain terms.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Does \"Secured\" Mean?",
+      "subheadline": "An asset stands behind the facility.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner standing in front of commercial premises reviewing documents",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner standing in front of commercial premises reviewing documents Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A secured loan is backed by a specific asset \u2014 property, equipment or another business asset \u2014 that the lender can claim if repayments aren't met. Because the lender's risk is reduced, secured facilities can often support larger amounts or more competitive terms.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Can support larger facility sizes",
+        "May come with more competitive pricing",
+        "Suits businesses with equity in property or assets",
+        "Reduces lender risk, which can widen options"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "percent",
+        "domain",
+        "shield"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "The pledged asset is at risk if repayments aren't met",
+        "Valuation of the asset may be required",
+        "Terms can be longer than unsecured facilities",
+        "Different assets attract different lending criteria"
+      ],
+      "bullet_icons": [
+        "priority_high",
+        "fact_check",
+        "history",
+        "policy"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Backed by an asset, structured for the long term.",
+      "subheadline": "",
+      "body": "Secured finance can open up larger facilities \u2014 subject to valuation and lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about secured finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Security simply means a specific asset stands behind the loan \u2014 if the facility isn't repaid as agreed, the lender has recourse to that asset. In exchange for that reduced risk, secured lending can often support larger amounts or better pricing than an unsecured facility.\n\nThe right choice comes down to what assets you're willing to put forward and how that trade-off weighs against the terms on offer.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Secured lending explained \u2014 what standing an asset behind your loan actually changes.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#SecuredLoans",
+    "#BusinessFinanceTerms",
+    "#FinanceGlossary"
+  ],
+  "suggested_hero_image_concept": "a business owner standing in front of commercial premises reviewing documents",
+  "suggested_icon_set": "trending_up; percent; domain; shield; priority_high; fact_check; history; policy",
+  "suggested_filename": "ALP-038_what-does-secured-mean",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

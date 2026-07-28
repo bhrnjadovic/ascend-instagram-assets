@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-046",
+  "slug": "what-is-an-establishment-fee",
+  "topic": "What Is an Establishment Fee?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain establishment fees as a cost component.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is an Establishment Fee?",
+      "subheadline": "The one-off cost of setting up a facility.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a loan agreement document closely at a desk",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a loan agreement document closely at a desk Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "An establishment fee is a one-off charge a lender applies to set up a new loan or facility, covering the cost of processing, assessment and documentation. It's usually charged once, upfront or added to the loan balance, rather than recurring.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Charged once, at the start of the facility",
+        "Covers assessment, processing and documentation",
+        "Can sometimes be added to the loan balance",
+        "Varies by lender and facility type"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "description",
+        "account_balance",
+        "balance"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Ask whether the fee is a flat amount or percentage",
+        "Compare total cost, not just the headline rate",
+        "Some lenders itemise fees, others bundle them",
+        "Fee structures should be set out clearly in the offer"
+      ],
+      "bullet_icons": [
+        "percent",
+        "summarize",
+        "fact_check",
+        "policy"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Understand every fee before you commit.",
+      "subheadline": "",
+      "body": "Knowing what an establishment fee covers helps you compare offers on a like-for-like basis.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about the full cost of your facility.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "An establishment fee covers the lender's cost of setting up your facility \u2014 assessing the application, preparing documentation and finalising the agreement. It's typically a one-off charge, separate from any ongoing fees or interest.\n\nBecause establishment fees vary between lenders and facility types, they're worth factoring into any comparison \u2014 a slightly lower rate can be offset by a higher upfront fee, so the total cost of the facility matters more than any single number.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Establishment fees explained \u2014 what they cover and why they matter when comparing offers.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#EstablishmentFee",
+    "#BusinessLoanFees",
+    "#FinanceGlossary"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a loan agreement document closely at a desk",
+  "suggested_icon_set": "receipt_long; description; account_balance; balance; percent; summarize; fact_check; policy",
+  "suggested_filename": "ALP-046_what-is-an-establishment-fee",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

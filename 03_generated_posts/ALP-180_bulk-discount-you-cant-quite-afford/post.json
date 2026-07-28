@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-180",
+  "slug": "bulk-discount-you-cant-quite-afford",
+  "topic": "You've Been Offered a Bulk Discount You Can't Quite Afford",
+  "category": "Scenario-Based",
+  "primary_finance_product": "Business Line of Credit",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Address the scenario of a time-limited supplier discount opportunity.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "You've Been Offered a Bulk Discount You Can't Quite Afford",
+      "subheadline": "A good deal is only good if you can actually take it.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a supplier discount offer on a laptop, weighing the decision",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a supplier discount offer on a laptop, weighing the decision Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A time-limited bulk discount can be genuinely valuable, but only if the cash required doesn't strain the rest of the business. Short-term finance can let you capture the saving without depleting working capital needed elsewhere.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Captures a genuine supplier discount opportunity",
+        "Avoids depleting cash needed for other operations",
+        "Can be timed to match the offer's window",
+        "Spreads the cost across the stock's sell-through period"
+      ],
+      "bullet_icons": [
+        "percent",
+        "account_balance",
+        "calendar_month",
+        "inventory_2"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Confirm the discount outweighs the cost of finance",
+        "Check realistic sell-through timing before committing",
+        "Storage and holding costs should be factored in too",
+        "Weigh the offer calmly, even under time pressure"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "history",
+        "warehouse",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Take the deal without straining your cash flow.",
+      "subheadline": "",
+      "body": "Finance can let you capture a good opportunity without the usual trade-off.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about stock finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A genuine bulk discount is worth taking seriously, but only if it doesn't come at the cost of cash you need elsewhere \u2014 which is exactly the kind of trade-off short-term finance is built to solve.\n\nThe maths only works if the saving outweighs the cost of finance, so it's worth running the numbers even when the clock is ticking on the offer.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A bulk discount you can't quite afford? Here's how to still capture it.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#StockFinance",
+    "#SupplierDiscounts",
+    "#SMEFinanceTips"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a supplier discount offer on a laptop, weighing the decision",
+  "suggested_icon_set": "percent; account_balance; calendar_month; inventory_2; fact_check; history; warehouse; balance",
+  "suggested_filename": "ALP-180_bulk-discount-you-cant-quite-afford",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

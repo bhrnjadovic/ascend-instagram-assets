@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-077",
+  "slug": "how-payment-terms-affect-cash-flow",
+  "topic": "How Payment Terms Affect Your Cash Flow",
+  "category": "Cash-Flow Education",
+  "primary_finance_product": "Invoice Finance",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how offered and received payment terms interact to shape cash-flow position.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How Payment Terms Affect Your Cash Flow",
+      "subheadline": "The terms you give and get both matter.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a contract with payment terms highlighted, at a desk",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a contract with payment terms highlighted, at a desk Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "The payment terms you offer customers, and the terms your suppliers give you, together shape your cash-flow position. Offering 30-day terms while paying suppliers on 7 days creates a structural gap \u2014 regardless of how well the business is otherwise performing.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Customer terms determine when you get paid",
+        "Supplier terms determine when you must pay",
+        "A mismatch between the two creates structural pressure",
+        "Shorter customer terms ease pressure directly"
+      ],
+      "bullet_icons": [
+        "history",
+        "swap_horiz",
+        "priority_high",
+        "timer"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Review terms with your largest customers first",
+        "Negotiating supplier terms can help as much as chasing customers",
+        "Consider incentives for early customer payment",
+        "Finance can offset a mismatch you can't renegotiate"
+      ],
+      "bullet_icons": [
+        "corporate_fare",
+        "handshake",
+        "percent",
+        "account_balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Review your terms before you review your finance options.",
+      "subheadline": "",
+      "body": "Sometimes the biggest cash-flow lever is the payment terms already in your contracts.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "It's easy to focus on chasing overdue invoices, but the terms themselves are often the bigger lever \u2014 if you're offering 30-day terms while your own suppliers expect payment in seven, that gap exists regardless of how promptly customers pay within their terms.\n\nReviewing both sides of your payment terms is often the first, cheapest step before looking at finance to cover the gap.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "How the terms you offer and receive shape your cash flow \u2014 often more than late payments do.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#PaymentTerms",
+    "#CashFlowManagement",
+    "#InvoiceFinance"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a contract with payment terms highlighted, at a desk",
+  "suggested_icon_set": "history; swap_horiz; priority_high; timer; corporate_fare; handshake; percent; account_balance",
+  "suggested_filename": "ALP-077_how-payment-terms-affect-cash-flow",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

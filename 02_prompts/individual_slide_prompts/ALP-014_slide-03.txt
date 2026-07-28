@@ -1,0 +1,1 @@
+Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text.

@@ -1,0 +1,1547 @@
+{
+  "completed_count": 139,
+  "pending_count": 61,
+  "completed_posts": [
+    {
+      "post_id": "ALP-001",
+      "slug": "business-line-of-credit",
+      "topic": "Business Line of Credit",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-002",
+      "slug": "equipment-finance",
+      "topic": "Equipment Finance",
+      "category": "Specialist Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-003",
+      "slug": "invoice-finance",
+      "topic": "Invoice Finance",
+      "category": "Cash Flow and Working Capital",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-004",
+      "slug": "business-loans",
+      "topic": "Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-005",
+      "slug": "small-business-loans",
+      "topic": "Small Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-006",
+      "slug": "unsecured-business-loans",
+      "topic": "Unsecured Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-007",
+      "slug": "secured-business-loans",
+      "topic": "Secured Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-008",
+      "slug": "low-doc-business-loans",
+      "topic": "Low Doc Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-009",
+      "slug": "full-doc-business-loans",
+      "topic": "Full Doc Business Loans",
+      "category": "Core Product",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-010",
+      "slug": "cashflow-loans",
+      "topic": "Cashflow Loans",
+      "category": "Cash Flow and Working Capital",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-011",
+      "slug": "working-capital-loans",
+      "topic": "Working Capital Loans",
+      "category": "Cash Flow and Working Capital",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-012",
+      "slug": "trade-finance",
+      "topic": "Trade Finance",
+      "category": "Specialist Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-013",
+      "slug": "ato-tax-debt-finance",
+      "topic": "ATO Tax Debt Finance",
+      "category": "Specialist Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-014",
+      "slug": "short-term-business-loans",
+      "topic": "Short-Term Business Loans",
+      "category": "Specialist Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-015",
+      "slug": "secured-vs-unsecured-business-loans",
+      "topic": "Secured vs Unsecured Business Loans",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-016",
+      "slug": "low-doc-vs-full-doc-business-loans",
+      "topic": "Low Doc vs Full Doc Business Loans",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-017",
+      "slug": "business-loan-vs-line-of-credit",
+      "topic": "Business Loan vs Line of Credit",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-018",
+      "slug": "cashflow-loan-vs-working-capital-loan",
+      "topic": "Cashflow Loan vs Working Capital Loan",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-019",
+      "slug": "invoice-finance-vs-business-loan",
+      "topic": "Invoice Finance vs Business Loan",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-020",
+      "slug": "equipment-finance-vs-paying-cash",
+      "topic": "Equipment Finance vs Paying Cash",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-021",
+      "slug": "asset-finance-vs-business-loan",
+      "topic": "Asset Finance vs Business Loan",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-022",
+      "slug": "line-of-credit-vs-business-credit-card",
+      "topic": "Line of Credit vs Business Credit Card",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-023",
+      "slug": "short-term-vs-long-term-business-finance",
+      "topic": "Short-Term vs Long-Term Business Finance",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-024",
+      "slug": "bank-vs-non-bank-business-lending",
+      "topic": "Bank vs Non-Bank Business Lending",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-025",
+      "slug": "fixed-vs-variable-business-finance",
+      "topic": "Fixed vs Variable Business Finance",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-026",
+      "slug": "principal-and-interest-vs-interest-only",
+      "topic": "Principal and Interest vs Interest Only",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-027",
+      "slug": "invoice-finance-vs-overdraft",
+      "topic": "Invoice Finance vs Overdraft",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-028",
+      "slug": "trade-finance-vs-working-capital-finance",
+      "topic": "Trade Finance vs Working Capital Finance",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-029",
+      "slug": "refinance-vs-additional-loan",
+      "topic": "Refinance vs Taking an Additional Loan",
+      "category": "Product Comparison",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-030",
+      "slug": "what-is-working-capital",
+      "topic": "What Is Working Capital?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-031",
+      "slug": "what-is-business-cash-flow",
+      "topic": "What Is Business Cash Flow?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-032",
+      "slug": "what-is-a-business-line-of-credit",
+      "topic": "What Is a Business Line of Credit?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-033",
+      "slug": "how-does-invoice-finance-work",
+      "topic": "How Does Invoice Finance Work?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-034",
+      "slug": "how-does-equipment-finance-work",
+      "topic": "How Does Equipment Finance Work?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-035",
+      "slug": "what-is-low-doc-lending",
+      "topic": "What Is Low Doc Lending?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-036",
+      "slug": "what-is-full-doc-lending",
+      "topic": "What Is Full Doc Lending?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-037",
+      "slug": "what-does-unsecured-mean",
+      "topic": "What Does \"Unsecured\" Mean?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-038",
+      "slug": "what-does-secured-mean",
+      "topic": "What Does \"Secured\" Mean?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-039",
+      "slug": "what-is-private-credit",
+      "topic": "What Is Private Credit?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-040",
+      "slug": "what-is-a-personal-guarantee",
+      "topic": "What Is a Personal Guarantee?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-041",
+      "slug": "what-is-loan-security",
+      "topic": "What Is Loan Security?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-042",
+      "slug": "what-is-a-general-security-agreement",
+      "topic": "What Is a General Security Agreement?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-043",
+      "slug": "what-is-serviceability",
+      "topic": "What Is Serviceability?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-044",
+      "slug": "what-is-business-loan-refinancing",
+      "topic": "What Is Business Loan Refinancing?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-045",
+      "slug": "what-is-a-balloon-or-residual-payment",
+      "topic": "What Is a Balloon or Residual Payment?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-046",
+      "slug": "what-is-an-establishment-fee",
+      "topic": "What Is an Establishment Fee?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-047",
+      "slug": "what-is-an-early-repayment-fee",
+      "topic": "What Is an Early Repayment Fee?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-048",
+      "slug": "what-is-a-loan-term",
+      "topic": "What Is a Loan Term?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-049",
+      "slug": "what-is-a-credit-limit",
+      "topic": "What Is a Credit Limit?",
+      "category": "Educational Fundamentals",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-050",
+      "slug": "documents-needed-for-business-finance",
+      "topic": "What Documents Do You Need to Apply?",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-051",
+      "slug": "improve-loan-approval-chances",
+      "topic": "How to Improve Your Chances of Approval",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-052",
+      "slug": "do-you-need-a-business-plan-for-finance",
+      "topic": "Do You Need a Business Plan to Get Finance?",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-053",
+      "slug": "how-lenders-assess-a-new-business",
+      "topic": "How Lenders Assess a New Business",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-054",
+      "slug": "what-is-your-credit-file",
+      "topic": "What Is Your Credit File and Why Does It Matter?",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-055",
+      "slug": "prepare-financials-before-applying",
+      "topic": "How to Prepare Your Financials Before Applying",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-056",
+      "slug": "what-is-an-abn-and-why-it-matters",
+      "topic": "What Is an ABN and Why It Matters for Finance",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-057",
+      "slug": "how-long-trading-before-you-apply",
+      "topic": "How Long Should You Be Trading Before You Apply?",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-058",
+      "slug": "what-lenders-look-for-in-bank-statements",
+      "topic": "What Lenders Look for in Bank Statements",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-059",
+      "slug": "choose-the-right-type-of-business-finance",
+      "topic": "How to Choose the Right Type of Business Finance",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-060",
+      "slug": "what-happens-during-loan-assessment",
+      "topic": "What Happens During the Loan Assessment Process",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-061",
+      "slug": "how-much-finance-do-you-actually-need",
+      "topic": "How to Work Out How Much Finance You Actually Need",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-062",
+      "slug": "what-is-a-finance-broker",
+      "topic": "What Is a Finance Broker and How Do They Help?",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-063",
+      "slug": "mistakes-that-delay-loan-approval",
+      "topic": "Common Mistakes That Delay Loan Approval",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-064",
+      "slug": "what-to-expect-after-approval",
+      "topic": "What to Expect After You're Approved",
+      "category": "Preparing for Finance",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-065",
+      "slug": "cash-flow-problems-dont-mean-failing-business",
+      "topic": "Cash Flow Problems Don't Mean a Failing Business",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-066",
+      "slug": "seasonal-businesses-cash-flow-gaps",
+      "topic": "How Seasonal Businesses Can Manage Cash Flow Gaps",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-067",
+      "slug": "what-causes-most-cash-flow-problems",
+      "topic": "What Causes Most Small Business Cash Flow Problems?",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-068",
+      "slug": "how-to-read-a-cash-flow-forecast",
+      "topic": "How to Read a Cash Flow Forecast",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-069",
+      "slug": "cash-flow-gap-and-how-finance-bridges-it",
+      "topic": "What Is a Cash Flow Gap and How Finance Can Bridge It",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-070",
+      "slug": "late-paying-customers-and-cash-flow",
+      "topic": "How Late-Paying Customers Affect Your Cash Flow",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-071",
+      "slug": "how-to-build-a-cash-flow-buffer",
+      "topic": "How to Build a Cash Flow Buffer",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-072",
+      "slug": "what-is-the-cash-conversion-cycle",
+      "topic": "What Is the Cash Conversion Cycle?",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-073",
+      "slug": "gst-and-tax-timing-effects-on-cash-flow",
+      "topic": "How GST and Tax Timing Affects Cash Flow",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-074",
+      "slug": "why-profitable-businesses-run-out-of-cash",
+      "topic": "Why Profitable Businesses Still Run Out of Cash",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-075",
+      "slug": "forecast-cash-flow-for-the-next-quarter",
+      "topic": "How to Forecast Cash Flow for the Next Quarter",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-076",
+      "slug": "what-happens-when-you-miss-a-supplier-payment",
+      "topic": "What Happens When You Miss a Supplier Payment?",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-077",
+      "slug": "how-payment-terms-affect-cash-flow",
+      "topic": "How Payment Terms Affect Your Cash Flow",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-078",
+      "slug": "manage-cash-flow-during-growth",
+      "topic": "How to Manage Cash Flow During Growth",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-079",
+      "slug": "when-to-use-finance-for-cash-flow",
+      "topic": "When to Use Finance to Manage Cash Flow (and When Not To)",
+      "category": "Cash-Flow Education",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-080",
+      "slug": "using-finance-to-fund-business-growth",
+      "topic": "Using Finance to Fund Business Growth",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-081",
+      "slug": "when-is-the-right-time-to-expand",
+      "topic": "When Is the Right Time to Expand?",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-082",
+      "slug": "finance-a-new-location-or-premises",
+      "topic": "How to Finance a New Location or Premises",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-083",
+      "slug": "fund-a-marketing-push-without-draining-cash",
+      "topic": "Funding a Marketing Push Without Draining Cash",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-084",
+      "slug": "finance-hiring-ahead-of-demand",
+      "topic": "How to Finance Hiring Ahead of Demand",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-085",
+      "slug": "equipment-finance-to-scale-production",
+      "topic": "Using Equipment Finance to Scale Production",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-086",
+      "slug": "fund-a-bulk-stock-purchase",
+      "topic": "How to Fund a Bulk Stock Purchase",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-087",
+      "slug": "financing-a-business-acquisition",
+      "topic": "Financing a Business Acquisition",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-088",
+      "slug": "fund-technology-and-systems-upgrades",
+      "topic": "How to Fund Technology and Systems Upgrades",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-089",
+      "slug": "growing-without-overextending",
+      "topic": "Growing Without Overextending Your Business",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-090",
+      "slug": "use-finance-to-win-a-big-contract",
+      "topic": "How to Use Finance to Win a Big Contract",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-091",
+      "slug": "funding-export-and-international-growth",
+      "topic": "Funding Export and International Growth",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-092",
+      "slug": "time-finance-around-a-growth-opportunity",
+      "topic": "How to Time Finance Around a Growth Opportunity",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-093",
+      "slug": "building-a-finance-strategy-not-just-a-loan",
+      "topic": "Building a Finance Strategy, Not Just a Loan",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-094",
+      "slug": "reinvest-profit-vs-use-finance",
+      "topic": "When to Reinvest Profit vs When to Use Finance",
+      "category": "Growth and Strategy",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-095",
+      "slug": "finance-for-hospitality-and-cafe-businesses",
+      "topic": "Finance for Hospitality and Cafe Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-096",
+      "slug": "finance-for-retail-and-ecommerce-businesses",
+      "topic": "Finance for Retail and Ecommerce Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-097",
+      "slug": "finance-for-construction-and-trades-businesses",
+      "topic": "Finance for Construction and Trades Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-098",
+      "slug": "finance-for-transport-and-logistics-businesses",
+      "topic": "Finance for Transport and Logistics Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-099",
+      "slug": "finance-for-medical-and-allied-health-practices",
+      "topic": "Finance for Medical and Allied Health Practices",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-100",
+      "slug": "finance-for-professional-services-firms",
+      "topic": "Finance for Professional Services Firms",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-101",
+      "slug": "finance-for-manufacturing-businesses",
+      "topic": "Finance for Manufacturing Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-102",
+      "slug": "finance-for-agriculture-and-farming-businesses",
+      "topic": "Finance for Agriculture and Farming Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-103",
+      "slug": "finance-for-childcare-providers",
+      "topic": "Finance for Childcare Providers",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-104",
+      "slug": "finance-for-real-estate-and-property-services",
+      "topic": "Finance for Real Estate and Property Services",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-105",
+      "slug": "finance-for-automotive-businesses",
+      "topic": "Finance for Automotive Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-106",
+      "slug": "finance-for-beauty-and-wellness-businesses",
+      "topic": "Finance for Beauty and Wellness Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-107",
+      "slug": "finance-for-it-and-technology-services",
+      "topic": "Finance for IT and Technology Services",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-108",
+      "slug": "finance-for-import-and-export-businesses",
+      "topic": "Finance for Import and Export Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-109",
+      "slug": "finance-for-commercial-cleaning-businesses",
+      "topic": "Finance for Commercial Cleaning Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-110",
+      "slug": "finance-for-education-and-training-providers",
+      "topic": "Finance for Education and Training Providers",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-111",
+      "slug": "finance-for-franchise-businesses",
+      "topic": "Finance for Franchise Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-112",
+      "slug": "finance-for-fitness-and-gym-businesses",
+      "topic": "Finance for Fitness and Gym Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-113",
+      "slug": "finance-for-hair-and-salon-businesses",
+      "topic": "Finance for Hair and Salon Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-114",
+      "slug": "finance-for-wholesale-and-distribution-businesses",
+      "topic": "Finance for Wholesale and Distribution Businesses",
+      "category": "Industry-Specific",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-115",
+      "slug": "bank-said-no-other-options",
+      "topic": "\u201cMy Bank Said No\u201d \u2014 What Are Your Other Options?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-116",
+      "slug": "worried-about-taking-on-debt",
+      "topic": "Worried About Taking on Debt? Here's How to Think About It",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-117",
+      "slug": "what-brokers-actually-do",
+      "topic": "\u201cI Don't Want to Deal With a Broker\u201d \u2014 What Brokers Actually Do",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-118",
+      "slug": "bad-credit-history-what-might-be-possible",
+      "topic": "Bad Credit History? Here's What Still Might Be Possible",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-119",
+      "slug": "not-enough-trading-history",
+      "topic": "\u201cI Don't Have Enough Trading History\u201d \u2014 What to Do Instead",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-120",
+      "slug": "worried-about-interest-rates",
+      "topic": "Worried About Interest Rates? How to Compare Properly",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-121",
+      "slug": "dont-want-to-put-up-my-house",
+      "topic": "\u201cI Don't Want to Put Up My House as Security\u201d",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-122",
+      "slug": "concerned-about-hidden-fees",
+      "topic": "Concerned About Hidden Fees? What to Ask Upfront",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-123",
+      "slug": "knocked-back-before-what-changes-the-outcome",
+      "topic": "\u201cI've Been Knocked Back Before\u201d \u2014 What Changes the Outcome",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-124",
+      "slug": "worried-finance-will-strain-cash-flow",
+      "topic": "Worried Finance Will Strain Your Cash Flow Further",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-125",
+      "slug": "dont-understand-the-paperwork",
+      "topic": "\u201cI Don't Understand the Paperwork\u201d \u2014 What to Ask For",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-126",
+      "slug": "worried-about-long-term-commitment",
+      "topic": "Concerned About Locking In a Long-Term Commitment",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-127",
+      "slug": "is-my-business-too-small",
+      "topic": "\u201cIs My Business Too Small for Business Finance?\u201d",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-128",
+      "slug": "worried-what-happens-if-you-cant-repay",
+      "topic": "Worried About What Happens If You Can't Repay?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-129",
+      "slug": "invoice-finance-and-your-customers",
+      "topic": "Will Your Customers Know You're Using Invoice Finance?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-130",
+      "slug": "concerned-about-credit-score-impact",
+      "topic": "Concerned About Your Credit Score Being Affected?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-131",
+      "slug": "tried-a-broker-before-didnt-work-out",
+      "topic": "\u201cI Tried a Broker Before and It Didn't Work Out\u201d",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-132",
+      "slug": "will-finance-look-bad-to-investors",
+      "topic": "Worried Finance Will Look Bad to Investors or Partners?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-133",
+      "slug": "just-need-a-small-amount",
+      "topic": "\u201cI Just Need a Small Amount\u201d \u2014 Does That Rule You Out?",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-134",
+      "slug": "overcoming-fear-of-applying-and-rejection",
+      "topic": "Overcoming the Fear of Applying and Getting Rejected",
+      "category": "Problems and Objections",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-135",
+      "slug": "myth-need-perfect-credit",
+      "topic": "Myth: You Need Perfect Credit to Get Business Finance",
+      "category": "Myth-Busting",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-136",
+      "slug": "myth-loans-only-for-big-companies",
+      "topic": "Myth: Business Loans Are Only for Big Companies",
+      "category": "Myth-Busting",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-137",
+      "slug": "myth-applying-always-hurts-credit-score",
+      "topic": "Myth: Applying for Finance Always Hurts Your Credit Score",
+      "category": "Myth-Busting",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-138",
+      "slug": "myth-brokers-cost-you-extra",
+      "topic": "Myth: Brokers Cost You Extra Money",
+      "category": "Myth-Busting",
+      "status": "approved",
+      "slide_count": 5
+    },
+    {
+      "post_id": "ALP-139",
+      "slug": "myth-need-years-of-trading-history",
+      "topic": "Myth: You Need Years of Trading History to Qualify",
+      "category": "Myth-Busting",
+      "status": "approved",
+      "slide_count": 5
+    }
+  ],
+  "pending_posts": [
+    {
+      "post_id": "ALP-140",
+      "slug": "myth-unsecured-loans-always-more-expensive",
+      "topic": "Myth: Unsecured Loans Are Always More Expensive",
+      "category": "Myth-Busting",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-141",
+      "slug": "myth-fast-finance-means-risky-finance",
+      "topic": "Myth: Fast Finance Means Risky Finance",
+      "category": "Myth-Busting",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-142",
+      "slug": "myth-refinancing-means-something-wrong",
+      "topic": "Myth: Refinancing Means Something's Gone Wrong",
+      "category": "Myth-Busting",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-143",
+      "slug": "myth-non-bank-lenders-less-legitimate",
+      "topic": "Myth: Non-Bank Lenders Are Less Legitimate Than Banks",
+      "category": "Myth-Busting",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-144",
+      "slug": "myth-terms-cant-change-after-approval",
+      "topic": "Myth: Once You're Approved, the Terms Can't Change",
+      "category": "Myth-Busting",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-160",
+      "slug": "5-documents-to-have-ready",
+      "topic": "5 Documents to Have Ready Before You Apply",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-161",
+      "slug": "7-signs-you-might-need-cash-flow-facility",
+      "topic": "7 Signs Your Business Might Need a Cash Flow Facility",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-162",
+      "slug": "6-questions-before-choosing-a-lender",
+      "topic": "6 Questions to Ask Before Choosing a Lender",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-163",
+      "slug": "5-ways-to-strengthen-a-loan-application",
+      "topic": "5 Ways to Strengthen a Loan Application",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-164",
+      "slug": "8-costs-to-factor-into-equipment-purchase",
+      "topic": "8 Costs to Factor Into Your Next Equipment Purchase",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-165",
+      "slug": "5-signs-its-time-to-refinance",
+      "topic": "5 Signs It's Time to Refinance",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-166",
+      "slug": "6-red-flags-in-a-finance-offer",
+      "topic": "6 Red Flags to Watch for in a Finance Offer",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-167",
+      "slug": "5-ways-businesses-use-a-line-of-credit",
+      "topic": "5 Ways Businesses Use a Line of Credit",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-168",
+      "slug": "7-things-that-affect-serviceability",
+      "topic": "7 Things That Affect Your Business Loan Serviceability",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-169",
+      "slug": "5-mistakes-to-avoid-when-applying",
+      "topic": "5 Mistakes to Avoid When Applying for Finance",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-170",
+      "slug": "6-ways-to-prepare-for-growth-finance",
+      "topic": "6 Ways to Prepare Your Business for Growth Finance",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-171",
+      "slug": "5-signs-cash-flow-needs-attention",
+      "topic": "5 Signs Your Cash Flow Needs Attention",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-172",
+      "slug": "8-things-to-check-in-a-loan-agreement",
+      "topic": "8 Things to Check in a Loan Agreement",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-173",
+      "slug": "5-ways-to-build-a-stronger-credit-profile",
+      "topic": "5 Ways to Build a Stronger Credit Profile",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-174",
+      "slug": "6-questions-before-taking-on-debt",
+      "topic": "6 Questions to Ask Yourself Before Taking on Debt",
+      "category": "Checklists and Lists",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-145",
+      "slug": "what-does-the-application-process-look-like",
+      "topic": "What Does the Application Process Actually Look Like?",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-146",
+      "slug": "how-to-choose-the-right-broker",
+      "topic": "How to Choose the Right Broker for Your Business",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-147",
+      "slug": "questions-to-ask-a-lender-before-signing",
+      "topic": "What Questions to Ask a Lender Before Signing",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-148",
+      "slug": "how-brokers-compare-lenders-behind-the-scenes",
+      "topic": "How Brokers Compare Lenders Behind the Scenes",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-149",
+      "slug": "what-happens-after-you-submit-an-application",
+      "topic": "What Happens After You Submit an Application?",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-150",
+      "slug": "how-to-read-a-loan-offer",
+      "topic": "How to Read a Loan Offer Before You Accept It",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-151",
+      "slug": "what-is-a-panel-of-lenders",
+      "topic": "What Is a Panel of Lenders and Why It Matters",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-152",
+      "slug": "how-long-does-approval-typically-take",
+      "topic": "How Long Does Business Finance Approval Typically Take?",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-153",
+      "slug": "prepare-for-your-first-broker-conversation",
+      "topic": "What to Prepare for Your First Broker Conversation",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-154",
+      "slug": "how-brokers-are-regulated-in-australia",
+      "topic": "How Brokers Are Regulated in Australia",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-155",
+      "slug": "circumstances-change-mid-application",
+      "topic": "What Happens If Your Circumstances Change Mid-Application?",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-156",
+      "slug": "compare-multiple-loan-offers-side-by-side",
+      "topic": "How to Compare Multiple Loan Offers Side by Side",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-157",
+      "slug": "what-a-broker-can-and-cant-do",
+      "topic": "What a Broker Can and Can't Do for You",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-158",
+      "slug": "build-an-ongoing-relationship-with-your-broker",
+      "topic": "How to Build an Ongoing Relationship With Your Broker",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-159",
+      "slug": "what-happens-at-settlement",
+      "topic": "What Happens at Settlement",
+      "category": "Broker and Process Education",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-175",
+      "slug": "youve-just-won-a-big-contract",
+      "topic": "You've Just Won a Big Contract \u2014 Now What?",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-176",
+      "slug": "customer-asked-for-60-day-terms",
+      "topic": "Your Best Customer Just Asked for 60-Day Terms",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-177",
+      "slug": "key-equipment-just-broke-down",
+      "topic": "A Key Piece of Equipment Just Broke Down",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-178",
+      "slug": "growing-faster-than-cash-flow-can-keep-up",
+      "topic": "You're Growing Faster Than Your Cash Flow Can Keep Up",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-179",
+      "slug": "busiest-season-about-to-start",
+      "topic": "Your Busiest Season Is About to Start",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-180",
+      "slug": "bulk-discount-you-cant-quite-afford",
+      "topic": "You've Been Offered a Bulk Discount You Can't Quite Afford",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-181",
+      "slug": "competitor-went-out-of-business-buy-assets",
+      "topic": "A Competitor Just Went Out of Business \u2014 Should You Buy Their Assets?",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-182",
+      "slug": "landlord-offered-bigger-space",
+      "topic": "Your Landlord Just Offered You a Bigger Space",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-183",
+      "slug": "tax-bill-due-not-enough-cash",
+      "topic": "You've Got a Tax Bill Due and Not Enough Cash",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-184",
+      "slug": "major-customer-90-days-overdue",
+      "topic": "A Major Customer Is 90 Days Overdue",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-185",
+      "slug": "ready-to-hire-your-first-employee",
+      "topic": "You're Ready to Hire Your First Employee",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-186",
+      "slug": "business-outgrown-current-equipment",
+      "topic": "Your Business Has Outgrown Its Current Equipment",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-187",
+      "slug": "asked-to-take-on-a-bigger-project",
+      "topic": "You've Been Asked to Take On a Project Bigger Than Usual",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-188",
+      "slug": "supplier-wants-payment-upfront",
+      "topic": "Your Supplier Wants Payment Upfront Now",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-189",
+      "slug": "buying-out-your-business-partner",
+      "topic": "You're Thinking About Buying Out Your Business Partner",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-190",
+      "slug": "a-franchise-opportunity-has-come-up",
+      "topic": "A Franchise Opportunity Has Come Up",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-191",
+      "slug": "need-to-relocate-quickly",
+      "topic": "You Need to Relocate Your Business Quickly",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-192",
+      "slug": "insurance-renewal-higher-than-expected",
+      "topic": "Your Insurance Renewal Came in Higher Than Expected",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-193",
+      "slug": "approached-to-export-for-the-first-time",
+      "topic": "You've Been Approached to Export for the First Time",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-194",
+      "slug": "best-quarter-ever-now-what",
+      "topic": "Your Business Just Had Its Best Quarter Ever \u2014 Now What?",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-195",
+      "slug": "fire-flood-or-disruption-hit-business",
+      "topic": "A Fire, Flood or Other Disruption Has Hit Your Business",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-196",
+      "slug": "considering-taking-on-a-business-partner",
+      "topic": "You're Considering Taking on a Business Partner",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-197",
+      "slug": "biggest-client-wants-exclusivity-at-a-cost",
+      "topic": "Your Biggest Client Wants Exclusivity \u2014 At a Cost",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-198",
+      "slug": "ready-to-retire-need-succession-plan",
+      "topic": "You're Ready to Retire and Need a Succession Plan",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-199",
+      "slug": "business-offered-a-buyout",
+      "topic": "Your Business Has Been Offered a Buyout",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    },
+    {
+      "post_id": "ALP-200",
+      "slug": "reflecting-on-200-posts-of-finance-education",
+      "topic": "200 Posts of Finance Education \u2014 What We've Learned",
+      "category": "Scenario-Based",
+      "status": "content_written_pending_render"
+    }
+  ]
+}

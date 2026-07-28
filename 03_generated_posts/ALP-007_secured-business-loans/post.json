@@ -1,0 +1,116 @@
+{
+  "post_id": "ALP-007",
+  "slug": "secured-business-loans",
+  "topic": "Secured Business Loans",
+  "category": "Core Product",
+  "primary_finance_product": "Secured Business Loans",
+  "audience": [
+    "Property and asset-owning business owners",
+    "Businesses planning major capital investment",
+    "Established businesses needing larger facilities"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain how offering business assets as security can support larger, longer-term finance structures.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/secured-business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Secured Business Loans",
+      "subheadline": "Use business assets to unlock larger, longer-term finance.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Modern commercial property or office building exterior at dusk, symbolising asset-backed strength.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A modern commercial office building or industrial property exterior photographed at dusk, strong architectural lines, lights beginning to glow in windows, conveying stability and substance. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does secured mean?",
+      "subheadline": "",
+      "body": "Secured business loans use property, equipment or other business assets as collateral, which reduces risk for the lender. In exchange, this structure can support larger loan amounts, longer repayment terms and potentially sharper pricing than an unsecured facility of the same size, depending on the asset and lender.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Potential advantages",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Larger borrowing capacity",
+        "Longer repayment terms available",
+        "Potentially sharper pricing",
+        "Suits major capital investment",
+        "Supports long-term growth plans"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "hourglass_top",
+        "percent",
+        "domain",
+        "flag"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Type and value of the asset",
+        "Loan-to-value ratio offered",
+        "Length of trading history",
+        "Documentation level required",
+        "Security registration requirements"
+      ],
+      "bullet_icons": [
+        "real_estate_agent",
+        "balance",
+        "calendar_month",
+        "description",
+        "gavel"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Structure finance around what your business owns.",
+      "subheadline": "",
+      "body": "If your business holds property or valuable assets, a secured structure may open up larger facilities and longer terms \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about secured finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Offering security doesn't just reduce lender risk \u2014 depending on the asset and lender, it can also open the door to larger facilities, longer terms, and potentially sharper pricing than an equivalent unsecured loan.\n\nProperty, equipment and other business assets can all be considered, with loan-to-value ratios and documentation requirements varying by lender and asset type.\n\nCurious what your assets could support? Let's talk it through.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Property or assets can unlock larger, longer-term finance structures, subject to lender assessment and loan-to-value requirements. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#SecuredBusinessLoans",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#PropertyFinance",
+    "#AustralianSmallBusiness",
+    "#SMEFinance",
+    "#BusinessGrowthAU",
+    "#FinanceBrokerAustralia",
+    "#AssetFinance"
+  ],
+  "suggested_hero_image_concept": "Modern commercial property exterior at dusk, navy/gold grade.",
+  "suggested_icon_set": "trending_up, hourglass_top, percent, domain, flag, real_estate_agent, balance, calendar_month, description, gavel",
+  "suggested_filename": "ALP-007_secured-business-loans",
+  "compliance_notes": [
+    "Site's example of a 1.5% rate saving on a $500K loan and up to 80% LVR presented as an illustrative example, not a guaranteed rate or outcome for every borrower.",
+    "Secured vs unsecured distinction kept explicit per compliance rules."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

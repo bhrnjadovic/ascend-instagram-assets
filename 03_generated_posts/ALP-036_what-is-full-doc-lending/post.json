@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-036",
+  "slug": "what-is-full-doc-lending",
+  "topic": "What Is Full Doc Lending?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Full Doc Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain full doc lending and how it differs from low doc.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is Full Doc Lending?",
+      "subheadline": "Full paperwork, typically stronger terms.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: an accountant and business owner reviewing financial statements together in an office",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. an accountant and business owner reviewing financial statements together in an office Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Full doc lending means providing complete financial documentation \u2014 tax returns, financial statements and supporting records \u2014 to support your application. With a fuller picture of the business, lenders can often assess risk more precisely, which may open up more competitive terms or larger facilities.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Backed by complete financial documentation",
+        "May unlock more competitive terms",
+        "Often supports larger facility sizes",
+        "Gives lenders a fuller view of the business"
+      ],
+      "bullet_icons": [
+        "assignment",
+        "percent",
+        "trending_up",
+        "fact_check"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Typically requires up-to-date tax returns and financials",
+        "Preparation can take longer than low doc applications",
+        "Best suited to established businesses with current records",
+        "Still subject to full lender assessment criteria"
+      ],
+      "bullet_icons": [
+        "description",
+        "hourglass_top",
+        "corporate_fare",
+        "policy"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "The stronger your paperwork, the more options open up.",
+      "subheadline": "",
+      "body": "Full doc lending can support larger or more competitively priced facilities \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about full doc lending.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Full doc lending is the more traditional path \u2014 tax returns, financial statements and supporting records go to the lender so they can form a complete view of your business's financial position.\n\nIt generally takes more preparation than a low doc application, but for established businesses with up-to-date records, it can open the door to larger facilities or more competitive pricing.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "What full doc lending actually requires \u2014 and why it can widen your options.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#FullDocLoans",
+    "#BusinessLoanBasics",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "an accountant and business owner reviewing financial statements together in an office",
+  "suggested_icon_set": "assignment; percent; trending_up; fact_check; description; hourglass_top; corporate_fare; policy",
+  "suggested_filename": "ALP-036_what-is-full-doc-lending",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

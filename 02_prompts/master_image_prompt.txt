@@ -1,0 +1,10 @@
+Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create
+multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides.
+
+Premium Australian commercial-finance editorial design for Ascend Lending Partners. Visual
+confidence of a major bank or established advisory firm. Deep navy (#0A1A2F) and premium gold
+(#C8A451) palette. Clean line icons and subtle architectural geometric shapes only — no
+photography of cash, no piggy banks, no calculators dominating the frame, no fake app screens,
+no generic handshake stock photos, no American currency, no visible dollar bills. Background
+artwork only: all headline, body, bullet, footer, page-number and disclaimer text is added
+programmatically afterwards and must NOT be rendered by the image model.

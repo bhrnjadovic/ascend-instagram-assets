@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-037",
+  "slug": "what-does-unsecured-mean",
+  "topic": "What Does \"Unsecured\" Mean?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Unsecured Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain unsecured lending in plain terms.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Does \"Unsecured\" Mean?",
+      "subheadline": "No specific asset pledged as security.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner shaking hands with a colleague in a modern office lobby",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner shaking hands with a colleague in a modern office lobby Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "An unsecured loan doesn't require you to pledge a specific asset \u2014 like property or equipment \u2014 as security. Instead, lenders rely more heavily on your business's trading history, cash flow and creditworthiness, and may still ask for a personal guarantee from directors.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "No specific asset tied to the loan",
+        "Can mean faster approval in some cases",
+        "Useful when you don't want to encumber assets",
+        "Assessment leans more on cash flow and credit history"
+      ],
+      "bullet_icons": [
+        "shield",
+        "timer",
+        "task_alt",
+        "trending_up"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "May carry higher rates than secured lending",
+        "Facility sizes are often smaller than secured options",
+        "A personal guarantee is commonly still required",
+        "Approval still depends on lender assessment"
+      ],
+      "bullet_icons": [
+        "percent",
+        "balance",
+        "gavel",
+        "fact_check"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Flexibility without pledging a specific asset.",
+      "subheadline": "",
+      "body": "Unsecured finance can suit businesses that want to keep assets free \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about unsecured options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "\"Unsecured\" simply means no single asset is pledged against the loan \u2014 it doesn't mean there's no risk or no assessment involved. Lenders lean more heavily on trading history and cash flow, and a personal guarantee from directors is common.\n\nThe trade-off for that flexibility is usually a higher rate or a smaller facility size compared to secured lending, so it pays to weigh both paths against your business's situation.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Unsecured finance doesn't mean no assessment \u2014 here's what it actually means.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#UnsecuredLoans",
+    "#BusinessFinanceTerms",
+    "#FinanceGlossary"
+  ],
+  "suggested_hero_image_concept": "a business owner shaking hands with a colleague in a modern office lobby",
+  "suggested_icon_set": "shield; timer; task_alt; trending_up; percent; balance; gavel; fact_check",
+  "suggested_filename": "ALP-037_what-does-unsecured-mean",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

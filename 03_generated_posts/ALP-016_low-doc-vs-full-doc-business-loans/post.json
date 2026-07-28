@@ -1,0 +1,113 @@
+{
+  "post_id": "ALP-016",
+  "slug": "low-doc-vs-full-doc-business-loans",
+  "topic": "Low Doc vs Full Doc Business Loans",
+  "category": "Product Comparison",
+  "primary_finance_product": "Low Doc vs Full Doc Business Loans",
+  "audience": [
+    "Self-employed business owners",
+    "Established businesses with strong financials",
+    "Businesses deciding how to document income"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand when reduced documentation suits versus when full financials unlock better terms.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/low-doc-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Low Doc vs Full Doc",
+      "subheadline": "Two documentation paths to the same destination.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A self-employed professional and an accountant reviewing paperwork together in a modern office.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A self-employed professional and an accountant reviewing paperwork together in a modern office. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Full doc lending relies on two or more years of accountant-prepared financials, giving lenders more confidence and often better pricing. Low doc lending replaces this with reduced evidence like bank statements or BAS lodgements \u2014 it still requires proof of income, just in a different form.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Full doc may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have complete financial statements",
+        "You want the sharpest available pricing",
+        "You're seeking a larger facility",
+        "You have 2+ years' trading history",
+        "You can wait for processing time"
+      ],
+      "bullet_icons": [
+        "summarize",
+        "percent",
+        "trending_up",
+        "calendar_month",
+        "hourglass_top"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Low doc may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your income doesn't fit a standard template",
+        "You're newer to your ABN",
+        "You want a faster assessment",
+        "You have solid bank statement history",
+        "Your loan need is comparatively smaller"
+      ],
+      "bullet_icons": [
+        "work",
+        "calendar_month",
+        "bolt",
+        "description",
+        "balance"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Both paths still require evidence of income.",
+      "subheadline": "",
+      "body": "Low doc reduces paperwork \u2014 it doesn't remove the need to demonstrate your business earns what you say it does, subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Ask Ascend Lending Partners which documentation path fits your business.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Full doc and low doc aren't a hierarchy of 'proper' versus 'lesser' lending \u2014 they're two different ways of demonstrating the same thing: that your business can service the loan.\n\nFull doc uses complete financials to unlock potentially sharper terms. Low doc accepts alternative evidence like bank statements or BAS lodgements for businesses whose income doesn't fit a standard template \u2014 but it always still requires evidence of income.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Low doc doesn't mean no doc \u2014 both paths require evidence of income, just different kinds. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#LowDocVsFullDoc",
+    "#BusinessFinanceAustralia",
+    "#SelfEmployedFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Self-employed professional and accountant reviewing paperwork, navy/gold grade.",
+  "suggested_icon_set": "summarize, percent, trending_up, calendar_month, hourglass_top, work, bolt, description, balance",
+  "suggested_filename": "ALP-016_low-doc-vs-full-doc-business-loans",
+  "compliance_notes": [
+    "Explicitly states low doc still requires evidence of income, never describing it as no-document lending, per compliance rules."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

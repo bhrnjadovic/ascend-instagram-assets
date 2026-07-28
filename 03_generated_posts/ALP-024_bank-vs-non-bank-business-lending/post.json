@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-024",
+  "slug": "bank-vs-non-bank-business-lending",
+  "topic": "Bank vs Non-Bank Business Lending",
+  "category": "Product Comparison",
+  "primary_finance_product": "Bank vs Non-Bank Business Lending",
+  "audience": [
+    "Business owners exploring lender options",
+    "Businesses declined by a major bank",
+    "Businesses comparing lending panels"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand the practical differences between major bank lending and non-bank commercial lenders.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Bank vs Non-Bank Lending",
+      "subheadline": "More lenders than the one you know.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing options on a laptop with a city skyline visible through an office window.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing options on a laptop with a city skyline visible through an office window. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Major banks often require extensive documentation and longer processing times, generally suiting well-established businesses with strong financials. Non-bank lenders can offer more flexible assessment criteria and faster processing, though pricing and terms vary widely across the broader non-bank market.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "A major bank may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have strong, complete financials",
+        "You value an existing banking relationship",
+        "You're comfortable with longer processing",
+        "Your business is well-established",
+        "You want the widest range of products"
+      ],
+      "bullet_icons": [
+        "account_balance",
+        "verified",
+        "hourglass_top",
+        "history",
+        "summarize"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "A non-bank lender may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You want faster assessment turnaround",
+        "Your documentation is less traditional",
+        "You've been declined by your bank before",
+        "Your business is newer or specialised",
+        "You want more flexible criteria"
+      ],
+      "bullet_icons": [
+        "bolt",
+        "description",
+        "priority_high",
+        "business_center",
+        "swap_horiz"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "More options than most businesses realise.",
+      "subheadline": "",
+      "body": "A broker can compare both markets at once, matching your business to whichever fits \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your full range of lending options.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Most business owners default to their existing bank, without realising there's a much broader market of non-bank commercial lenders assessing businesses differently.\n\nBanks often suit well-established businesses with complete financials and time to spare. Non-bank lenders can move faster and assess more flexibly, though the market varies widely lender to lender.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Your bank isn't the only option \u2014 a broader non-bank lending market exists, often with faster or more flexible criteria. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#BankVsNonBank",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#NonBankLending",
+    "#FinanceBrokerAustralia",
+    "#BusinessLoans"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing lending options on a laptop, city skyline visible, navy/gold grade.",
+  "suggested_icon_set": "account_balance, verified, hourglass_top, history, summarize, bolt, description, priority_high, business_center, swap_horiz",
+  "suggested_filename": "ALP-024_bank-vs-non-bank-business-lending",
+  "compliance_notes": [
+    "No claim that non-bank lending is universally better or cheaper; presented as a broader option, not a guaranteed upgrade."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

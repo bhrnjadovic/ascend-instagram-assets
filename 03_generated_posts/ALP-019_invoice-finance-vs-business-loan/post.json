@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-019",
+  "slug": "invoice-finance-vs-business-loan",
+  "topic": "Invoice Finance vs Business Loan",
+  "category": "Product Comparison",
+  "primary_finance_product": "Invoice Finance vs Business Loan",
+  "audience": [
+    "B2B service businesses",
+    "Businesses with outstanding receivables",
+    "Businesses weighing new debt vs existing revenue"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand the difference between borrowing against future income and advancing revenue already earned.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/invoice-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Invoice Finance vs Business Loan",
+      "subheadline": "New debt, or revenue you've already earned?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A professional reviewing an invoice ledger on a laptop in a modern office.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A professional reviewing an invoice ledger on a laptop in a modern office. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "A business loan is new debt, assessed against your overall revenue and repaid over an agreed term. Invoice finance is an advance against unpaid invoices you've already issued \u2014 it isn't new debt in the same sense, and the amount available typically scales with your invoicing activity.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "A business loan may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You need funds for a defined purpose",
+        "You want predictable fixed repayments",
+        "Your customers pay quickly already",
+        "You prefer a traditional loan structure",
+        "Your need isn't tied to invoicing"
+      ],
+      "bullet_icons": [
+        "flag",
+        "schedule",
+        "bolt",
+        "account_balance",
+        "description"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Invoice finance may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have outstanding B2B invoices",
+        "Customers take 30-90 days to pay",
+        "You want funding that scales with sales",
+        "You'd rather not take on new debt",
+        "Your invoicing is fairly consistent"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "hourglass_top",
+        "trending_up",
+        "shield",
+        "calendar_month"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Different tools for different cash-flow shapes.",
+      "subheadline": "",
+      "body": "If the gap is waiting on customer payments, invoice finance may fit better than new debt \u2014 subject to lender assessment and eligible invoices.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about which option suits your invoicing pattern.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "If your cash-flow gap comes from waiting on customers rather than needing new capital altogether, the right tool might not be a loan at all.\n\nA business loan is new debt assessed against overall revenue. Invoice finance advances money against invoices you've already issued, typically scaling with your invoicing activity rather than requiring a fresh application each time.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Waiting on customer payments isn't the same problem as needing new debt \u2014 invoice finance and business loans solve different things. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#InvoiceFinance",
+    "#BusinessLoans",
+    "#B2BFinance",
+    "#CashFlowManagement",
+    "#BusinessFinanceAustralia",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Professional reviewing an invoice ledger on a laptop, navy/gold grade.",
+  "suggested_icon_set": "flag, schedule, bolt, account_balance, description, receipt_long, hourglass_top, trending_up, shield, calendar_month",
+  "suggested_filename": "ALP-019_invoice-finance-vs-business-loan",
+  "compliance_notes": [
+    "Explicitly distinguishes invoice finance from 'new debt' per compliance rules, without claiming it carries no obligations."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-056",
+  "slug": "what-is-an-abn-and-why-it-matters",
+  "topic": "What Is an ABN and Why It Matters for Finance",
+  "category": "Preparing for Finance",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain the ABN's role in a business finance application.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is an ABN and Why It Matters for Finance",
+      "subheadline": "Your business's identifier in the eyes of lenders.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a tradesperson checking a phone while standing beside a work vehicle with signage",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a tradesperson checking a phone while standing beside a work vehicle with signage Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Your Australian Business Number (ABN) identifies your business to the ATO and other agencies \u2014 and it's one of the first things a lender checks. How long your ABN has been active often factors into eligibility, particularly for lower-doc or faster-turnaround facilities.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Confirms your business is registered and active",
+        "ABN age can factor into loan eligibility",
+        "Linked to GST and BAS reporting obligations",
+        "Checked as a standard part of most applications"
+      ],
+      "bullet_icons": [
+        "verified",
+        "history",
+        "receipt_long",
+        "fact_check"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "A newly registered ABN can limit some options",
+        "Sole traders and companies both need an active ABN",
+        "Keep ABN details current with the ATO",
+        "Some lenders specialise in newer ABNs"
+      ],
+      "bullet_icons": [
+        "priority_high",
+        "corporate_fare",
+        "description",
+        "storefront"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Make sure your details are current.",
+      "subheadline": "",
+      "body": "An active, up-to-date ABN is a basic building block of most finance applications.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your eligibility.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Your ABN is more than a registration number \u2014 it's one of the first things a lender looks at to confirm your business is real, active, and trading. How long it's been registered often factors into which lenders and products you're eligible for.\n\nIf you've recently registered, that doesn't rule out finance \u2014 it just means certain lenders who specialise in newer businesses may be a better fit than others.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Why your ABN matters more than you might think when applying for finance.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#ABN",
+    "#BusinessRegistration",
+    "#FinanceBasics"
+  ],
+  "suggested_hero_image_concept": "a tradesperson checking a phone while standing beside a work vehicle with signage",
+  "suggested_icon_set": "verified; history; receipt_long; fact_check; priority_high; corporate_fare; description; storefront",
+  "suggested_filename": "ALP-056_what-is-an-abn-and-why-it-matters",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

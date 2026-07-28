@@ -1,0 +1,16 @@
+{
+  "_source": "Extracted from live site ascend-lending/styles.css — takes precedence over any generic palette.",
+  "navy": "#0A1A2F",
+  "navy_mid": "#0D2040",
+  "gold": "#C8A451",
+  "gold_light": "#D9B96A",
+  "gold_dark": "#A07C2E",
+  "charcoal": "#333B48",
+  "steel": "#6C727F",
+  "light_grey": "#E7E9EC",
+  "off_white": "#F7F8FA",
+  "white": "#FFFFFF",
+  "text_primary": "#0A1A2F",
+  "text_secondary": "#333B48",
+  "text_muted": "#6C727F"
+}

@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-033",
+  "slug": "how-does-invoice-finance-work",
+  "topic": "How Does Invoice Finance Work?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Invoice Finance",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Walk through the mechanics of invoice finance step by step.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How Does Invoice Finance Work?",
+      "subheadline": "Turn unpaid invoices into working cash.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing an invoice ledger on a laptop in a bright modern office",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing an invoice ledger on a laptop in a bright modern office Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Invoice finance lets you access a portion of the value of your outstanding invoices before your customer actually pays. The lender advances funds against the invoice, then the balance (less fees) is released once the customer settles \u2014 helping close the gap between issuing an invoice and being paid.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Unlocks cash tied up in unpaid invoices",
+        "Advance is typically released within days, not weeks",
+        "Facility can scale with your sales",
+        "Reduces reliance on chasing customers for early payment"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "timer",
+        "trending_up",
+        "handshake"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Advance rates and fees vary by lender and industry",
+        "Can be disclosed or undisclosed to your customers",
+        "Works best for B2B businesses invoicing on trading terms",
+        "Ongoing eligibility depends on customer payment history"
+      ],
+      "bullet_icons": [
+        "percent",
+        "description",
+        "corporate_fare",
+        "fact_check"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Stop waiting 30, 60 or 90 days to get paid.",
+      "subheadline": "",
+      "body": "Invoice finance can help release cash tied up in trading terms \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about invoice finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "The mechanics are simpler than they sound: you issue an invoice as normal, the lender advances a percentage of its value up front, and the remainder is paid to you (minus fees) once your customer settles the invoice.\n\nIt's a facility built around your debtor book rather than your assets, which makes it particularly relevant for businesses whose biggest cash-flow drag is simply waiting to get paid on trading terms.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Here's exactly how invoice finance turns unpaid invoices into available cash.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#InvoiceFinance",
+    "#DebtorFinance",
+    "#CashFlowSolutions"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing an invoice ledger on a laptop in a bright modern office",
+  "suggested_icon_set": "receipt_long; timer; trending_up; handshake; percent; description; corporate_fare; fact_check",
+  "suggested_filename": "ALP-033_how-does-invoice-finance-work",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

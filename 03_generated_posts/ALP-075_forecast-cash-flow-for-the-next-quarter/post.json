@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-075",
+  "slug": "forecast-cash-flow-for-the-next-quarter",
+  "topic": "How to Forecast Cash Flow for the Next Quarter",
+  "category": "Cash-Flow Education",
+  "primary_finance_product": "Cashflow Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Give a practical, simple approach to a 90-day cash flow forecast.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How to Forecast Cash Flow for the Next Quarter",
+      "subheadline": "Ninety days is enough to see trouble \u2014 and act on it.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner planning at a whiteboard with a calendar and notes visible",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner planning at a whiteboard with a calendar and notes visible Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A quarterly cash flow forecast doesn't need to be complicated. Listing expected income and expenses by month, based on realistic assumptions, is usually enough to spot a coming shortfall with plenty of time to plan around it.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "List expected inflows and outflows by month",
+        "Use realistic, not optimistic, payment timing",
+        "Include known one-off costs like tax or insurance",
+        "Update the forecast as the quarter progresses"
+      ],
+      "bullet_icons": [
+        "summarize",
+        "fact_check",
+        "receipt_long",
+        "autorenew"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Compare against last year's same quarter if seasonal",
+        "Flag the lowest projected cash point clearly",
+        "Decide in advance how you'd respond to a shortfall",
+        "A simple spreadsheet is enough to start"
+      ],
+      "bullet_icons": [
+        "history",
+        "priority_high",
+        "lightbulb",
+        "description"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Give yourself a 90-day head start.",
+      "subheadline": "",
+      "body": "A simple quarterly forecast can flag pressure points weeks before they arrive.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about planning ahead.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "You don't need sophisticated software to forecast the next quarter \u2014 a simple month-by-month list of expected income and expenses, built on realistic assumptions, is usually enough to reveal whether a shortfall is coming.\n\nThe real value comes from acting on what the forecast shows \u2014 deciding ahead of time how you'd respond if the lowest point looks tighter than you'd like.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A simple way to forecast your next quarter's cash flow \u2014 no spreadsheet expertise required.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#CashFlowForecast",
+    "#QuarterlyPlanning",
+    "#SMEFinanceTips"
+  ],
+  "suggested_hero_image_concept": "a business owner planning at a whiteboard with a calendar and notes visible",
+  "suggested_icon_set": "summarize; fact_check; receipt_long; autorenew; history; priority_high; lightbulb; description",
+  "suggested_filename": "ALP-075_forecast-cash-flow-for-the-next-quarter",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

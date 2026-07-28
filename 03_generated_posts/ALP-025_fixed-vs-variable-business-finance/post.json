@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-025",
+  "slug": "fixed-vs-variable-business-finance",
+  "topic": "Fixed vs Variable Business Finance",
+  "category": "Product Comparison",
+  "primary_finance_product": "Fixed vs Variable Business Finance",
+  "audience": [
+    "Businesses choosing a rate structure",
+    "Growing businesses planning cash flow",
+    "Businesses sensitive to rate changes"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand the practical trade-offs between fixed and variable rate structures.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Fixed vs Variable Finance",
+      "subheadline": "Certainty, or the chance of a better deal?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing a repayment schedule on paper and a laptop simultaneously.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing a repayment schedule on paper and a laptop simultaneously. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "A fixed rate stays the same for an agreed period, giving repayment certainty regardless of broader rate movements. A variable rate moves with the market, which can mean lower costs when rates fall, but less predictability when planning cash flow over the loan term.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Fixed may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You value predictable repayments",
+        "You're budgeting cash flow tightly",
+        "You expect rates may rise",
+        "You prefer certainty over savings potential",
+        "You want to lock in current terms"
+      ],
+      "bullet_icons": [
+        "verified",
+        "summarize",
+        "trending_up",
+        "shield",
+        "task_alt"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Variable may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You want to benefit if rates fall",
+        "You have some repayment flexibility",
+        "You're comfortable with rate movement",
+        "You may repay the loan early",
+        "You prioritise flexibility over certainty"
+      ],
+      "bullet_icons": [
+        "swap_horiz",
+        "percent",
+        "balance",
+        "autorenew",
+        "key"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Certainty and flexibility both carry a cost.",
+      "subheadline": "",
+      "body": "There's no universally correct choice \u2014 it depends on how much rate movement your business can comfortably absorb, subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about the right rate structure for you.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Fixed and variable rates each solve a different problem, and neither one is objectively superior.\n\nA fixed rate offers certainty over the term, useful when you're budgeting tightly or expect rates to rise. A variable rate moves with the market, potentially rewarding you if rates fall, but with less predictability along the way.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Certainty or flexibility \u2014 fixed and variable rates each suit a different appetite for risk. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#FixedVsVariable",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#BusinessLoans",
+    "#FinanceBrokerAustralia",
+    "#CashFlowManagement"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing a repayment schedule on paper and laptop, navy/gold grade.",
+  "suggested_icon_set": "verified, summarize, trending_up, shield, task_alt, swap_horiz, percent, balance, autorenew, key",
+  "suggested_filename": "ALP-025_fixed-vs-variable-business-finance",
+  "compliance_notes": [
+    "No specific rate figures published; presented as a structural trade-off rather than a rate comparison."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

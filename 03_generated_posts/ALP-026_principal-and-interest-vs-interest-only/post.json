@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-026",
+  "slug": "principal-and-interest-vs-interest-only",
+  "topic": "Principal and Interest vs Interest Only",
+  "category": "Product Comparison",
+  "primary_finance_product": "Principal and Interest vs Interest Only",
+  "audience": [
+    "Businesses structuring loan repayments",
+    "Growing businesses managing cash flow",
+    "Businesses planning around a future capital event"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand the trade-offs between paying down principal from day one versus an interest-only period.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Principal & Interest vs Interest Only",
+      "subheadline": "Pay it down now, or free up cash flow first?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing a loan amortisation chart on a laptop screen.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing a loan amortisation chart on a laptop screen. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Principal and interest repayments reduce the loan balance from the first payment, building equity over the term. Interest-only repayments cover just the interest for a set period, lowering repayments in the short term, though the principal balance remains unchanged until that period ends.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Principal & interest may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You want to reduce debt steadily",
+        "You can manage higher repayments now",
+        "You want the loan cleared by term end",
+        "You're not expecting a future cash event",
+        "You prefer building equity sooner"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "balance",
+        "verified",
+        "flag",
+        "task_alt"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Interest-only may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You need lower repayments short-term",
+        "You're expecting a future capital event",
+        "You want cash flow freed up temporarily",
+        "You have a clear plan to repay principal later",
+        "Your need is genuinely time-limited"
+      ],
+      "bullet_icons": [
+        "swap_horiz",
+        "hourglass_top",
+        "schedule",
+        "flag",
+        "priority_high"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Lower now can mean more later.",
+      "subheadline": "",
+      "body": "An interest-only period can ease short-term pressure, but the principal still needs a plan \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about structuring your repayments.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Interest-only repayments can look appealing on paper, but the trade-off is real: the principal doesn't reduce during that period, and it still needs to be repaid eventually.\n\nPrincipal and interest repayments cost more per month but reduce your balance from day one. Interest-only can ease short-term cash flow, provided there's a clear plan for the principal once that period ends.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Lower repayments now can mean a bigger balance later \u2014 interest-only needs a clear repayment plan. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#PrincipalAndInterest",
+    "#InterestOnly",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CashFlowManagement",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing a loan amortisation chart, navy/gold grade.",
+  "suggested_icon_set": "trending_up, balance, verified, flag, task_alt, swap_horiz, hourglass_top, schedule, priority_high",
+  "suggested_filename": "ALP-026_principal-and-interest-vs-interest-only",
+  "compliance_notes": [
+    "Explicitly notes principal remains unchanged during interest-only period, avoiding any implication that interest-only reduces total cost."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

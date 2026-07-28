@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-028",
+  "slug": "trade-finance-vs-working-capital-finance",
+  "topic": "Trade Finance vs Working Capital Finance",
+  "category": "Product Comparison",
+  "primary_finance_product": "Trade Finance vs Working Capital Finance",
+  "audience": [
+    "Importers and exporters",
+    "Wholesalers",
+    "Businesses funding supplier payments vs general operations"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners distinguish trade-specific finance from general working capital finance.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/trade-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Trade Finance vs Working Capital",
+      "subheadline": "Funding a shipment, or funding the business?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A professional reviewing shipping documents and a laptop at a desk, suggesting import/export activity.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A professional reviewing shipping documents and a laptop at a desk, suggesting import/export activity. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Trade finance is built specifically around the international or domestic trade cycle \u2014 funding supplier payments while customers meet their normal terms. Working capital finance is broader, covering general operational costs like payroll, rent and stock, without being tied to a specific trade transaction.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Trade finance may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You're importing or exporting goods",
+        "You need to pay suppliers upfront",
+        "You have confirmed purchase orders",
+        "Your need is tied to a specific shipment",
+        "You want to preserve capital during trade"
+      ],
+      "bullet_icons": [
+        "public",
+        "local_shipping",
+        "assignment",
+        "flag",
+        "swap_horiz"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Working capital may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your needs are general operational costs",
+        "You're funding payroll or overheads",
+        "Your need isn't tied to one transaction",
+        "You want ongoing, flexible access",
+        "Your business doesn't import or export"
+      ],
+      "bullet_icons": [
+        "business_center",
+        "groups",
+        "domain",
+        "repeat",
+        "trending_up"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Trade-specific or general-purpose \u2014 the label matters.",
+      "subheadline": "",
+      "body": "If the need is tied to a specific shipment or purchase order, trade finance is usually the more precise fit \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about structuring trade or working capital finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "If your funding need is about paying an overseas supplier before a shipment arrives, that's a different problem to funding payroll during a quiet month.\n\nTrade finance is purpose-built around the trade cycle \u2014 supplier payment through to customer payment. Working capital finance is broader, covering the general operating costs of the business without being tied to any single transaction.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A specific shipment or a broader operational need \u2014 trade finance and working capital solve different problems. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#TradeFinance",
+    "#WorkingCapitalLoans",
+    "#ImportExport",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Professional reviewing shipping documents and laptop, navy/gold grade.",
+  "suggested_icon_set": "public, local_shipping, assignment, flag, swap_horiz, business_center, groups, domain, repeat, trending_up",
+  "suggested_filename": "ALP-028_trade-finance-vs-working-capital-finance",
+  "compliance_notes": [
+    "No specific facility figures stated; comparison framed around purpose fit."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,119 @@
+{
+  "post_id": "ALP-002",
+  "slug": "equipment-finance",
+  "topic": "Equipment Finance",
+  "category": "Specialist Finance",
+  "primary_finance_product": "Equipment Finance",
+  "audience": [
+    "Tradies",
+    "Construction businesses",
+    "Transport and logistics operators",
+    "Medical and healthcare practices",
+    "Manufacturers"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain how equipment finance lets businesses acquire machinery, vehicles or technology without depleting working capital.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/equipment-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Equipment Finance",
+      "subheadline": "Get the equipment your business needs without draining cash reserves.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: heavy construction/plant equipment on an Australian work site at golden hour, navy/gold colour grade, conveys scale and capability.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A piece of heavy construction or industrial equipment (such as an excavator or crane) on an Australian work site at golden hour, dramatic low warm light, editorial commercial photography style, colour graded toward deep navy shadows and muted gold highlights. No visible branding or logos on the equipment, no readable signage, no people's faces in close-up. Wide or portrait framing, equipment positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "How does it work?",
+      "subheadline": "",
+      "body": "Equipment finance lets you acquire machinery, vehicles or technology and spread the cost across the asset's productive life, rather than paying the full price upfront. Structures include chattel mortgages, hire purchase and leasing, each with different ownership and tax treatment. This keeps working capital available for day-to-day operations and growth.",
+      "bullet_points": [],
+      "visual_concept": "Off-white panel with a single line icon of a simple asset outline (truck or machine silhouette in thin line form).",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, one thin gold line icon of a generic asset silhouette in the lower third, generous negative space, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What it may fund",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Trucks, vans and vehicles",
+        "Manufacturing and production machinery",
+        "Medical and diagnostic equipment",
+        "Construction plant and tools",
+        "Technology and IT hardware"
+      ],
+      "bullet_icons": [
+        "local_shipping",
+        "precision_manufacturing",
+        "medical_services",
+        "construction",
+        "settings"
+      ],
+      "visual_concept": "Five consistent thin gold line icons on navy background, simple vertical list layout.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with five evenly spaced thin gold line-icon placeholders down the left edge, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "New or used asset condition",
+        "Deposit versus full-finance structure",
+        "Length of trading history",
+        "Intended use of the asset",
+        "Loan term versus asset lifespan"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "account_balance",
+        "history",
+        "description",
+        "schedule"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with five thin gold checkmark placeholders arranged in a vertical list on the left third, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Equip your business without the capital hit.",
+      "subheadline": "",
+      "body": "From vehicles to specialised machinery, equipment finance can help you acquire what you need while preserving cash for operations \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Speak with Ascend Lending Partners about equipment finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text of its own, no photography."
+    }
+  ],
+  "caption": "New equipment usually means one of two choices: pay cash and tie up capital, or finance it and keep that capital working elsewhere.\n\nEquipment finance can cover vehicles, machinery, medical equipment and technology, structured as a chattel mortgage, hire purchase or lease depending on how you plan to use and eventually own the asset. New and used equipment can both be considered, and terms are generally matched to how long the asset will remain productive.\n\nThinking about an equipment purchase? Let's talk about how it could be structured.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Don't let a big equipment purchase drain your working capital. Structures like chattel mortgage, hire purchase and leasing can spread the cost \u2014 subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#EquipmentFinance",
+    "#AssetFinance",
+    "#BusinessFinanceAustralia",
+    "#TradieFinance",
+    "#ConstructionFinance",
+    "#TransportFinance",
+    "#CommercialFinance",
+    "#AustralianSmallBusiness",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "Abstract navy-and-gold geometric motif evoking mechanical precision \u2014 no literal equipment photography, no branded vehicles.",
+  "suggested_icon_set": "Thin-line icons: truck silhouette, gear, medical cross outline, wrench, hard hat outline",
+  "suggested_filename": "ALP-002_equipment-finance",
+  "compliance_notes": [
+    "Site claims 'up to 100% finance' and '24hrs fastest settlement' \u2014 softened to 'may fund' / illustrative structures, no timing guarantee stated on slides.",
+    "Tax treatment described generally; caption encourages independent tax advice rather than asserting deductibility.",
+    "New vs used asset eligibility stated without implying automatic approval."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

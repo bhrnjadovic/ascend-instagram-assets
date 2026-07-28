@@ -1,0 +1,115 @@
+{
+  "post_id": "ALP-012",
+  "slug": "trade-finance",
+  "topic": "Trade Finance",
+  "category": "Specialist Finance",
+  "primary_finance_product": "Trade Finance",
+  "audience": [
+    "Importers and exporters",
+    "Wholesalers",
+    "Businesses trading with overseas suppliers"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain how trade finance funds the gap between paying suppliers and receiving customer payment.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/trade-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Trade Finance",
+      "subheadline": "Move goods across borders without tying up working capital.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Shipping port or container terminal at dawn, logistics and import/export feel.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A shipping port or container terminal photographed at dawn, stacked shipping containers and cranes in soft early light, sense of scale and international trade. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "How does it work?",
+      "subheadline": "",
+      "body": "Trade finance bridges the cash-flow gap between paying an overseas or domestic supplier and receiving payment from your customer. It can fund the order upfront while allowing your customer their normal payment terms, covering the trade cycle through tools like purchase order finance or letters of credit.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "How it can help",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Funding supplier payments upfront",
+        "Reducing supplier payment risk",
+        "Supporting import and export growth",
+        "Preserving working capital",
+        "Scaling trade volume"
+      ],
+      "bullet_icons": [
+        "local_shipping",
+        "shield",
+        "public",
+        "swap_horiz",
+        "trending_up"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Import or export trading history",
+        "Confirmed purchase orders",
+        "Commercial credit profile",
+        "Facility size versus trade volume",
+        "Country and currency risk factors"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "description",
+        "credit_card",
+        "balance",
+        "public"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Trade further without cash flow holding you back.",
+      "subheadline": "",
+      "body": "If supplier payment timing is limiting how much you can trade, trade finance may help you scale \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about trade finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Growing trade volume often runs into the same wall: suppliers want payment before shipment, but customers expect their usual payment terms.\n\nTrade finance is built for that exact gap \u2014 funding the supplier side of the transaction through tools like purchase order finance or letters of credit, so working capital isn't the ceiling on how much you can trade.\n\nLooking to grow import or export volume? Let's talk about structuring it.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Supplier payment timing shouldn't cap your trade volume \u2014 trade finance can fund the gap, subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#TradeFinance",
+    "#ImportExport",
+    "#BusinessFinanceAustralia",
+    "#Wholesale",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#SupplyChainFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Shipping port/container terminal at dawn, navy/gold grade.",
+  "suggested_icon_set": "local_shipping, shield, public, swap_horiz, trending_up, calendar_month, description, credit_card, balance",
+  "suggested_filename": "ALP-012_trade-finance",
+  "compliance_notes": [
+    "Site's 120-150 day repayment window and 24-72hr approval figures presented as illustrative facility parameters, not guarantees."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

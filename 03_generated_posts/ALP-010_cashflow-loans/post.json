@@ -1,0 +1,116 @@
+{
+  "post_id": "ALP-010",
+  "slug": "cashflow-loans",
+  "topic": "Cashflow Loans",
+  "category": "Cash Flow and Working Capital",
+  "primary_finance_product": "Cashflow Loans",
+  "audience": [
+    "Seasonal businesses",
+    "Businesses awaiting client payments",
+    "Rapidly growing SMEs"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how a cashflow loan bridges short-term timing gaps between expenses and incoming revenue.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/cashflow-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Cashflow Loans",
+      "subheadline": "Short-term capital to bridge timing gaps.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Retailer or caf\u00e9 owner reviewing takings at a quieter hour, subtle tension of a timing gap.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A retail or hospitality business owner standing behind their counter during a quiet moment, reviewing a tablet or notebook, calm and composed expression suggesting careful management of timing. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What is a cashflow loan?",
+      "subheadline": "",
+      "body": "A cashflow loan is short-term capital that addresses the gap when business expenses fall due before revenue arrives. It's structured around your cash flow rather than balance sheet assets, typically over a period of a few months, helping smooth timing mismatches without a long-term commitment.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Where it can help",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Bridging seasonal revenue gaps",
+        "Covering short-term timing mismatches",
+        "Funding ahead of client payments",
+        "Supporting rapid business growth",
+        "Managing one-off cost spikes"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "swap_horiz",
+        "hourglass_top",
+        "trending_up",
+        "priority_high"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Trading history and consistency",
+        "Recent bank statement conduct",
+        "Monthly revenue trend",
+        "Repayment capacity over the term",
+        "Existing business debt levels"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "description",
+        "trending_up",
+        "balance",
+        "credit_card"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Close the gap between expenses and income.",
+      "subheadline": "",
+      "body": "If timing \u2014 not profitability \u2014 is the pressure point, a short-term cashflow facility may help smooth things over, subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about a cashflow loan.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "A profitable business can still hit a wall when expenses land before the revenue that covers them does.\n\nCashflow loans are short-term facilities structured around timing rather than assets \u2014 useful for seasonal dips, awaiting a large client payment, or a sudden spike in costs during a growth phase. They're built to be short-term, not a long-term commitment.\n\nFeeling a timing squeeze right now? Let's talk about options.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "When expenses land before revenue does, a short-term cashflow facility may help bridge the gap \u2014 subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#CashflowLoans",
+    "#CashFlowManagement",
+    "#BusinessFinanceAustralia",
+    "#WorkingCapital",
+    "#AustralianSmallBusiness",
+    "#SMEFinance",
+    "#CommercialFinance",
+    "#SeasonalBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Retail or hospitality owner reviewing takings during a quiet moment, navy/gold grade.",
+  "suggested_icon_set": "calendar_month, swap_horiz, hourglass_top, trending_up, priority_high, description, balance, credit_card",
+  "suggested_filename": "ALP-010_cashflow-loans",
+  "compliance_notes": [
+    "Site's 'same-day decisions' claim softened \u2014 no specific timing guarantee stated on slides.",
+    "Framed strictly as short-term timing finance, not a working-capital or growth-funding substitute."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

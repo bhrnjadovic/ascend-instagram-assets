@@ -1,0 +1,116 @@
+{
+  "post_id": "ALP-006",
+  "slug": "unsecured-business-loans",
+  "topic": "Unsecured Business Loans",
+  "category": "Core Product",
+  "primary_finance_product": "Unsecured Business Loans",
+  "audience": [
+    "Business owners without property security",
+    "Renters and lessees",
+    "Fast-growth service businesses"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how unsecured business loans are assessed on business performance rather than property or asset security.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/unsecured-business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Unsecured Business Loans",
+      "subheadline": "Access capital without offering property as security.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Professional working from a laptop in a co-working space, suggesting flexibility without property.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A professional working from a laptop in a bright modern co-working space or leased office, relaxed confident posture, suggesting flexibility and mobility rather than fixed property ownership. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does unsecured mean?",
+      "subheadline": "",
+      "body": "Unsecured business loans are approved based on business revenue and trading history rather than property or asset security. Lenders assess cash flow, bank statements and overall performance to determine borrowing capacity. A personal guarantee from a director is still typically required, even without property involved.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why businesses choose it",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "No property required as security",
+        "Can suit renters and lessees",
+        "Assessment based on performance",
+        "Flexible use of funds",
+        "Keeps assets free for other use"
+      ],
+      "bullet_icons": [
+        "shield",
+        "domain",
+        "fact_check",
+        "swap_horiz",
+        "key"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Monthly revenue levels",
+        "Length of trading history",
+        "Recent bank statement conduct",
+        "Director personal guarantee",
+        "Loan size versus affordability"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "calendar_month",
+        "description",
+        "badge",
+        "balance"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Capital access without tying up assets.",
+      "subheadline": "",
+      "body": "If you don't own property or would rather keep it free, unsecured finance may still give your business room to move \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Ask Ascend Lending Partners about unsecured finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Not every business owns property, and not every business wants to put it up as security even when they do.\n\nUnsecured business loans are assessed on how the business performs \u2014 revenue, trading history and bank statement conduct \u2014 rather than what it owns. A personal guarantee from a director is still typically part of the structure, even without property involved.\n\nWondering if your business would be assessed on performance alone? Reach out.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "No property required \u2014 unsecured finance is assessed on business performance, subject to lender assessment and a personal guarantee. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#UnsecuredBusinessLoans",
+    "#BusinessFinanceAustralia",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#CashFlowManagement",
+    "#FinanceBrokerAustralia",
+    "#BusinessGrowthAU",
+    "#WorkingCapital"
+  ],
+  "suggested_hero_image_concept": "Professional working flexibly in a co-working space, navy/gold grade.",
+  "suggested_icon_set": "shield, domain, fact_check, swap_horiz, key, trending_up, calendar_month, description, badge, balance",
+  "suggested_filename": "ALP-006_unsecured-business-loans",
+  "compliance_notes": [
+    "Explicitly states a personal guarantee is typically still required, avoiding any implication that unsecured means risk-free or requirement-free.",
+    "Site's $5K-$500K range and 24-72hr timing softened to illustrative, not guaranteed."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

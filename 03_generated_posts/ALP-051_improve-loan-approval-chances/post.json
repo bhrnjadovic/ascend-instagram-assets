@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-051",
+  "slug": "improve-loan-approval-chances",
+  "topic": "How to Improve Your Chances of Approval",
+  "category": "Preparing for Finance",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Give practical, honest steps that can strengthen a loan application.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How to Improve Your Chances of Approval",
+      "subheadline": "Small steps that make a real difference.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing figures on a laptop with a calm, focused expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing figures on a laptop with a calm, focused expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Lenders assess risk, and a well-prepared application reduces perceived risk. Clean, current financials, a clear explanation of how funds will be used, and a track record of managing existing debt well can all support a stronger application \u2014 though approval always depends on the lender's own criteria.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Keep financial records current and accurate",
+        "Be clear about how funds will be used",
+        "Manage existing credit commitments well",
+        "Apply for an amount that matches your serviceability"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "summarize",
+        "credit_card",
+        "balance"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Multiple applications in a short period can affect your credit file",
+        "Lenders look at consistency, not just current figures",
+        "A broker can help match you to a suitable lender",
+        "Approval is never guaranteed \u2014 it depends on assessment"
+      ],
+      "bullet_icons": [
+        "history",
+        "trending_up",
+        "handshake",
+        "priority_high"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Put your best application forward.",
+      "subheadline": "",
+      "body": "A well-prepared application can make the process smoother and faster.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about preparing your application.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "There's no shortcut to approval, but there are steps that genuinely help: current financials, a clear purpose for the funds, and a track record of managing debt responsibly all reduce the perceived risk a lender is assessing.\n\nIt's also worth being selective about where you apply \u2014 a broker who understands different lenders' criteria can help direct your application toward the right fit, rather than applying broadly and hoping.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Practical, honest steps that can strengthen a business loan application.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#LoanApprovalTips",
+    "#BusinessFinancePrep",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing figures on a laptop with a calm, focused expression",
+  "suggested_icon_set": "fact_check; summarize; credit_card; balance; history; trending_up; handshake; priority_high",
+  "suggested_filename": "ALP-051_improve-loan-approval-chances",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

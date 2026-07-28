@@ -1,0 +1,115 @@
+{
+  "post_id": "ALP-015",
+  "slug": "secured-vs-unsecured-business-loans",
+  "topic": "Secured vs Unsecured Business Loans",
+  "category": "Product Comparison",
+  "primary_finance_product": "Secured vs Unsecured Business Loans",
+  "audience": [
+    "Business owners weighing security options",
+    "Growing businesses",
+    "Property and asset owners"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand the practical trade-offs between offering security and borrowing unsecured.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/secured-business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Secured vs Unsecured",
+      "subheadline": "Which structure actually suits your business?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing two folders of documents side by side at a desk, weighing options thoughtfully.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing two folders of documents side by side at a desk, weighing options thoughtfully. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Secured loans use property or business assets as collateral, which can support larger amounts, longer terms and potentially sharper pricing. Unsecured loans are assessed on revenue and trading performance instead, trading some borrowing capacity for speed and not tying up assets.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Secured may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You own property or valuable assets",
+        "You need a larger loan amount",
+        "You want the longest available terms",
+        "You're planning major capital investment",
+        "You can wait longer for settlement"
+      ],
+      "bullet_icons": [
+        "real_estate_agent",
+        "trending_up",
+        "hourglass_top",
+        "domain",
+        "schedule"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Unsecured may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You don't want to offer property",
+        "You need funds assessed faster",
+        "Your loan need is comparatively smaller",
+        "You're renting your premises",
+        "You want assets kept free"
+      ],
+      "bullet_icons": [
+        "shield",
+        "bolt",
+        "balance",
+        "key",
+        "task_alt"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Neither option is automatically better.",
+      "subheadline": "",
+      "body": "The right structure depends on what you own, how much you need, and how quickly you need it \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about which structure fits.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Secured or unsecured isn't a question of good versus bad \u2014 it's a question of what your business has, what it needs, and how those trade-offs line up for your situation.\n\nSecured lending can unlock larger amounts and longer terms by using property or assets as collateral. Unsecured lending trades some of that capacity for speed and flexibility, assessed on revenue and trading history instead.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Secured vs unsecured isn't good vs bad \u2014 it's about matching structure to what you own and what you need. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#SecuredVsUnsecured",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#BusinessLoans",
+    "#FinanceBrokerAustralia",
+    "#WorkingCapital"
+  ],
+  "suggested_hero_image_concept": "Business owner comparing two document folders at a desk, navy/gold grade.",
+  "suggested_icon_set": "real_estate_agent, trending_up, hourglass_top, domain, schedule, shield, bolt, balance, key, task_alt",
+  "suggested_filename": "ALP-015_secured-vs-unsecured-business-loans",
+  "compliance_notes": [
+    "Both facility ranges and settlement timeframes softened to illustrative parameters per compliance rules.",
+    "Distinction between secured and unsecured kept explicit throughout, as required."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

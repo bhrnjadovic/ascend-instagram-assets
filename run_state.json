@@ -1,0 +1,54 @@
+{
+  "checkpoint_note": "File-based checkpoint, regenerated from ground truth (200/200 complete). Do not rely on chat history to resume.",
+  "checkpoint_timestamp_utc": "2026-07-28T10:45:00Z",
+  "library_path": "01_content/carousel_library.json",
+  "total_posts_in_library": 200,
+  "posts_fully_generated_and_approved": 200,
+  "slides_fully_approved": 1000,
+  "posts_content_written_but_not_yet_rendered": 0,
+  "last_completed_post_id": "ALP-200",
+  "next_post_id_range_pending": "NONE — library complete",
+  "incident_and_fix": {
+    "what_happened": "An autonomous session (launched via `claude --dangerously-skip-permissions` in a separate terminal) wrote all 200 posts' content and rendered 139 of them before being interrupted by the user, who noticed bullet text running off the edge of the canvas on multiple slides.",
+    "root_cause": "scripts/compose_slides.py drew bullet_points with a plain draw.text() call and no word-wrapping (unlike headline/subheadline/body, which used the wrap-aware draw_multiline helper). Any bullet longer than ~8-9 words ran past the canvas edge. Audit found 773 bullets across 171 of 200 posts would have overflowed — Groups A/B (29 posts, written earlier with strict short bullets) were clean; Groups C-L (171 posts, written by the autonomous session with longer sentence-style bullets) were the ones affected.",
+    "fix_applied": "compose_slides.py render_slide() now wraps bullet text with the existing wrap_text() helper, using dynamic per-bullet vertical spacing (extra line height added only when a bullet actually wraps, so already-correct single-line bullets keep their original spacing). Also added a console WARNING if wrapped bullet content would overlap the footer band.",
+    "verification": "Re-rendered all 139 already-generated posts for $0.00 (cover images are cached separately from text compositing, so no re-billing was needed). All 695 slides re-passed QA. Zero footer-overlap warnings triggered.",
+    "status": "RESOLVED — fix is in the shared renderer. All 200 posts (including the 139 rendered before the fix) were re-rendered under the corrected code and re-passed QA."
+  },
+  "second_incident_and_fix": {
+    "what_happened": "Two posts' authored copy tripped the BANNED_PHRASES QA filter: ALP-120 used the bullet 'The cheapest rate isn't automatically the best fit', and ALP-163's caption used the phrase 'no shortcut to guaranteed approval' (both matched banned substrings even though used in a compliant, negating sense).",
+    "fix_applied": "ALP-120 bullet reworded to 'The lowest advertised rate isn't automatically the best fit'. ALP-163 caption reworded to 'no shortcut to a certain outcome'. Full library re-scanned afterward against all 10 BANNED_PHRASES — zero remaining hits.",
+    "status": "RESOLVED — both posts re-rendered and approved."
+  },
+  "run_state_json_reliability_note": "This file has been found stale/self-contradictory more than once this session (a run_sequential.py bug increments posts_fully_generated_and_approved by slide count, not post count, producing bogus totals like '574'). Always verify against 04_quality_control/approved/ folder contents and carousel_library.json before trusting any numbers in this file.",
+  "groups_status": [
+    {"group": "A - Core Product Pages", "range": "ALP-001 to ALP-014", "count": 14, "status": "DONE"},
+    {"group": "B - Product Comparisons", "range": "ALP-015 to ALP-029", "count": 15, "status": "DONE"},
+    {"group": "C-L (remaining)", "range": "ALP-030 to ALP-200", "count": 171, "status": "DONE — content written, rendered, QA approved"}
+  ],
+  "target_total_posts": 200,
+  "config": {
+    "background_mode": "mixed",
+    "image_model": "gpt-image-2",
+    "image_quality": "medium",
+    "image_size": "1024x1536",
+    "per_image_cost_usd": 0.041
+  },
+  "spend_tracking": {
+    "images_generated_so_far": 200,
+    "actual_spend_so_far_usd": 8.20,
+    "user_openai_balance_topped_up_usd": 10.00,
+    "estimated_remaining_balance_usd": 1.80,
+    "note": "Project complete — no further image generation spend expected."
+  },
+  "key_paths": {
+    "content_library": "01_content/carousel_library.json",
+    "generated_posts_dir": "03_generated_posts/",
+    "cover_image_cache": "03_generated_posts/_bg_cache/  (200 cached)",
+    "qa_report": "04_quality_control/qa_report.csv  (regenerated with --all: 1000/1000 slides approved, 0 rejected)",
+    "approved_slides": "04_quality_control/approved/{post_id}/  (cumulative, authoritative record — 200 folders, verified)",
+    "api_request_log": "scripts/image_api.log  (200 gpt-image-2 requests total)",
+    "env_file": ".env  (IMAGE_API_KEY already set, do not ask user for it again)"
+  },
+  "how_to_resume": "Nothing pending — all 200 posts (ALP-001 to ALP-200) are authored, rendered, and QA-approved. If resuming a future conversation, first verify with: python -c \"import json; from pathlib import Path; lib=json.load(open('01_content/carousel_library.json',encoding='utf-8')); print(len(lib), len({p.name for p in Path('04_quality_control/approved').iterdir() if p.is_dir()}))\" — both numbers should read 200."
+}

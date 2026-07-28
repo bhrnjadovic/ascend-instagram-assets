@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-039",
+  "slug": "what-is-private-credit",
+  "topic": "What Is Private Credit?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Private Credit",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain private credit as an alternative to bank lending.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is Private Credit?",
+      "subheadline": "Finance from outside the traditional banks.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner in a meeting room shaking hands with a lender representative, warm light",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner in a meeting room shaking hands with a lender representative, warm light Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Private credit refers to lending provided by non-bank lenders \u2014 private funds, specialist financiers and credit providers \u2014 rather than traditional banks. It has grown as a source of business finance, often offering more flexible assessment criteria and faster turnaround than conventional bank lending.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Sourced from non-bank lenders and funds",
+        "Can offer more flexible assessment criteria",
+        "Often faster to arrange than bank finance",
+        "Growing part of the Australian business lending market"
+      ],
+      "bullet_icons": [
+        "account_balance",
+        "balance",
+        "timer",
+        "trending_up"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Terms and pricing vary widely between providers",
+        "Still subject to full credit assessment",
+        "Structures range from secured to unsecured facilities",
+        "Worth comparing against traditional bank options"
+      ],
+      "bullet_icons": [
+        "percent",
+        "fact_check",
+        "shield",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Another path to funding your business.",
+      "subheadline": "",
+      "body": "Private credit can be a practical alternative when bank finance doesn't fit \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about private credit options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Private credit sits outside the traditional bank system \u2014 it's finance provided by private funds and specialist non-bank lenders, who often apply different assessment criteria and can move more quickly than a conventional bank process.\n\nIt's become a significant part of how Australian businesses access finance, particularly where bank lending doesn't fit the business's situation or timeline.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Private credit, explained \u2014 how non-bank lending fits into business finance.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#PrivateCredit",
+    "#NonBankLending",
+    "#BusinessFinanceOptions"
+  ],
+  "suggested_hero_image_concept": "a business owner in a meeting room shaking hands with a lender representative, warm light",
+  "suggested_icon_set": "account_balance; balance; timer; trending_up; percent; fact_check; shield; balance",
+  "suggested_filename": "ALP-039_what-is-private-credit",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

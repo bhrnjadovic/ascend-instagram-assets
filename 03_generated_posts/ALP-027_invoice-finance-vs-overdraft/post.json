@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-027",
+  "slug": "invoice-finance-vs-overdraft",
+  "topic": "Invoice Finance vs Overdraft",
+  "category": "Product Comparison",
+  "primary_finance_product": "Invoice Finance vs Overdraft",
+  "audience": [
+    "B2B businesses with outstanding invoices",
+    "Businesses using a bank overdraft",
+    "Growing businesses outgrowing existing facilities"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners compare invoice finance against a traditional bank overdraft for managing cash-flow gaps.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/invoice-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Invoice Finance vs Overdraft",
+      "subheadline": "Two ways to smooth the same gap.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A professional reviewing banking and invoicing information on a laptop in a modern office.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A professional reviewing banking and invoicing information on a laptop in a modern office. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "An overdraft is a set limit attached to your bank account, available regardless of your invoicing activity. Invoice finance advances funds specifically against unpaid invoices, meaning the amount available can scale up automatically as your sales and invoicing grow.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "An overdraft may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You want a simple, familiar structure",
+        "Your funding need is relatively stable",
+        "You don't invoice other businesses",
+        "You prefer one existing banking relationship",
+        "Your limit comfortably covers your needs"
+      ],
+      "bullet_icons": [
+        "account_balance",
+        "balance",
+        "verified",
+        "task_alt",
+        "shield"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Invoice finance may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You issue regular B2B invoices",
+        "Your funding need grows with sales",
+        "Your overdraft limit feels restrictive",
+        "Customers take 30-90 days to pay",
+        "You want funding tied to revenue already earned"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "trending_up",
+        "swap_horiz",
+        "hourglass_top",
+        "verified"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Growth can outpace a fixed limit.",
+      "subheadline": "",
+      "body": "As invoicing volume grows, a facility that scales with it may suit better than a static overdraft \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Ask Ascend Lending Partners whether invoice finance suits your growth.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "An overdraft is simple and familiar, but it's also fixed \u2014 the limit doesn't move just because your invoicing volume does.\n\nInvoice finance is built to scale with your sales, advancing funds against invoices you've already issued rather than sitting at a static limit. For B2B businesses on 30-90 day terms, that difference can matter as volume grows.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A fixed overdraft limit doesn't grow with your invoicing \u2014 invoice finance is built to scale alongside it. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#InvoiceFinance",
+    "#BusinessOverdraft",
+    "#CashFlowManagement",
+    "#B2BFinance",
+    "#BusinessFinanceAustralia",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Professional reviewing banking and invoicing information, navy/gold grade.",
+  "suggested_icon_set": "account_balance, balance, verified, task_alt, shield, receipt_long, trending_up, swap_horiz, hourglass_top",
+  "suggested_filename": "ALP-027_invoice-finance-vs-overdraft",
+  "compliance_notes": [
+    "No claim overdraft is inferior overall \u2014 comparison framed around scalability specifically."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

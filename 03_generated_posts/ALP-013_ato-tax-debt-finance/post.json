@@ -1,0 +1,117 @@
+{
+  "post_id": "ALP-013",
+  "slug": "ato-tax-debt-finance",
+  "topic": "ATO Tax Debt Finance",
+  "category": "Specialist Finance",
+  "primary_finance_product": "ATO Tax Debt Finance",
+  "audience": [
+    "Businesses with outstanding ATO debt",
+    "Businesses facing ATO payment arrangements",
+    "Directors managing tax compliance risk"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how ATO tax debt finance restructures outstanding tax debt into a commercial loan, without implying the underlying tax obligation disappears.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/ato-tax-debt-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "ATO Tax Debt Finance",
+      "subheadline": "Restructure tax debt before it compounds further.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Business owner calmly reviewing documents at an office desk, measured and professional, not alarmist.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner sitting calmly at an office desk reviewing paperwork with a focused, composed expression, measured and professional mood rather than distressed. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "How does it work?",
+      "subheadline": "",
+      "body": "ATO tax debt finance replaces an outstanding tax liability with a structured commercial loan. A lender pays the ATO balance, and the business repays the lender through agreed instalments. This changes who is repaid and on what terms \u2014 it does not remove the underlying tax obligation itself.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "How it may help",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Stopping further ATO interest accruing",
+        "Replacing rigid ATO payment terms",
+        "Protecting business credit standing",
+        "Consolidating other business debt",
+        "Freeing up daily cash flow"
+      ],
+      "bullet_icons": [
+        "hourglass_top",
+        "autorenew",
+        "shield",
+        "merge_type",
+        "swap_horiz"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What to prepare",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Amount and age of ATO debt",
+        "Business revenue and capacity",
+        "ATO portal statement of account",
+        "Director guarantee requirements",
+        "Independent tax advice recommended"
+      ],
+      "bullet_icons": [
+        "summarize",
+        "trending_up",
+        "description",
+        "badge",
+        "gavel"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Get ahead of ATO debt before it grows further.",
+      "subheadline": "",
+      "body": "ATO interest can compound daily. Restructuring the debt into a commercial facility may give your business more workable terms \u2014 subject to lender assessment and approval, and independent tax advice.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about ATO debt finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "ATO debt doesn't sit still \u2014 the general interest charge compounds daily, and rigid payment arrangements can add pressure on top of an already stretched cash flow.\n\nATO tax debt finance restructures the outstanding balance into a commercial loan: a lender clears the ATO debt, and your business repays the lender on agreed terms. This changes who you're repaying and how \u2014 it doesn't remove the underlying tax obligation, and we'd always encourage speaking with your accountant or tax adviser alongside this option.\n\nDealing with ATO debt right now? Let's talk about your options.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "ATO interest compounds daily. Restructuring tax debt into a commercial loan may offer more workable terms \u2014 subject to lender assessment. Seek independent tax advice. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#ATOTaxDebt",
+    "#BusinessFinanceAustralia",
+    "#TaxDebtFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#CommercialFinance",
+    "#CashFlowManagement",
+    "#FinanceBrokerAustralia",
+    "#BusinessDebt"
+  ],
+  "suggested_hero_image_concept": "Business owner calmly reviewing documents at a desk, navy/gold grade, measured tone.",
+  "suggested_icon_set": "hourglass_top, autorenew, shield, merge_type, swap_horiz, summarize, trending_up, description, badge, gavel",
+  "suggested_filename": "ALP-013_ato-tax-debt-finance",
+  "compliance_notes": [
+    "Explicitly states the loan does not remove the underlying tax obligation, per compliance rules against implying ATO debt finance eliminates tax obligations.",
+    "Encourages independent tax advice in both slide 4 and caption, as required when tax consequences are discussed.",
+    "Avoids alarmist imagery/language despite the sensitive topic; measured, non-urgent tone throughout."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

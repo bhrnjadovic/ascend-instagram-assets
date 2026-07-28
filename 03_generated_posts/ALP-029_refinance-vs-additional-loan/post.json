@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-029",
+  "slug": "refinance-vs-additional-loan",
+  "topic": "Refinance vs Taking an Additional Loan",
+  "category": "Product Comparison",
+  "primary_finance_product": "Refinance vs Taking an Additional Loan",
+  "audience": [
+    "Businesses with existing finance",
+    "Businesses considering consolidating debt",
+    "Businesses needing extra capital"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand when refinancing existing debt makes more sense than layering on an additional facility.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Refinance vs Additional Loan",
+      "subheadline": "Restructure what exists, or add to it?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing multiple loan statements spread across a desk.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing multiple loan statements spread across a desk. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Refinancing replaces an existing facility with a new one, potentially on better terms, a longer runway, or consolidated into a single repayment. Taking an additional loan adds a new facility alongside what you already have, which can mean managing multiple repayments and lenders at once.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Refinancing may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your existing terms feel expensive",
+        "You want to consolidate multiple facilities",
+        "Your business profile has since improved",
+        "You want a single simplified repayment",
+        "Your current lender no longer fits"
+      ],
+      "bullet_icons": [
+        "autorenew",
+        "merge_type",
+        "trending_up",
+        "summarize",
+        "swap_horiz"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "An additional loan may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your existing terms still work well",
+        "You need funds for a separate new purpose",
+        "You don't want to disturb current arrangements",
+        "The new need is clearly distinct",
+        "You want to keep facilities separate"
+      ],
+      "bullet_icons": [
+        "flag",
+        "business_center",
+        "shield",
+        "task_alt",
+        "description"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Sometimes restructuring beats stacking.",
+      "subheadline": "",
+      "body": "If your existing facilities feel expensive or scattered, refinancing may simplify things \u2014 subject to lender assessment and any exit costs on current facilities.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about whether refinancing makes sense.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Adding a new loan on top of existing ones isn't always the answer \u2014 sometimes restructuring what's already there does more for your business.\n\nRefinancing replaces existing debt with new terms, potentially consolidating multiple facilities into one simplified repayment. An additional loan keeps everything separate, which can suit a genuinely new and distinct need but adds another facility to manage.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Before taking on more debt, it's worth asking whether refinancing what you already have makes more sense. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#BusinessRefinance",
+    "#BusinessLoans",
+    "#DebtConsolidation",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing multiple loan statements at a desk, navy/gold grade.",
+  "suggested_icon_set": "autorenew, merge_type, trending_up, summarize, swap_horiz, flag, business_center, shield, task_alt, description",
+  "suggested_filename": "ALP-029_refinance-vs-additional-loan",
+  "compliance_notes": [
+    "Notes refinancing may involve exit costs on existing facilities, avoiding an implication that refinancing is automatically cost-free or better."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-023",
+  "slug": "short-term-vs-long-term-business-finance",
+  "topic": "Short-Term vs Long-Term Business Finance",
+  "category": "Product Comparison",
+  "primary_finance_product": "Short-Term vs Long-Term Business Finance",
+  "audience": [
+    "Businesses choosing a facility term",
+    "Businesses with a defined exit event",
+    "Businesses planning multi-year investment"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand when a short-term facility suits versus a longer-term commitment.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/short-term-business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Short-Term vs Long-Term Finance",
+      "subheadline": "Matching the term to the need.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner reviewing a timeline or calendar planning document at a desk.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner reviewing a timeline or calendar planning document at a desk. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Short-term finance typically runs from a few months up to around two years, suited to a defined, time-bound need with a clear exit event. Long-term finance extends over several years, better suited to larger capital investments where repayments are spread across a longer horizon.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Short-term may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You have a clear exit event",
+        "You're bridging a specific gap",
+        "You want to avoid a long commitment",
+        "Your need is temporary in nature",
+        "Speed matters more than term length"
+      ],
+      "bullet_icons": [
+        "flag",
+        "hourglass_top",
+        "task_alt",
+        "bolt",
+        "schedule"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Long-term may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You're funding a major capital investment",
+        "You want smaller, spread-out repayments",
+        "Your need is ongoing, not temporary",
+        "You have strong long-term revenue visibility",
+        "You're comfortable with a longer commitment"
+      ],
+      "bullet_icons": [
+        "domain",
+        "balance",
+        "trending_up",
+        "verified",
+        "history"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Term length should match the need, not the other way around.",
+      "subheadline": "",
+      "body": "A mismatch either way can cost more than necessary \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about the right term for your situation.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Taking a long-term facility for a short-term need \u2014 or vice versa \u2014 is one of the more common structuring mistakes we see.\n\nShort-term finance suits a defined, time-bound situation with a clear exit event. Long-term finance suits larger investments where spreading repayments over years makes more sense than compressing them into months.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "A short-term need doesn't need a long-term commitment, and vice versa \u2014 matching term to purpose matters. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#ShortTermFinance",
+    "#LongTermFinance",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#BridgingFinance",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner reviewing a timeline/calendar document, navy/gold grade.",
+  "suggested_icon_set": "flag, hourglass_top, task_alt, bolt, schedule, domain, balance, trending_up, verified, history",
+  "suggested_filename": "ALP-023_short-term-vs-long-term-business-finance",
+  "compliance_notes": [
+    "No specific rate or cost comparisons stated between short and long term."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

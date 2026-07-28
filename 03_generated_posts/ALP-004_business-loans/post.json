@@ -1,0 +1,116 @@
+{
+  "post_id": "ALP-004",
+  "slug": "business-loans",
+  "topic": "Business Loans",
+  "category": "Core Product",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian business owners",
+    "Growing businesses",
+    "Businesses planning expansion or acquisition"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain how a business loan can be structured around a business's specific purpose rather than a one-size-fits-all product.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Business Loans",
+      "subheadline": "Finance structured around your next business move.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Confident Australian business owner reviewing plans in a modern boardroom, navy/gold grade.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A confident Australian business owner in smart business attire standing in a modern office boardroom, reviewing a folder or tablet with a thoughtful, forward-looking expression. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What is a business loan?",
+      "subheadline": "",
+      "body": "A business loan is commercial finance matched to a specific purpose \u2014 expansion, acquisition, equipment or refinancing existing debt. Rather than a one-size-fits-all product, a broker can access a panel of lenders to structure secured or unsecured finance around your business's revenue, assets and goals.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel, single line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What can it fund?",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Business expansion or growth",
+        "Acquiring another business",
+        "Stock and equipment purchases",
+        "Refinancing existing business debt",
+        "Fit-outs and working capital"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "handshake",
+        "inventory_2",
+        "autorenew",
+        "business_center"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Time trading under your ABN",
+        "Monthly revenue and consistency",
+        "Credit profile and conduct",
+        "Security offered versus loan size",
+        "Purpose and use of funds"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "trending_up",
+        "credit_card",
+        "shield",
+        "description"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Finance structured around your business.",
+      "subheadline": "",
+      "body": "Whether you're expanding, acquiring or refinancing, a broker can help match your business to the right lender from a panel of 60+ options \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about a business loan.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "A business loan isn't one product \u2014 it's a structure built around what your business actually needs, whether that's expansion, an acquisition, new equipment, or refinancing existing debt.\n\nAscend Lending Partners works across a panel of 60+ lenders, including banks, non-bank lenders and specialist financiers, to match secured or unsecured finance to your revenue, assets and goals.\n\nThinking about your next move? Let's talk about how it could be funded.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Expansion, acquisition, equipment, refinance \u2014 a business loan can be structured around your specific purpose, subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#BusinessLoansAustralia",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#BusinessGrowthAU",
+    "#FinanceBrokerAustralia",
+    "#WorkingCapital",
+    "#BusinessExpansion"
+  ],
+  "suggested_hero_image_concept": "Confident Australian business owner reviewing expansion plans in a modern office, navy/gold grade.",
+  "suggested_icon_set": "trending_up, handshake, inventory_2, autorenew, business_center, calendar_month, trending_up, credit_card, shield, description",
+  "suggested_filename": "ALP-004_business-loans",
+  "compliance_notes": [
+    "Site states a $50K-$5M loan range and 24-72hr/5-15 day settlement windows \u2014 presented as illustrative facility parameters, not guaranteed outcomes.",
+    "'60+ lenders' used as a factual panel-size descriptor, not a claim of guaranteed approval."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

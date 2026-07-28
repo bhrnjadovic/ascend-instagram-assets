@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-149",
+  "slug": "what-happens-after-you-submit-an-application",
+  "topic": "What Happens After You Submit an Application?",
+  "category": "Broker and Process Education",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain the post-submission stage to reduce anxiety during waiting periods.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Happens After You Submit an Application?",
+      "subheadline": "The waiting stage has a purpose.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner checking their phone for updates, calm and patient expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner checking their phone for updates, calm and patient expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Once submitted, an application moves through verification, credit assessment and often a request for clarifying information. It can feel quiet from the outside, but there's usually active assessment happening, and a broker can chase updates on your behalf.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Identity and document verification",
+        "Credit and serviceability assessment",
+        "Possible requests for additional information",
+        "Progress updates from your broker along the way"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "credit_card",
+        "description",
+        "handshake"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Response speed to information requests can affect timing",
+        "Silence doesn't necessarily mean a problem",
+        "A broker can chase updates so you don't have to",
+        "Conditional approval often precedes final approval"
+      ],
+      "bullet_icons": [
+        "timer",
+        "priority_high",
+        "summarize",
+        "task_alt"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Know what's happening while you wait.",
+      "subheadline": "",
+      "body": "Understanding this stage makes the waiting period far less stressful.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your application status.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "The period after submitting an application can feel like a black box, but there's genuine work happening \u2014 verification, credit checks, and serviceability assessment all take time, even when nothing visible seems to be occurring.\n\nA broker's role at this stage includes following up on your behalf, so you're not left guessing.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "What's actually happening during the waiting period after you submit an application.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#LoanApplication",
+    "#BusinessFinanceProcess",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "a business owner checking their phone for updates, calm and patient expression",
+  "suggested_icon_set": "fact_check; credit_card; description; handshake; timer; priority_high; summarize; task_alt",
+  "suggested_filename": "ALP-149_what-happens-after-you-submit-an-application",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

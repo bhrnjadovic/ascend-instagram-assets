@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-137",
+  "slug": "myth-applying-always-hurts-credit-score",
+  "topic": "Myth: Applying for Finance Always Hurts Your Credit Score",
+  "category": "Myth-Busting",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Correct a common misconception: 'Applying for Finance Always Hurts Your Credit Score'.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Myth: Applying for Finance Always Hurts Your Credit Score",
+      "subheadline": "The impact depends on how you apply.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a credit report on a laptop, calm expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a credit report on a laptop, calm expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A single, well-targeted application typically has a limited impact on your credit file. It's applying to many lenders in quick succession \u2014 not applying itself \u2014 that compounds the effect.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What's actually true",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "A single application has limited impact",
+        "Multiple rapid applications compound the effect",
+        "Some lenders offer pre-assessment without a full enquiry",
+        "Your file recovers over time regardless"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "priority_high",
+        "verified",
+        "history"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Worth knowing",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Compare options before formally applying",
+        "A broker can target the right lender first time",
+        "Ask about pre-checks where available",
+        "Review your own file periodically"
+      ],
+      "bullet_icons": [
+        "balance",
+        "handshake",
+        "description",
+        "summarize"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Apply smart, not broadly.",
+      "subheadline": "",
+      "body": "A well-matched, single application minimises unnecessary impact.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about applying strategically.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "This myth stops a lot of business owners from even making a well-considered enquiry \u2014 but the real risk comes from applying to multiple lenders at once, not from a single, well-matched application.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "One well-targeted application isn't the credit score risk people assume.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#CreditScoreMyths",
+    "#BusinessFinanceMyths",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a credit report on a laptop, calm expression",
+  "suggested_icon_set": "fact_check; priority_high; verified; history; balance; handshake; description; summarize",
+  "suggested_filename": "ALP-137_myth-applying-always-hurts-credit-score",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

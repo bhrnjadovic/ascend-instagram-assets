@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-199",
+  "slug": "business-offered-a-buyout",
+  "topic": "Your Business Has Been Offered a Buyout",
+  "category": "Scenario-Based",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Address the scenario of receiving an acquisition offer, framed around evaluating and financing the response.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Your Business Has Been Offered a Buyout",
+      "subheadline": "An offer worth evaluating carefully, on your terms.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a buyout offer document with a considered expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a buyout offer document with a considered expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Receiving a buyout offer is a significant moment, and evaluating it properly \u2014 including understanding the business's true value and any finance implications \u2014 takes time. Getting proper advice before responding protects your position.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "A formal valuation clarifies whether an offer is fair",
+        "Existing finance arrangements need to be factored in",
+        "Advice protects your position before you respond",
+        "There's rarely a need to decide immediately"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "description",
+        "gavel",
+        "hourglass_top"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Understand any exit costs on existing facilities",
+        "Consider the tax implications of different deal structures",
+        "Engage legal and accounting advice before negotiating",
+        "A considered response tends to lead to a better outcome"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "balance",
+        "handshake",
+        "verified"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Evaluate the offer with the right advice behind you.",
+      "subheadline": "",
+      "body": "A buyout offer deserves careful evaluation before any response.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your existing facilities.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A buyout offer is flattering and can be a genuine opportunity, but it's worth resisting any pressure to respond quickly \u2014 proper valuation and advice take time, and that time is almost always available.\n\nUnderstanding how any existing finance arrangements factor into the deal is one practical piece of that evaluation worth getting right early.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Received a buyout offer? Here's how to evaluate it properly before responding.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#BusinessBuyout",
+    "#ExitPlanning",
+    "#SMEStrategy"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a buyout offer document with a considered expression",
+  "suggested_icon_set": "fact_check; description; gavel; hourglass_top; receipt_long; balance; handshake; verified",
+  "suggested_filename": "ALP-199_business-offered-a-buyout",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

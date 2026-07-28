@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-068",
+  "slug": "how-to-read-a-cash-flow-forecast",
+  "topic": "How to Read a Cash Flow Forecast",
+  "category": "Cash-Flow Education",
+  "primary_finance_product": "Cashflow Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain the basics of interpreting a cash flow forecast.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How to Read a Cash Flow Forecast",
+      "subheadline": "A forecast is a tool, not a prediction to fear.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing a chart on a laptop screen with a coffee nearby, focused",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing a chart on a laptop screen with a coffee nearby, focused Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A cash flow forecast estimates money moving in and out of your business over coming weeks or months. The goal isn't precision \u2014 it's visibility. Spotting a projected shortfall a month ahead gives you time to act, rather than discovering it the week rent is due.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Shows projected cash position over time",
+        "Highlights potential shortfalls before they happen",
+        "Helps time major expenses more confidently",
+        "Supports better decisions on timing, not just totals"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "priority_high",
+        "calendar_month",
+        "summarize"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Update it regularly, not just once a year",
+        "Include known seasonal patterns",
+        "Be conservative with income timing assumptions",
+        "A forecast is a guide, not a guarantee"
+      ],
+      "bullet_icons": [
+        "autorenew",
+        "history",
+        "fact_check",
+        "balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "See problems coming before they arrive.",
+      "subheadline": "",
+      "body": "A simple forecast can give you weeks of lead time to plan around a cash-flow gap.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about planning ahead.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "The value of a cash flow forecast isn't perfect accuracy \u2014 it's early warning. A well-maintained forecast shows roughly when a shortfall might occur, giving you weeks rather than days to plan around it, whether that's adjusting spending or arranging finance ahead of time.\n\nEven a simple spreadsheet, updated regularly, beats no forecast at all.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "How to actually use a cash flow forecast to stay ahead of problems.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#CashFlowForecast",
+    "#BusinessPlanning",
+    "#FinanceEducation"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing a chart on a laptop screen with a coffee nearby, focused",
+  "suggested_icon_set": "trending_up; priority_high; calendar_month; summarize; autorenew; history; fact_check; balance",
+  "suggested_filename": "ALP-068_how-to-read-a-cash-flow-forecast",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

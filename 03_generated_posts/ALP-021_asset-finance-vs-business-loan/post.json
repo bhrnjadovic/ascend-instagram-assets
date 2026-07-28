@@ -1,0 +1,114 @@
+{
+  "post_id": "ALP-021",
+  "slug": "asset-finance-vs-business-loan",
+  "topic": "Asset Finance vs Business Loan",
+  "category": "Product Comparison",
+  "primary_finance_product": "Asset Finance vs Business Loan",
+  "audience": [
+    "Businesses acquiring vehicles or machinery",
+    "Growing operational businesses",
+    "Businesses comparing funding structures"
+  ],
+  "awareness_stage": "consideration",
+  "objective": "Help business owners understand when asset-specific finance suits better than a general business loan.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/equipment-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Asset Finance vs Business Loan",
+      "subheadline": "Financing tied to the asset, or general-purpose funds?",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "A business owner standing near a company vehicle or piece of machinery, reviewing paperwork.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A business owner standing near a company vehicle or piece of machinery, reviewing paperwork. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What's the real difference?",
+      "subheadline": "",
+      "body": "Asset finance is structured specifically around a vehicle, machine or piece of equipment, often using the asset itself as security. A general business loan can fund almost any purpose and isn't tied to a specific item, which can mean different security and documentation requirements.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Asset finance may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "You're buying a specific vehicle or machine",
+        "You want the asset to secure the loan",
+        "You'd like the term matched to asset life",
+        "New or used equipment is being purchased",
+        "You want a straightforward, purpose-built structure"
+      ],
+      "bullet_icons": [
+        "directions_car",
+        "shield",
+        "schedule",
+        "verified",
+        "task_alt"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "A business loan may suit if",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Your funding purpose is broader",
+        "You need funds for multiple uses",
+        "You don't want security tied to one asset",
+        "You're funding working capital as well",
+        "You want flexibility in how it's used"
+      ],
+      "bullet_icons": [
+        "business_center",
+        "swap_horiz",
+        "key",
+        "trending_up",
+        "description"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, no text, no photography."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Purpose-built or general-purpose \u2014 match the tool to the job.",
+      "subheadline": "",
+      "body": "If it's one specific asset, asset finance may be the simpler fit; broader needs may suit a general facility instead \u2014 subject to lender assessment.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about the right structure for your next purchase.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, no text, no photography."
+    }
+  ],
+  "caption": "Buying a specific vehicle or machine is a different funding problem to funding your business more broadly, and the two products reflect that.\n\nAsset finance is purpose-built around one item, often using that asset as its own security. A general business loan is more flexible in purpose but isn't tied to \u2014 or secured by \u2014 any single item.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "One specific asset or broader business needs \u2014 the right funding structure follows the purpose. Subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AssetFinance",
+    "#EquipmentFinance",
+    "#BusinessLoans",
+    "#BusinessFinanceAustralia",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#AustralianSmallBusiness",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Business owner near a company vehicle reviewing paperwork, navy/gold grade.",
+  "suggested_icon_set": "directions_car, shield, schedule, verified, task_alt, business_center, swap_horiz, key, trending_up, description",
+  "suggested_filename": "ALP-021_asset-finance-vs-business-loan",
+  "compliance_notes": [
+    "No claim that either structure guarantees lower cost; framed as a fit-for-purpose comparison."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

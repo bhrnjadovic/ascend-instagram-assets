@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-040",
+  "slug": "what-is-a-personal-guarantee",
+  "topic": "What Is a Personal Guarantee?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain personal guarantees in loan agreements.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is a Personal Guarantee?",
+      "subheadline": "A director's personal promise behind the loan.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing and signing a document at a desk, focused expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing and signing a document at a desk, focused expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "A personal guarantee is a commitment from a director or business owner to personally repay a business debt if the business itself can't. It's a common requirement, particularly for newer businesses or unsecured facilities, and it extends liability beyond the business entity.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Common on unsecured and newer-business facilities",
+        "Extends liability to the individual director",
+        "Can affect a director's personal credit position",
+        "May be required even with company-level security"
+      ],
+      "bullet_icons": [
+        "gavel",
+        "priority_high",
+        "credit_card",
+        "shield"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Read the guarantee terms carefully before signing",
+        "Some guarantees are limited, others unlimited",
+        "Independent legal advice is worth seeking",
+        "Guarantees typically remain until the facility is repaid"
+      ],
+      "bullet_icons": [
+        "description",
+        "balance",
+        "gavel",
+        "history"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Know exactly what you're signing up for.",
+      "subheadline": "",
+      "body": "Understanding a personal guarantee before you sign helps you make an informed decision.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your finance structure.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A personal guarantee means that if the business can't meet its repayments, the director who signed the guarantee can be personally pursued for the debt. It's a standard feature of many business lending agreements, particularly for unsecured facilities or younger businesses without a long trading history.\n\nGuarantees can be limited to a set amount or unlimited, so understanding exactly what you're agreeing to \u2014 and seeking independent legal advice if needed \u2014 matters before signing.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "What a personal guarantee actually commits you to \u2014 in plain English.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#PersonalGuarantee",
+    "#BusinessFinanceTerms",
+    "#FinanceGlossary"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing and signing a document at a desk, focused expression",
+  "suggested_icon_set": "gavel; priority_high; credit_card; shield; description; balance; gavel; history",
+  "suggested_filename": "ALP-040_what-is-a-personal-guarantee",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

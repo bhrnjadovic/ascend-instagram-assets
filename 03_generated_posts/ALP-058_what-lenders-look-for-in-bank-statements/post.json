@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-058",
+  "slug": "what-lenders-look-for-in-bank-statements",
+  "topic": "What Lenders Look for in Bank Statements",
+  "category": "Preparing for Finance",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain what lenders scan for when reviewing business bank statements.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Lenders Look for in Bank Statements",
+      "subheadline": "Your statements tell a story \u2014 make sure it's clear.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing bank statements on a laptop at a kitchen table, evening light",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing bank statements on a laptop at a kitchen table, evening light Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Bank statements give lenders a real-time view of how your business actually trades \u2014 consistency of income, how you manage outgoings, and whether there are signs of financial stress like dishonours or frequent overdrawn balances. Several months of clean statements can strengthen an application.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Consistency of deposits and trading activity",
+        "Presence or absence of dishonoured payments",
+        "How outgoings compare to income",
+        "Existing loan or credit repayments"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "priority_high",
+        "balance",
+        "credit_card"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Most lenders ask for three to six months of statements",
+        "Multiple accounts may all need to be provided",
+        "Unusual one-off transactions are worth explaining upfront",
+        "Statements are often assessed alongside other financials"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "account_balance",
+        "description",
+        "fact_check"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Know what your statements say about your business.",
+      "subheadline": "",
+      "body": "Reviewing your own statements before applying can help you address issues early.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about preparing your application.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Bank statements are one of the most revealing documents in a loan application \u2014 they show, in real time, how the business actually operates rather than how it looks on paper. Lenders are typically scanning for consistency, signs of financial stress, and how existing commitments are being managed.\n\nIt's worth reviewing your own statements before applying, so you can explain any unusual activity upfront rather than leaving a lender to guess.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "What lenders are actually looking for when they review your bank statements.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#BankStatements",
+    "#LoanAssessment",
+    "#FinancePreparation"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing bank statements on a laptop at a kitchen table, evening light",
+  "suggested_icon_set": "trending_up; priority_high; balance; credit_card; calendar_month; account_balance; description; fact_check",
+  "suggested_filename": "ALP-058_what-lenders-look-for-in-bank-statements",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

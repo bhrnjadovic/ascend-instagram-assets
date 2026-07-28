@@ -1,0 +1,118 @@
+{
+  "post_id": "ALP-003",
+  "slug": "invoice-finance",
+  "topic": "Invoice Finance",
+  "category": "Cash Flow and Working Capital",
+  "primary_finance_product": "Invoice Finance",
+  "audience": [
+    "B2B service businesses",
+    "Businesses with 30-90 day payment terms",
+    "Rapidly growing companies",
+    "Government contractors"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how invoice finance converts unpaid invoices into accessible working capital without creating new debt.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/invoice-finance.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Invoice Finance",
+      "subheadline": "Your unpaid invoices are an asset. Put them to work sooner.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a professional reviewing paperwork/laptop in a modern office, warm confident mood, navy/gold colour grade, evokes B2B trade and invoicing.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A professional in business attire reviewing paperwork and a laptop at a clean modern desk, suggesting invoicing and trade documentation without any legible text visible. Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, or calculators. No readable text, numbers, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "How does it work?",
+      "subheadline": "",
+      "body": "Invoice finance lets you access a percentage of an unpaid invoice's value before your customer actually pays, rather than waiting the usual 30 to 90 days. It isn't a new loan \u2014 it's an advance against money your business has already earned, released once the facility is set up and invoices are submitted.",
+      "bullet_points": [],
+      "visual_concept": "Off-white panel with a single thin line icon of a document with a forward arrow.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, one thin gold line icon of a document-with-arrow motif in the lower third, generous negative space, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why businesses use it",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Faster access to earned revenue",
+        "Scales automatically with sales",
+        "No new fixed-term debt",
+        "Whole-ledger or selective invoices",
+        "Confidential or disclosed options"
+      ],
+      "bullet_icons": [
+        "bolt",
+        "trending_up",
+        "shield",
+        "receipt_long",
+        "policy"
+      ],
+      "visual_concept": "Five consistent thin gold line icons on navy background, simple vertical list layout.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with five evenly spaced thin gold line-icon placeholders down the left edge, no text, no photography."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Invoices must be business-to-business",
+        "Age of invoices raised",
+        "Creditworthiness of your customers",
+        "Consistency of invoicing activity",
+        "Time trading under your ABN"
+      ],
+      "bullet_icons": [
+        "corporate_fare",
+        "history",
+        "badge",
+        "fact_check",
+        "calendar_month"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with five thin gold checkmark placeholders arranged in a vertical list on the left third, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Stop waiting on invoices to get paid.",
+      "subheadline": "",
+      "body": "If slow-paying customers are holding your cash flow back, invoice finance may help you access funds already owed to you \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Ask Ascend Lending Partners about invoice finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text of its own, no photography."
+    }
+  ],
+  "caption": "Waiting 30, 60 or 90 days to get paid doesn't mean your cash flow has to wait too.\n\nInvoice finance lets eligible B2B businesses access a percentage of an unpaid invoice's value ahead of the customer's payment date. It isn't a new loan \u2014 it's an advance against revenue you've already earned, and facilities can typically scale automatically as your invoicing grows.\n\nIt suits businesses that invoice other businesses on trade terms, with a reasonably consistent invoicing pattern and creditworthy customers.\n\nCurious whether your invoicing pattern fits? Get in touch.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Your invoices are already worth something \u2014 even before they're paid. Invoice finance can advance funds against outstanding B2B invoices, subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#InvoiceFinance",
+    "#DebtorFinance",
+    "#CashFlowManagement",
+    "#WorkingCapital",
+    "#BusinessFinanceAustralia",
+    "#B2BFinance",
+    "#CommercialFinance",
+    "#AustralianSmallBusiness",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "Abstract navy-and-gold ledger/document line motif \u2014 no literal invoice mockups, no currency imagery.",
+  "suggested_icon_set": "Thin-line icons: document with arrow, clock, handshake outline, calendar, ledger outline",
+  "suggested_filename": "ALP-003_invoice-finance",
+  "compliance_notes": [
+    "Site states 'up to 95% advance rate' and '2-4 hour draws' \u2014 presented as illustrative maximums, not guaranteed figures, and omitted from slide text to avoid implying a guaranteed rate.",
+    "Explicitly distinguished from a new loan per compliance rules ('advance against revenue already earned').",
+    "Eligibility framed as lender considerations, not guaranteed qualification."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

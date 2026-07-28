@@ -1,0 +1,115 @@
+{
+  "post_id": "ALP-005",
+  "slug": "small-business-loans",
+  "topic": "Small Business Loans",
+  "category": "Core Product",
+  "primary_finance_product": "Small Business Loans",
+  "audience": [
+    "Small business owners",
+    "Retail, hospitality and trade businesses",
+    "Professional services firms"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain how small business loans are sized and structured for smaller-scale operations.",
+  "website_source": "https://www.ascendlendingpartners.com.au/products/small-business-loans.html",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Small Business Loans",
+      "subheadline": "Funding sized and structured for smaller operations.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Small business owner (caf\u00e9 or retail) at their storefront, warm approachable tone.",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. A small business owner standing confidently in their own caf\u00e9 or retail storefront, warm approachable expression, apron or smart-casual attire, welcoming atmosphere. Editorial commercial photography style, natural light, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, piggy banks, or handshakes in close-up. No readable text, numbers, logos, or screen content. Portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What is a small business loan?",
+      "subheadline": "",
+      "body": "Small business loans provide capital sized for smaller operations \u2014 often used for stock, staffing, marketing or day-to-day cash flow rather than large-scale expansion. Terms and repayment frequency are typically flexible, and both secured and unsecured structures may be available depending on your circumstances.",
+      "bullet_points": [],
+      "visual_concept": "Off-white editorial panel.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Common uses",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Stock and inventory purchases",
+        "Staffing and payroll support",
+        "Marketing and growth initiatives",
+        "Fit-outs and renovations",
+        "Managing cash-flow gaps"
+      ],
+      "bullet_icons": [
+        "inventory_2",
+        "groups",
+        "campaign",
+        "home_repair_service",
+        "swap_horiz"
+      ],
+      "visual_concept": "Five icons on navy.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "What lenders may consider",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Time your ABN has been active",
+        "Recent business bank statements",
+        "Monthly revenue levels",
+        "Current credit conduct",
+        "How funds will be used"
+      ],
+      "bullet_icons": [
+        "calendar_month",
+        "description",
+        "trending_up",
+        "credit_card",
+        "fact_check"
+      ],
+      "visual_concept": "Checklist on off-white.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: warm off-white (#F7F5F0) field, no text."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Funding sized for your business.",
+      "subheadline": "",
+      "body": "From stock to staffing to a quiet-month cash-flow gap, small business finance can be structured around how your business actually operates \u2014 subject to lender assessment and approval.",
+      "bullet_points": [],
+      "cta": "Speak with Ascend Lending Partners about small business finance.",
+      "visual_concept": "Navy closing slide.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Background only: deep navy (#0A1A2F) field, no text."
+    }
+  ],
+  "caption": "Not every business needs a seven-figure facility \u2014 sometimes it's stock before a busy season, covering payroll through a quiet month, or a marketing push to bring in new customers.\n\nSmall business loans are sized and structured for exactly that: flexible terms, multiple repayment frequencies, and lenders who assess smaller operations on their own merits rather than treating them like scaled-down corporate applicants.\n\nWant to know what a facility sized for your business could look like? Get in touch.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Stock, staffing, marketing, or a cash-flow gap \u2014 small business loans are sized for smaller operations, subject to lender assessment. Link in bio.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#SmallBusinessLoans",
+    "#BusinessFinanceAustralia",
+    "#AustralianSmallBusiness",
+    "#RetailFinance",
+    "#HospitalityFinance",
+    "#CommercialFinance",
+    "#SMEFinance",
+    "#CashFlowManagement",
+    "#FinanceBrokerAustralia"
+  ],
+  "suggested_hero_image_concept": "Small business owner at their own storefront, warm and approachable, navy/gold grade.",
+  "suggested_icon_set": "inventory_2, groups, campaign, home_repair_service, swap_horiz, calendar_month, description, trending_up, credit_card, fact_check",
+  "suggested_filename": "ALP-005_small-business-loans",
+  "compliance_notes": [
+    "Site's $5K-$1M range and 24-72hr/3-7 day approval windows softened to illustrative parameters, not guaranteed timing."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-086",
+  "slug": "fund-a-bulk-stock-purchase",
+  "topic": "How to Fund a Bulk Stock Purchase",
+  "category": "Growth and Strategy",
+  "primary_finance_product": "Business Line of Credit",
+  "audience": [
+    "Growth-focused SME owners",
+    "Established Australian businesses",
+    "Business owners planning expansion"
+  ],
+  "awareness_stage": "solution-aware",
+  "objective": "Explain financing options for taking advantage of bulk purchasing or supplier discounts.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "How to Fund a Bulk Stock Purchase",
+      "subheadline": "Buy smart, without straining cash.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a warehouse manager reviewing a large stock delivery with a clipboard",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a warehouse manager reviewing a large stock delivery with a clipboard Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Bulk purchasing can unlock better supplier pricing, but it ties up cash in stock before it's sold. Short-term finance can fund the purchase, letting you capture the discount while spreading the cost across the period it takes to sell through the stock.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Captures supplier discounts on larger orders",
+        "Preserves cash for other operating needs",
+        "Can be timed to seasonal buying opportunities",
+        "Suits businesses with a predictable sell-through rate"
+      ],
+      "bullet_icons": [
+        "percent",
+        "account_balance",
+        "calendar_month",
+        "inventory_2"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Confirm the sell-through timeframe realistically",
+        "Weigh the discount against the cost of finance",
+        "A revolving facility can suit recurring bulk buys",
+        "Storage and holding costs should be factored in too"
+      ],
+      "bullet_icons": [
+        "fact_check",
+        "balance",
+        "repeat",
+        "warehouse"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Capture the discount without draining cash.",
+      "subheadline": "",
+      "body": "Finance can let you take advantage of bulk pricing without straining working capital.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about stock finance.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "A supplier discount on a larger order can be genuinely valuable \u2014 but only if the cash tied up in extra stock doesn't create pressure elsewhere. Short-term finance lets you capture the saving while spreading the cost across the time it takes to sell through the stock.\n\nThe maths only works if the discount outweighs the cost of finance, so it's worth running the numbers before committing to the larger order.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "How to fund a bulk stock purchase without tying up all your working capital.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#StockFinance",
+    "#InventoryManagement",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "a warehouse manager reviewing a large stock delivery with a clipboard",
+  "suggested_icon_set": "percent; account_balance; calendar_month; inventory_2; fact_check; balance; repeat; warehouse",
+  "suggested_filename": "ALP-086_fund-a-bulk-stock-purchase",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-030",
+  "slug": "what-is-working-capital",
+  "topic": "What Is Working Capital?",
+  "category": "Educational Fundamentals",
+  "primary_finance_product": "Working Capital Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Explain working capital in plain language so business owners can recognise when they need it.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "What Is Working Capital?",
+      "subheadline": "The everyday fuel your business runs on.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner walking through a warehouse checking stock levels with a tablet in hand",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner walking through a warehouse checking stock levels with a tablet in hand Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Working capital is the money available to cover your day-to-day running costs \u2014 wages, stock, rent and supplier bills \u2014 after short-term liabilities are accounted for. It's less about profit on paper and more about having cash on hand when the business actually needs it.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Keeps day-to-day operations running smoothly",
+        "Bridges the gap between paying suppliers and getting paid",
+        "Supports growth without disrupting cash flow",
+        "Helps absorb quieter trading periods"
+      ],
+      "bullet_icons": [
+        "swap_horiz",
+        "schedule",
+        "trending_up",
+        "calendar_month"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Current assets minus current liabilities",
+        "Can vary month to month with trading cycles",
+        "Different to profit \u2014 a profitable business can still be cash-tight",
+        "Finance can top it up when timing gets tight"
+      ],
+      "bullet_icons": [
+        "summarize",
+        "autorenew",
+        "balance",
+        "account_balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Not sure where your working capital stands?",
+      "subheadline": "",
+      "body": "Understanding your working capital position is the first step to knowing whether extra finance could help smooth the gaps.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Working capital isn't the same as profit \u2014 it's the cash you have on hand to keep the lights on, stock shelves and staff paid while you wait for customers to pay you.\n\nMany businesses are profitable on paper but still feel squeezed month to month because their working capital cycle is longer than their bill cycle. Recognising the difference is the first step toward managing it \u2014 whether that's tightening collection terms, adjusting stock levels, or bringing in short-term finance to bridge the gap.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Working capital = the cash you need to run your business day to day, separate from profit.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#WorkingCapital",
+    "#CashFlowManagement",
+    "#BusinessBasics"
+  ],
+  "suggested_hero_image_concept": "a business owner walking through a warehouse checking stock levels with a tablet in hand",
+  "suggested_icon_set": "swap_horiz; schedule; trending_up; calendar_month; summarize; autorenew; balance; account_balance",
+  "suggested_filename": "ALP-030_what-is-working-capital",
+  "compliance_notes": [
+    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

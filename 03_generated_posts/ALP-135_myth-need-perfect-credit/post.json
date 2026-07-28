@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-135",
+  "slug": "myth-need-perfect-credit",
+  "topic": "Myth: You Need Perfect Credit to Get Business Finance",
+  "category": "Myth-Busting",
+  "primary_finance_product": "Private Credit",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Correct a common misconception: 'You Need Perfect Credit to Get Business Finance'.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Myth: You Need Perfect Credit to Get Business Finance",
+      "subheadline": "Perfect credit isn't the bar.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner confidently reviewing paperwork, calm and composed expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner confidently reviewing paperwork, calm and composed expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Most business lending decisions weigh several factors together \u2014 trading history, cash flow and security \u2014 not just a flawless credit file. Many lenders specialise in working with applicants who have a less-than-perfect history.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What's actually true",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Cash flow and trading history matter too",
+        "Security offered can offset credit history",
+        "Specialist lenders exist for complex situations",
+        "Every application is assessed individually"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "shield",
+        "account_balance",
+        "fact_check"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Worth knowing",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Be upfront about your credit history",
+        "Terms may differ from a standard facility",
+        "Time since a credit issue can matter",
+        "A broker can match you to a realistic option"
+      ],
+      "bullet_icons": [
+        "description",
+        "percent",
+        "history",
+        "handshake"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Your credit file is one factor, not the whole picture.",
+      "subheadline": "",
+      "body": "A less-than-perfect history doesn't automatically rule out finance.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about your options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "\u201cYou need perfect credit\u201d is one of the most common myths in business finance \u2014 and it stops plenty of viable businesses from even asking the question.\n\nIn reality, lenders weigh multiple factors together, and a less-than-perfect credit history is often just one input among several, not an automatic disqualifier.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Perfect credit isn't required for business finance \u2014 here's what actually matters.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#CreditMyths",
+    "#BusinessFinanceMyths",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "a business owner confidently reviewing paperwork, calm and composed expression",
+  "suggested_icon_set": "trending_up; shield; account_balance; fact_check; description; percent; history; handshake",
+  "suggested_filename": "ALP-135_myth-need-perfect-credit",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

@@ -1,0 +1,70 @@
+# Ascend Lending Partners — Instagram pipeline config
+
+brand:
+  name: "Ascend Lending Partners"
+  website: "ascendlendingpartners.com.au"
+  phone: null  # set if/when supplied; omitted from slides until then
+
+colours:
+  navy: "#0A1A2F"
+  navy_mid: "#0D2040"
+  gold: "#C8A451"
+  gold_light: "#D9B96A"
+  gold_dark: "#A07C2E"
+  charcoal: "#333B48"
+  steel: "#6C727F"
+  light_grey: "#E7E9EC"
+  off_white: "#F7F8FA"
+  white: "#FFFFFF"
+
+canvas:
+  width: 1080
+  height: 1350
+  margin: 90
+  footer_height: 140
+  cover_photo_split_y: 620  # cover slides in mixed/supplied mode: solid navy above this, photo below
+
+fonts:
+  dir: "00_brand_assets/fonts"
+  heading: "Cinzel-SemiBold.ttf"
+  heading_bold: "Cinzel-Bold.ttf"
+  body: "Montserrat-Regular.ttf"
+  body_medium: "Montserrat-Medium.ttf"
+  body_semibold: "Montserrat-SemiBold.ttf"
+  body_light: "Montserrat-Light.ttf"
+
+logo:
+  # Full white/gold wordmark, extracted from the site's own dark-background footer logo
+  # (ascend-lending/logo-footer.svg) so it reads correctly on the navy slide backgrounds.
+  path: "00_brand_assets/logos/Ascend-Wordmark-White-Gold.png"
+  max_width_px: 380
+  # Full wordmark recoloured navy/gold (white text -> navy, gold left as-is) from the
+  # dark-background wordmark, so light off-white slides get the same full lockup instead
+  # of an illegible white-on-light version.
+  path_light: "00_brand_assets/logos/Ascend-Wordmark-Navy-Gold.png"
+  max_width_px_light: 380
+
+background_mode: "mixed"  # generated | supplied | mixed  (see brand_rules.md)
+# mixed: only the cover slide (slide 1) gets an AI-generated photographic background;
+# slides 2-5 keep the free, deterministic Pillow panels from generate_backgrounds.py.
+
+image:
+  provider: "openai"
+  model: "gpt-image-2"
+  quality: "medium"  # per-image ~$0.041 at 1024x1536 — see cost estimate in run_batch.py
+  size: "1024x1536"
+
+concurrency: 2
+max_retries: 3
+max_regeneration_count: 3
+
+output:
+  posts_dir: "03_generated_posts"
+  qa_dir: "04_quality_control"
+
+cta_defaults:
+  disclaimer_long: >-
+    General information only. This does not constitute financial, legal, accounting or tax
+    advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees,
+    charges, terms and conditions may apply.
+  disclaimer_short: "General information only. Credit subject to lender assessment and approval criteria."

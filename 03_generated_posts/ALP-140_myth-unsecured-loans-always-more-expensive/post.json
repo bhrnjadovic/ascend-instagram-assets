@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-140",
+  "slug": "myth-unsecured-loans-always-more-expensive",
+  "topic": "Myth: Unsecured Loans Are Always More Expensive",
+  "category": "Myth-Busting",
+  "primary_finance_product": "Unsecured Business Loans",
+  "audience": [
+    "Australian small business owners",
+    "First-time business borrowers",
+    "SME owners researching finance options"
+  ],
+  "awareness_stage": "unaware",
+  "objective": "Correct a common misconception: 'Unsecured Loans Are Always More Expensive'.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Myth: Unsecured Loans Are Always More Expensive",
+      "subheadline": "It depends on the specific offers, not a blanket rule.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing two finance offers side by side, comparing carefully",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing two finance offers side by side, comparing carefully Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Unsecured loans often carry higher pricing than secured facilities, but this isn't universal \u2014 facility size, lender, and your specific risk profile all factor in. Comparing actual offers matters more than assuming a fixed relationship between security and cost.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "What's actually true",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Pricing depends on multiple factors, not just security",
+        "Facility size and lender both affect cost",
+        "Your specific risk profile matters too",
+        "Comparing offers beats assuming a fixed rule"
+      ],
+      "bullet_icons": [
+        "balance",
+        "corporate_fare",
+        "fact_check",
+        "summarize"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Worth knowing",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Ask for a full cost comparison, not just the rate",
+        "Consider speed and flexibility alongside cost",
+        "Smaller unsecured facilities can be competitively priced",
+        "A broker can compare secured and unsecured options together"
+      ],
+      "bullet_icons": [
+        "receipt_long",
+        "timer",
+        "percent",
+        "handshake"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Compare actual offers, not assumptions.",
+      "subheadline": "",
+      "body": "Security type is one factor in pricing, not the only one.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about comparing your options.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "It's a reasonable generalisation, but not a fixed rule \u2014 the actual cost of unsecured finance depends on the specific lender, facility size and your risk profile, and it's always worth comparing real offers rather than assuming the outcome in advance.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Unsecured finance isn't automatically the pricier option \u2014 here's why.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#UnsecuredFinance",
+    "#BusinessFinanceMyths",
+    "#SMEFinance"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing two finance offers side by side, comparing carefully",
+  "suggested_icon_set": "balance; corporate_fare; fact_check; summarize; receipt_long; timer; percent; handshake",
+  "suggested_filename": "ALP-140_myth-unsecured-loans-always-more-expensive",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

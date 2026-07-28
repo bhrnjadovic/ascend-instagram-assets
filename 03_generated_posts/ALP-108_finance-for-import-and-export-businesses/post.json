@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-108",
+  "slug": "finance-for-import-and-export-businesses",
+  "topic": "Finance for Import and Export Businesses",
+  "category": "Industry-Specific",
+  "primary_finance_product": "Trade Finance",
+  "audience": [
+    "Importers and exporters",
+    "International trade businesses",
+    "Wholesale import businesses"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Explain the finance needs and cash-flow patterns specific to import and export businesses.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "Finance for Import and Export Businesses",
+      "subheadline": "Long shipping and payment cycles need specific tools.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner reviewing shipping containers and paperwork at a port setting",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner reviewing shipping containers and paperwork at a port setting Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Import and export businesses often pay suppliers well before goods arrive and sell, with shipping and customs adding further delay. Trade finance is designed specifically for this extended cycle, funding the gap between paying suppliers and receiving payment.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Funds the gap between paying suppliers and getting paid",
+        "Built for extended shipping and customs timelines",
+        "Supports larger, less frequent bulk orders",
+        "Can scale with growing trade volumes"
+      ],
+      "bullet_icons": [
+        "import_export",
+        "flight_takeoff",
+        "local_shipping",
+        "trending_up"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Currency risk is a separate factor to plan for",
+        "Documentation requirements are typically more involved",
+        "Facility structures vary by trade relationship and lender",
+        "Specialist trade lenders understand these cycles well"
+      ],
+      "bullet_icons": [
+        "balance",
+        "description",
+        "corporate_fare",
+        "handshake"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Finance built around how import and export businesses actually operate.",
+      "subheadline": "",
+      "body": "Ascend Lending Partners works with import and export businesses to structure finance around real trading patterns.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about finance for import and export businesses.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "Import and export businesses often pay suppliers well before goods arrive and sell, with shipping and customs adding further delay. Trade finance is designed specifically for this extended cycle, funding the gap between paying suppliers and receiving payment.\n\nEvery industry has its own rhythm when it comes to cash flow and finance needs \u2014 understanding import and export businesses's specific pattern is the first step to finding the right fit.\n\nLong shipping and payment cycles are the defining cash-flow challenge for import and export businesses.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "How import and export businesses in Australia can structure finance around their specific cash-flow rhythm.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#TradeFinance",
+    "#ImportExportFinance",
+    "#InternationalTrade"
+  ],
+  "suggested_hero_image_concept": "a business owner reviewing shipping containers and paperwork at a port setting",
+  "suggested_icon_set": "import_export; flight_takeoff; local_shipping; trending_up; balance; description; corporate_fare; handshake",
+  "suggested_filename": "ALP-108_finance-for-import-and-export-businesses",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}

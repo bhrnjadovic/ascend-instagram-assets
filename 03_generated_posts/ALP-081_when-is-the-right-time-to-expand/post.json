@@ -1,0 +1,110 @@
+{
+  "post_id": "ALP-081",
+  "slug": "when-is-the-right-time-to-expand",
+  "topic": "When Is the Right Time to Expand?",
+  "category": "Growth and Strategy",
+  "primary_finance_product": "Business Loans",
+  "audience": [
+    "Growth-focused SME owners",
+    "Established Australian businesses",
+    "Business owners planning expansion"
+  ],
+  "awareness_stage": "problem-aware",
+  "objective": "Offer a framework for timing an expansion decision.",
+  "website_source": "",
+  "slides": [
+    {
+      "slide_number": 1,
+      "slide_type": "cover",
+      "headline": "When Is the Right Time to Expand?",
+      "subheadline": "Timing matters as much as the opportunity itself.",
+      "body": "",
+      "bullet_points": [],
+      "visual_concept": "Premium editorial photograph: a business owner looking out over a potential new premises, thoughtful expression",
+      "image_prompt": "Photographic background image only, no text, no logos, no numbers, no UI overlays. a business owner looking out over a potential new premises, thoughtful expression Editorial commercial photography style, shallow depth of field, warm confident mood, colour graded toward deep navy and muted gold tones. No visible cash, coins, calculators, or piggy banks. No readable text or screens with legible content. Square or portrait framing, subject positioned in the lower two-thirds of frame."
+    },
+    {
+      "slide_number": 2,
+      "slide_type": "explanation",
+      "headline": "What does it mean?",
+      "subheadline": "",
+      "body": "Expanding too early can strain a business that hasn't stabilised; expanding too late can mean missing the window. Signals like consistent demand beyond current capacity, stable cash flow, and a clear plan for the added cost are worth weighing before committing.",
+      "bullet_points": [],
+      "visual_concept": "Clean off-white panel, one understated gold line icon.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field, generous negative space, one thin gold line icon positioned in the lower third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 3,
+      "slide_type": "benefits",
+      "headline": "Why it matters",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Consistent demand beyond current capacity",
+        "Stable, predictable cash flow already in place",
+        "A clear plan for the added cost of expansion",
+        "Confidence the core business can absorb the change"
+      ],
+      "bullet_icons": [
+        "trending_up",
+        "balance",
+        "summarize",
+        "task_alt"
+      ],
+      "visual_concept": "Matching thin gold line icons on navy, arranged in a simple vertical list.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field with 4 evenly spaced thin gold line-icon placeholders (simple geometric shapes, no meaning required) down the left edge, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 4,
+      "slide_type": "considerations",
+      "headline": "Key things to know",
+      "subheadline": "",
+      "body": "",
+      "bullet_points": [
+        "Avoid expanding to solve an existing cash-flow problem",
+        "Model the expansion's impact on cash flow, not just revenue",
+        "Consider a smaller test before a full commitment",
+        "Finance can fund timing, but not fix a premature decision"
+      ],
+      "bullet_icons": [
+        "priority_high",
+        "fact_check",
+        "lightbulb",
+        "account_balance"
+      ],
+      "visual_concept": "Minimal checklist composition, off-white background, gold tick marks.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: warm off-white (#F7F5F0) field with 4 thin gold checkmark placeholders arranged in a vertical list on the left third, no text, no photography, no currency symbols."
+    },
+    {
+      "slide_number": 5,
+      "slide_type": "cta",
+      "headline": "Thinking about expanding? Let's talk timing.",
+      "subheadline": "",
+      "body": "The right timing depends on your specific signals \u2014 worth working through before committing.",
+      "bullet_points": [],
+      "cta": "Talk to Ascend Lending Partners about funding your expansion.",
+      "visual_concept": "Premium navy closing slide with a single gold line icon and logo lockup.",
+      "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
+    }
+  ],
+  "caption": "There's no universal green light for expansion, but there are useful signals: demand that's consistently outpacing capacity, cash flow that's already stable rather than stretched, and a clear picture of what the expansion will actually cost.\n\nExpanding to solve an existing cash-flow problem rarely works \u2014 the better sequence is stabilising first, then expanding from a position of strength.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Signals worth weighing before committing to a business expansion.",
+  "hashtags": [
+    "#AscendLendingPartners",
+    "#AustralianBusiness",
+    "#BusinessFinance",
+    "#SMEFinance",
+    "#BusinessLending",
+    "#BusinessExpansion",
+    "#GrowthStrategy",
+    "#SMEStrategy"
+  ],
+  "suggested_hero_image_concept": "a business owner looking out over a potential new premises, thoughtful expression",
+  "suggested_icon_set": "trending_up; balance; summarize; task_alt; priority_high; fact_check; lightbulb; account_balance",
+  "suggested_filename": "ALP-081_when-is-the-right-time-to-expand",
+  "compliance_notes": [
+    "Educational content \u2014 no guaranteed outcomes or unqualified figures.",
+    "All outcomes qualified as illustrative and subject to lender assessment."
+  ],
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+}
