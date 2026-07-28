@@ -95,11 +95,25 @@ def main() -> None:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Preserve any already-attempted publish status across regenerations (e.g. cadence
+    # changes) — never silently reset a posted/errored row back to "pending", which
+    # would risk re-publishing something that's already live.
+    existing_status: dict[str, dict[str, str]] = {}
+    manifest_path = OUT_DIR / "upload_manifest.csv"
+    if manifest_path.exists():
+        with manifest_path.open(encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                existing_status[row["post_id"]] = {
+                    "ig_status": row.get("ig_status", row.get("status", "pending")),
+                    "fb_status": row.get("fb_status", "pending"),
+                }
+
     schedule_rows = []
     manifest_rows = []
     for post, (d, slot) in zip(ordered, dates):
         post_dir = ROOT / "03_generated_posts" / f"{post['post_id']}_{post['slug']}"
         slide_paths = [str(post_dir / f"{post['post_id']}_slide-{n:02d}.png") for n in range(1, 6)]
+        prior = existing_status.get(post["post_id"], {"ig_status": "pending", "fb_status": "pending"})
 
         schedule_rows.append({
             "scheduled_date": d.isoformat(),
@@ -109,7 +123,8 @@ def main() -> None:
             "topic": post["topic"],
             "category": post["category"],
             "folder": str(post_dir.relative_to(ROOT)),
-            "status": "pending",
+            "ig_status": prior["ig_status"],
+            "fb_status": prior["fb_status"],
         })
 
         hashtags_line = " ".join(post["hashtags"])
@@ -124,7 +139,8 @@ def main() -> None:
             "caption": post["caption"],
             "hashtags": hashtags_line,
             "full_caption": full_caption,
-            "status": "pending",
+            "ig_status": prior["ig_status"],
+            "fb_status": prior["fb_status"],
         })
 
         # Ready-to-paste file living right next to the slide images — no CSV needed.

@@ -1,5 +1,8 @@
-"""Publishes due posts from 05_social_scheduler/upload_manifest.csv to Instagram via the
-Instagram API with Instagram Login (graph.instagram.com), Content Publishing endpoints.
+"""Publishes due posts from 05_social_scheduler/upload_manifest.csv to Instagram (via the
+Instagram API with Instagram Login, graph.instagram.com) and, if configured, to a linked
+Facebook Page (via the standard Facebook Graph API, graph.facebook.com) — as two entirely
+separate integrations. Instagram's Content Publishing API has no cross-post-to-Facebook
+option, so each platform needs its own credentials and its own API calls.
 
 Requires (add to .env, never paste into chat):
     INSTAGRAM_ACCESS_TOKEN   — long-lived Instagram User access token (starts "IGAA...")
@@ -7,9 +10,16 @@ Requires (add to .env, never paste into chat):
                                GET https://graph.instagram.com/v21.0/me?fields=id,username
                                (not the "user_id" field — verified these differ and only
                                "id" is confirmed to work as the {ig-user-id} path parameter)
+    FACEBOOK_PAGE_ACCESS_TOKEN — a Page access token (NOT the Instagram token above — this
+                               comes from a separate Facebook Login for Business consent,
+                               see 05_social_scheduler/FACEBOOK_API_SETUP.md)
+    FACEBOOK_PAGE_ID         — the Page's numeric ID
 
-Setup you need to complete yourself before this can run (all requires your own Meta login,
-cannot be done on your behalf):
+Facebook posting is entirely optional: if FACEBOOK_PAGE_ACCESS_TOKEN / FACEBOOK_PAGE_ID
+aren't set, the script just publishes to Instagram and logs that Facebook was skipped.
+
+Setup you need to complete yourself before Instagram can run (all requires your own Meta
+login, cannot be done on your behalf):
     1. Convert the Instagram account to a Professional (Business/Creator) account.
     2. Link it to a Facebook Page you manage.
     3. Create a Meta developer app at developers.facebook.com, add the Instagram product,
@@ -18,16 +28,17 @@ cannot be done on your behalf):
        instagram_business_content_publish scopes.
     5. Find the numeric id: GET https://graph.instagram.com/v21.0/me?fields=id,username
 
-Instagram's Graph API has no native "schedule for later" — calling the publish endpoint
+Neither platform's API has native "schedule for later" — calling the publish endpoint
 posts immediately. This script provides the scheduling instead: it only publishes rows from
-upload_manifest.csv whose scheduled_date is today or earlier and whose status is "pending".
-Run it once a day (via Windows Task Scheduler, cron, or a Claude scheduled task) and it acts
-as the scheduler.
+upload_manifest.csv whose scheduled_date is today or earlier and whose ig_status/fb_status
+is still "pending". Run it once a day (Windows Task Scheduler, cron, or similar) and it acts
+as the scheduler for both platforms independently — if Instagram succeeds but Facebook fails
+(or vice versa), only the failed platform is retried on the next run.
 
-IMPORTANT: images must be reachable by URL, not local file paths — the Graph API downloads
+IMPORTANT: images must be reachable by URL, not local file paths — both Graph APIs download
 them from a public URL. This script assumes you've set PUBLIC_IMAGE_BASE_URL (e.g. hosted on
-S3, Cloudflare R2, or any static host) mirroring 03_generated_posts/. It will NOT upload your
-local files anywhere itself.
+GitHub, S3, Cloudflare R2, or any static host) mirroring 03_generated_posts/. It will NOT
+upload your local files anywhere itself.
 
 Usage:
     python scripts/instagram_publish.py --dry-run
@@ -38,6 +49,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import os
 import time
 from datetime import date
@@ -154,6 +166,48 @@ def publish_post(row: dict, ig_user_id: str, token: str, base_url: str) -> str:
     return media_id
 
 
+# --- Facebook Page publishing (separate API, separate token, separate auth flow) ---
+FB_GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
+
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=20))
+def _fb_upload_unpublished_photo(image_url: str, page_id: str, token: str) -> str:
+    resp = requests.post(
+        f"{FB_GRAPH_BASE}/{page_id}/photos",
+        data={"url": image_url, "published": "false", "access_token": token},
+        timeout=60,
+    )
+    resp.raise_for_status()
+    return resp.json()["id"]
+
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=20))
+def _fb_create_feed_post(photo_ids: list[str], message: str, page_id: str, token: str) -> str:
+    data = {"message": message, "access_token": token}
+    for i, pid in enumerate(photo_ids):
+        data[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
+
+    resp = requests.post(f"{FB_GRAPH_BASE}/{page_id}/feed", data=data, timeout=60)
+    resp.raise_for_status()
+    return resp.json()["id"]
+
+
+def publish_facebook_post(row: dict, page_id: str, token: str, base_url: str) -> str:
+    """Facebook has no native swipeable carousel for Page feed posts — attached_media
+    produces its own standard multi-photo post instead, which is the closest equivalent
+    the Graph API offers. Same 5 images and caption as the Instagram version."""
+    slide_keys = ["slide_1", "slide_2", "slide_3", "slide_4", "slide_5"]
+    photo_ids = []
+    for key in slide_keys:
+        url = _image_url(row[key], base_url)
+        photo_ids.append(_fb_upload_unpublished_photo(url, page_id, token))
+        time.sleep(1)
+
+    message = f"{row['caption']}\n\n{row['hashtags']}"
+    post_id = _fb_create_feed_post(photo_ids, message, page_id, token)
+    return post_id
+
+
 def load_manifest() -> list[dict]:
     with MANIFEST_PATH.open(encoding="utf-8") as f:
         return list(csv.DictReader(f))
@@ -167,8 +221,13 @@ def save_manifest(rows: list[dict]) -> None:
 
 
 def due_rows(rows: list[dict]) -> list[dict]:
+    """A row is due if its date has arrived and at least one platform still needs posting —
+    so if Instagram succeeded but Facebook failed last run, only Facebook gets retried."""
     today = date.today().isoformat()
-    return [r for r in rows if r["status"] == "pending" and r["scheduled_date"] <= today]
+    return [
+        r for r in rows
+        if r["scheduled_date"] <= today and (r["ig_status"] == "pending" or r["fb_status"] == "pending")
+    ]
 
 
 def main() -> None:
@@ -203,9 +262,15 @@ def main() -> None:
         return
 
     if args.dry_run:
-        print(f"{len(due)} post(s) would publish today:")
+        fb_set = bool(os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip())
+        print(f"{len(due)} post(s) would be attempted today:")
         for r in due:
-            print(f"  {r['post_id']}  scheduled {r['scheduled_date']}")
+            todo = []
+            if r["ig_status"] == "pending":
+                todo.append("instagram")
+            if r["fb_status"] == "pending":
+                todo.append("facebook" if fb_set else "facebook (skipped, not configured)")
+            print(f"  {r['post_id']}  scheduled {r['scheduled_date']}  -> {', '.join(todo)}")
         return
 
     if not args.publish_due:
@@ -214,15 +279,32 @@ def main() -> None:
     ig_user_id = _env("INSTAGRAM_BUSINESS_ID")
     base_url = _env("PUBLIC_IMAGE_BASE_URL")
 
+    fb_token = os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
+    fb_page_id = os.environ.get("FACEBOOK_PAGE_ID", "").strip()
+    fb_configured = bool(fb_token and fb_page_id)
+    if not fb_configured:
+        print("Facebook not configured (FACEBOOK_PAGE_ACCESS_TOKEN / FACEBOOK_PAGE_ID unset) — Instagram only.")
+
     for row in due:
-        try:
-            media_id = publish_post(row, ig_user_id, token, base_url)
-            row["status"] = f"posted:{media_id}"
-            print(f"{row['post_id']}: published (media id {media_id})")
-        except Exception as exc:  # noqa: BLE001
-            row["status"] = f"error:{exc}"
-            print(f"{row['post_id']}: FAILED — {exc}")
-        save_manifest(rows)  # save after every post so a crash mid-run doesn't lose progress
+        if row["ig_status"] == "pending":
+            try:
+                media_id = publish_post(row, ig_user_id, token, base_url)
+                row["ig_status"] = f"posted:{media_id}"
+                print(f"{row['post_id']}: Instagram published (media id {media_id})")
+            except Exception as exc:  # noqa: BLE001
+                row["ig_status"] = f"error:{exc}"
+                print(f"{row['post_id']}: Instagram FAILED — {exc}")
+            save_manifest(rows)  # save after every step so a crash mid-run doesn't lose progress
+
+        if fb_configured and row["fb_status"] == "pending":
+            try:
+                post_id = publish_facebook_post(row, fb_page_id, fb_token, base_url)
+                row["fb_status"] = f"posted:{post_id}"
+                print(f"{row['post_id']}: Facebook published (post id {post_id})")
+            except Exception as exc:  # noqa: BLE001
+                row["fb_status"] = f"error:{exc}"
+                print(f"{row['post_id']}: Facebook FAILED — {exc}")
+            save_manifest(rows)
 
 
 if __name__ == "__main__":
