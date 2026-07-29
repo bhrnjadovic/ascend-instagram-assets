@@ -110,5 +110,6 @@
   "compliance_notes": [
     "Notes refinancing may involve exit costs on existing facilities, avoiding an implication that refinancing is automatically cost-free or better."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": true
 }

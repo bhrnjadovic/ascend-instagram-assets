@@ -93,6 +93,15 @@ def main() -> None:
     ordered = interleave_by_category(library)
     dates = next_posting_dates(start, posting_days, args.posts_per_day, len(ordered))
 
+    # Alternate the cover slide treatment (AI photo vs flat navy/gold typographic design)
+    # based on actual feed position, not library order — a photo on every single cover
+    # made the Instagram grid look repetitive since it's the same layout 200 times in a
+    # row. Persisted onto each post in carousel_library.json so compose_slides.py picks
+    # it up naturally, wherever it's rendered from.
+    for i, post in enumerate(ordered):
+        post["cover_has_photo"] = (i % 2 == 0)
+    LIBRARY_PATH.write_text(json.dumps(library, indent=2), encoding="utf-8")
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Preserve any already-attempted publish status across regenerations (e.g. cadence

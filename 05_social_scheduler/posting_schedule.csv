@@ -1,8 +1,8 @@
 scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagram_status,facebook_status
-2026-07-29,Wednesday,08:00,ALP-175,You've Just Won a Big Contract — Now What?,Scenario-Based,03_generated_posts\ALP-175_youve-just-won-a-big-contract,posted,pending
-2026-07-29,Wednesday,11:40,ALP-030,What Is Working Capital?,Educational Fundamentals,03_generated_posts\ALP-030_what-is-working-capital,posted,pending
-2026-07-29,Wednesday,15:20,ALP-095,Finance for Hospitality and Cafe Businesses,Industry-Specific,03_generated_posts\ALP-095_finance-for-hospitality-and-cafe-businesses,posted,pending
-2026-07-29,Wednesday,19:00,ALP-115,“My Bank Said No” — What Are Your Other Options?,Problems and Objections,03_generated_posts\ALP-115_bank-said-no-other-options,posted,pending
+2026-07-29,Wednesday,08:00,ALP-175,You've Just Won a Big Contract — Now What?,Scenario-Based,03_generated_posts\ALP-175_youve-just-won-a-big-contract,posted,posted
+2026-07-29,Wednesday,11:40,ALP-030,What Is Working Capital?,Educational Fundamentals,03_generated_posts\ALP-030_what-is-working-capital,posted,posted
+2026-07-29,Wednesday,15:20,ALP-095,Finance for Hospitality and Cafe Businesses,Industry-Specific,03_generated_posts\ALP-095_finance-for-hospitality-and-cafe-businesses,posted,posted
+2026-07-29,Wednesday,19:00,ALP-115,“My Bank Said No” — What Are Your Other Options?,Problems and Objections,03_generated_posts\ALP-115_bank-said-no-other-options,posted,posted
 2026-07-30,Thursday,08:00,ALP-015,Secured vs Unsecured Business Loans,Product Comparison,03_generated_posts\ALP-015_secured-vs-unsecured-business-loans,pending,pending
 2026-07-30,Thursday,11:40,ALP-050,What Documents Do You Need to Apply?,Preparing for Finance,03_generated_posts\ALP-050_documents-needed-for-business-finance,pending,pending
 2026-07-30,Thursday,15:20,ALP-065,Cash Flow Problems Don't Mean a Failing Business,Cash-Flow Education,03_generated_posts\ALP-065_cash-flow-problems-dont-mean-failing-business,pending,pending

@@ -110,5 +110,6 @@
   "compliance_notes": [
     "No specific rate figures published; presented as a structural trade-off rather than a rate comparison."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": true
 }

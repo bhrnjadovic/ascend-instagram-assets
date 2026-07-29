@@ -58,6 +58,7 @@ class Carousel(BaseModel):
     awareness_stage: str
     objective: str
     website_source: str = ""
+    cover_has_photo: bool = True
     slides: list[Slide]
     caption: str
     short_caption: str

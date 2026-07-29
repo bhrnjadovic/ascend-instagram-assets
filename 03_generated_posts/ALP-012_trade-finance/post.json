@@ -111,5 +111,6 @@
   "compliance_notes": [
     "Site's 120-150 day repayment window and 24-72hr approval figures presented as illustrative facility parameters, not guarantees."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": true
 }

@@ -110,5 +110,6 @@
   "compliance_notes": [
     "Explicitly distinguishes invoice finance from 'new debt' per compliance rules, without claiming it carries no obligations."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": false
 }

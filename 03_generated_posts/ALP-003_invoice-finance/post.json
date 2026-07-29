@@ -114,5 +114,6 @@
     "Explicitly distinguished from a new loan per compliance rules ('advance against revenue already earned').",
     "Eligibility framed as lender considerations, not guaranteed qualification."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": false
 }

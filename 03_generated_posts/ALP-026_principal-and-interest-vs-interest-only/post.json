@@ -110,5 +110,6 @@
   "compliance_notes": [
     "Explicitly notes principal remains unchanged during interest-only period, avoiding any implication that interest-only reduces total cost."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": true
 }

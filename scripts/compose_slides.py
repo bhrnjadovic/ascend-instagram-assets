@@ -144,7 +144,11 @@ def build_cover_photo_background(post: dict, slide: dict) -> Image.Image:
 
 def render_slide(post: dict, slide: dict, out_path: Path) -> None:
     on_dark = slide["slide_type"] in ("cover", "cta", "benefits")
-    use_photo_cover = slide["slide_type"] == "cover" and CONFIG["background_mode"] in ("mixed", "supplied")
+    use_photo_cover = (
+        slide["slide_type"] == "cover"
+        and CONFIG["background_mode"] in ("mixed", "supplied")
+        and post.get("cover_has_photo", True)
+    )
     bg = build_cover_photo_background(post, slide) if use_photo_cover else build_background(slide["slide_type"], COLOURS, CANVAS)
     canvas = bg.convert("RGBA")
     draw = ImageDraw.Draw(canvas)

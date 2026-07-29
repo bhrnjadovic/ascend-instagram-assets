@@ -111,5 +111,6 @@
   "compliance_notes": [
     "No specific rates or fees stated on-site source; none fabricated here."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": false
 }

@@ -113,5 +113,6 @@
     "No approval outcome or timeframe is stated as guaranteed.",
     "Secured vs unsecured distinction kept explicit per compliance rules."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": false
 }

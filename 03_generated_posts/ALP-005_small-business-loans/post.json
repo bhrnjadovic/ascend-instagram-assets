@@ -111,5 +111,6 @@
   "compliance_notes": [
     "Site's $5K-$1M range and 24-72hr/3-7 day approval windows softened to illustrative parameters, not guaranteed timing."
   ],
-  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria."
+  "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",
+  "cover_has_photo": false
 }
