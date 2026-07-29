@@ -14,7 +14,7 @@ from pathlib import Path
 import yaml
 from PIL import Image, ImageDraw, ImageFont
 
-from generate_backgrounds import build_background, draw_kicker_rule, hex_to_rgb, vertical_gradient
+from generate_backgrounds import build_background, draw_kicker_rule, hex_to_rgb
 from icons import paste_icon
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -24,7 +24,6 @@ LIBRARY = json.loads((ROOT / "01_content" / "carousel_library.json").read_text(e
 CANVAS = (CONFIG["canvas"]["width"], CONFIG["canvas"]["height"])
 MARGIN = CONFIG["canvas"]["margin"]
 FOOTER_H = CONFIG["canvas"]["footer_height"]
-COVER_SPLIT_Y = CONFIG["canvas"]["cover_photo_split_y"]
 COLOURS = CONFIG["colours"]
 FONTS_DIR = ROOT / CONFIG["fonts"]["dir"]
 LOGO_PATH = ROOT / CONFIG["logo"]["path"]
@@ -79,6 +78,18 @@ def draw_multiline(
     return y
 
 
+def text_block_height(
+    draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont, max_width: int, line_spacing: float = 1.35
+) -> int:
+    """Height a draw_multiline() call would take, without actually drawing — used to
+    vertically centre a text block before committing to a y position."""
+    if not text:
+        return 0
+    lines = wrap_text(draw, text, fnt, max_width)
+    ascent, descent = fnt.getmetrics()
+    return len(lines) * int((ascent + descent) * line_spacing)
+
+
 def paste_logo(canvas: Image.Image, on_dark: bool) -> None:
     path, max_w = (LOGO_PATH, LOGO_MAX_W) if on_dark else (LOGO_PATH_LIGHT, LOGO_MAX_W_LIGHT)
     logo = Image.open(path).convert("RGBA")
@@ -115,31 +126,53 @@ def _cover_fit(img: Image.Image, size: tuple[int, int]) -> Image.Image:
     return img.crop((left, top, left + target_w, top + target_h))
 
 
+def build_photo_scrim(
+    size: tuple[int, int],
+    colour: tuple[int, int, int],
+    top_alpha: int = 200,
+    mid_alpha: int = 60,
+    bottom_alpha: int = 215,
+    text_zone_end: int = 480,
+    mid_y: int = 760,
+) -> Image.Image:
+    """Vertical navy scrim over a full-bleed photo. Three zones: held flat and strong
+    through the headline/subheadline text (0 to text_zone_end), fading down to let the
+    photo read clearly in the middle, then rising again behind the logo/footer. A simple
+    two-point fade left the subheadline dipping in legibility wherever it crossed a
+    bright part of the photo — holding the top alpha flat through the full text zone
+    fixes that regardless of what's in any given photo."""
+    width, height = size
+    overlay = Image.new("RGBA", size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    for y in range(height):
+        if y <= text_zone_end:
+            alpha = top_alpha
+        elif y <= mid_y:
+            t = (y - text_zone_end) / max(mid_y - text_zone_end, 1)
+            alpha = int(top_alpha + (mid_alpha - top_alpha) * t)
+        else:
+            t = (y - mid_y) / max(height - mid_y - 1, 1)
+            alpha = int(mid_alpha + (bottom_alpha - mid_alpha) * t)
+        draw.line([(0, y), (width, y)], fill=(*colour, alpha))
+    return overlay
+
+
 def build_cover_photo_background(post: dict, slide: dict) -> Image.Image:
-    """Solid navy header band (headline/subheadline sit here — guaranteed legible) +
-    AI-generated photographic band below it + solid navy footer band (logo/website)."""
+    """Full-bleed AI photo with a navy scrim gradient for text legibility, rather than
+    a split navy-band-plus-photo-band layout — the whole canvas is the photo."""
     from image_api import get_cover_background  # deferred: avoids requiring requests/network unless used
 
     navy = hex_to_rgb(COLOURS["navy"])
-    navy_mid = hex_to_rgb(COLOURS["navy_mid"])
     gold = hex_to_rgb(COLOURS["gold"])
 
-    canvas = Image.new("RGB", CANVAS, navy)
-    header = vertical_gradient((CANVAS[0], COVER_SPLIT_Y), navy_mid, navy)
-    canvas.paste(header, (0, 0))
-
-    photo_h = CANVAS[1] - FOOTER_H - COVER_SPLIT_Y
     bg_path = get_cover_background(post["post_id"], slide["image_prompt"])
-    photo = _cover_fit(Image.open(bg_path).convert("RGB"), (CANVAS[0], photo_h))
-    canvas.paste(photo, (0, COVER_SPLIT_Y))
-
-    footer_band = Image.new("RGB", (CANVAS[0], FOOTER_H), navy)
-    canvas.paste(footer_band, (0, CANVAS[1] - FOOTER_H))
+    photo = _cover_fit(Image.open(bg_path).convert("RGB"), CANVAS)
+    canvas = photo.convert("RGBA")
+    canvas = Image.alpha_composite(canvas, build_photo_scrim(CANVAS, navy))
 
     draw = ImageDraw.Draw(canvas)
-    draw.line([(0, COVER_SPLIT_Y), (CANVAS[0], COVER_SPLIT_Y)], fill=gold, width=3)
     draw_kicker_rule(draw, (*gold, 255))
-    return canvas
+    return canvas.convert("RGB")
 
 
 def render_slide(post: dict, slide: dict, out_path: Path) -> None:
@@ -149,7 +182,12 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
         and CONFIG["background_mode"] in ("mixed", "supplied")
         and post.get("cover_has_photo", True)
     )
-    bg = build_cover_photo_background(post, slide) if use_photo_cover else build_background(slide["slide_type"], COLOURS, CANVAS)
+    is_flat_cover = slide["slide_type"] == "cover" and not use_photo_cover
+
+    if use_photo_cover:
+        bg = build_cover_photo_background(post, slide)
+    else:
+        bg = build_background(slide["slide_type"], COLOURS, CANVAS, draw_kicker=not is_flat_cover)
     canvas = bg.convert("RGBA")
     draw = ImageDraw.Draw(canvas)
 
@@ -157,8 +195,42 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
     body_colour = hex_to_rgb(COLOURS["light_grey"]) if on_dark else hex_to_rgb(COLOURS["charcoal"])
     gold = hex_to_rgb(COLOURS["gold"])
     content_width = CANVAS[0] - 2 * MARGIN
-    y = MARGIN + 70
 
+    if is_flat_cover:
+        # Larger, vertically + horizontally centred headline/subheadline — distinct
+        # rhythm from the photo covers, per feedback that left-aligned/top-anchored
+        # text felt cramped with no photo to fill the rest of the frame.
+        headline = slide.get("headline", "")
+        subheadline = slide.get("subheadline", "")
+        h_font = font("heading_bold", 92)
+        s_font = font("body", 40)
+        gap = 26
+
+        h_height = text_block_height(draw, headline, h_font, content_width)
+        s_height = text_block_height(draw, subheadline, s_font, content_width)
+        total_height = h_height + (gap + s_height if subheadline else 0)
+
+        top_bound = MARGIN + 60
+        bottom_bound = CANVAS[1] - FOOTER_H - 60
+        start_y = top_bound + max(0, (bottom_bound - top_bound - total_height) // 2)
+
+        rule_w = 220
+        rule_y = start_y - 46
+        draw.line(
+            [(CANVAS[0] // 2 - rule_w // 2, rule_y), (CANVAS[0] // 2 + rule_w // 2, rule_y)],
+            fill=(*gold, 255), width=3,
+        )
+
+        y = draw_multiline(draw, headline, h_font, (MARGIN, start_y), content_width, text_colour, align="center")
+        if subheadline:
+            draw_multiline(draw, subheadline, s_font, (MARGIN, y + gap), content_width, gold, align="center")
+
+        paste_logo(canvas, on_dark)
+        draw_footer(draw, slide["slide_number"], len(post["slides"]), on_dark)
+        canvas.convert("RGB").save(out_path, "PNG")
+        return
+
+    y = MARGIN + 70
     heading_font = font("heading_bold", 64) if slide["slide_type"] in ("cover",) else font("heading", 50)
     body_font = font("body", 34)
     bullet_font = font("body_medium", 34)

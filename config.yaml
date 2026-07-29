@@ -22,7 +22,6 @@ canvas:
   height: 1350
   margin: 90
   footer_height: 140
-  cover_photo_split_y: 620  # cover slides in mixed/supplied mode: solid navy above this, photo below
 
 fonts:
   dir: "00_brand_assets/fonts"

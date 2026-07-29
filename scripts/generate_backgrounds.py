@@ -40,7 +40,9 @@ def draw_kicker_rule(draw: ImageDraw.ImageDraw, colour: Colour, y: int = 140, x0
     draw.line([(x0, y), (x1, y)], fill=colour, width=3)
 
 
-def build_background(slide_type: str, colours: dict, size: tuple[int, int] = (1080, 1350)) -> Image.Image:
+def build_background(
+    slide_type: str, colours: dict, size: tuple[int, int] = (1080, 1350), draw_kicker: bool = True
+) -> Image.Image:
     navy = hex_to_rgb(colours["navy"])
     navy_mid = hex_to_rgb(colours["navy_mid"])
     gold = hex_to_rgb(colours["gold"])
@@ -48,10 +50,11 @@ def build_background(slide_type: str, colours: dict, size: tuple[int, int] = (10
 
     if slide_type in ("cover", "cta"):
         base = vertical_gradient(size, navy_mid, navy)
-        overlay = Image.new("RGBA", size, (0, 0, 0, 0))
-        draw = ImageDraw.Draw(overlay)
-        draw_kicker_rule(draw, (*gold, 255))
-        base = Image.alpha_composite(base.convert("RGBA"), overlay)
+        if draw_kicker:
+            overlay = Image.new("RGBA", size, (0, 0, 0, 0))
+            draw = ImageDraw.Draw(overlay)
+            draw_kicker_rule(draw, (*gold, 255))
+            base = Image.alpha_composite(base.convert("RGBA"), overlay)
         return base.convert("RGB")
 
     if slide_type == "benefits":
