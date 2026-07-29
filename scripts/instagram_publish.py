@@ -49,15 +49,16 @@ from __future__ import annotations
 
 import argparse
 import csv
-import json
 import os
 import time
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
+
+import facebook_publish
 
 ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = ROOT / "05_social_scheduler" / "upload_manifest.csv"
@@ -166,46 +167,13 @@ def publish_post(row: dict, ig_user_id: str, token: str, base_url: str) -> str:
     return media_id
 
 
-# --- Facebook Page publishing (separate API, separate token, separate auth flow) ---
-FB_GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
-
-
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=20))
-def _fb_upload_unpublished_photo(image_url: str, page_id: str, token: str) -> str:
-    resp = requests.post(
-        f"{FB_GRAPH_BASE}/{page_id}/photos",
-        data={"url": image_url, "published": "false", "access_token": token},
-        timeout=60,
-    )
-    resp.raise_for_status()
-    return resp.json()["id"]
-
-
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=2, min=2, max=20))
-def _fb_create_feed_post(photo_ids: list[str], message: str, page_id: str, token: str) -> str:
-    data = {"message": message, "access_token": token}
-    for i, pid in enumerate(photo_ids):
-        data[f"attached_media[{i}]"] = json.dumps({"media_fbid": pid})
-
-    resp = requests.post(f"{FB_GRAPH_BASE}/{page_id}/feed", data=data, timeout=60)
-    resp.raise_for_status()
-    return resp.json()["id"]
-
-
 def publish_facebook_post(row: dict, page_id: str, token: str, base_url: str) -> str:
-    """Facebook has no native swipeable carousel for Page feed posts — attached_media
-    produces its own standard multi-photo post instead, which is the closest equivalent
-    the Graph API offers. Same 5 images and caption as the Instagram version."""
+    """Facebook Page equivalent of the Instagram carousel — same 5 images and caption,
+    via the facebook_publish module (separate API/token/auth flow from Instagram)."""
     slide_keys = ["slide_1", "slide_2", "slide_3", "slide_4", "slide_5"]
-    photo_ids = []
-    for key in slide_keys:
-        url = _image_url(row[key], base_url)
-        photo_ids.append(_fb_upload_unpublished_photo(url, page_id, token))
-        time.sleep(1)
-
+    image_urls = [_image_url(row[key], base_url) for key in slide_keys]
     message = f"{row['caption']}\n\n{row['hashtags']}"
-    post_id = _fb_create_feed_post(photo_ids, message, page_id, token)
-    return post_id
+    return facebook_publish.publish_carousel_post(image_urls, message, page_id, token)
 
 
 def load_manifest() -> list[dict]:
@@ -220,13 +188,18 @@ def save_manifest(rows: list[dict]) -> None:
         writer.writerows(rows)
 
 
+NOT_DONE = ("pending", "failed")  # anything except "posted" is still eligible to (re)try
+
+
 def due_rows(rows: list[dict]) -> list[dict]:
     """A row is due if its date has arrived and at least one platform still needs posting —
-    so if Instagram succeeded but Facebook failed last run, only Facebook gets retried."""
+    "failed" is retried automatically on the next run, same as "pending", so a transient
+    failure on one platform doesn't get stuck forever; only "posted" is treated as done."""
     today = date.today().isoformat()
     return [
         r for r in rows
-        if r["scheduled_date"] <= today and (r["ig_status"] == "pending" or r["fb_status"] == "pending")
+        if r["scheduled_date"] <= today
+        and (r["instagram_status"] in NOT_DONE or r["facebook_status"] in NOT_DONE)
     ]
 
 
@@ -262,14 +235,15 @@ def main() -> None:
         return
 
     if args.dry_run:
-        fb_set = bool(os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip())
+        fb_set = facebook_publish.is_configured()
         print(f"{len(due)} post(s) would be attempted today:")
         for r in due:
             todo = []
-            if r["ig_status"] == "pending":
-                todo.append("instagram")
-            if r["fb_status"] == "pending":
-                todo.append("facebook" if fb_set else "facebook (skipped, not configured)")
+            if r["instagram_status"] in NOT_DONE:
+                todo.append("instagram" if r["instagram_status"] == "pending" else "instagram (retry)")
+            if r["facebook_status"] in NOT_DONE:
+                platform = "facebook" if fb_set else "facebook (skipped, not configured)"
+                todo.append(platform if r["facebook_status"] == "pending" else f"{platform} (retry)")
             print(f"  {r['post_id']}  scheduled {r['scheduled_date']}  -> {', '.join(todo)}")
         return
 
@@ -279,30 +253,34 @@ def main() -> None:
     ig_user_id = _env("INSTAGRAM_BUSINESS_ID")
     base_url = _env("PUBLIC_IMAGE_BASE_URL")
 
+    fb_configured = facebook_publish.is_configured()
     fb_token = os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN", "").strip()
     fb_page_id = os.environ.get("FACEBOOK_PAGE_ID", "").strip()
-    fb_configured = bool(fb_token and fb_page_id)
     if not fb_configured:
         print("Facebook not configured (FACEBOOK_PAGE_ACCESS_TOKEN / FACEBOOK_PAGE_ID unset) — Instagram only.")
 
     for row in due:
-        if row["ig_status"] == "pending":
+        if row["instagram_status"] in NOT_DONE:
             try:
                 media_id = publish_post(row, ig_user_id, token, base_url)
-                row["ig_status"] = f"posted:{media_id}"
+                row["instagram_status"] = "posted"
+                row["instagram_post_id"] = media_id
+                row["published_at"] = datetime.now(timezone.utc).isoformat()
                 print(f"{row['post_id']}: Instagram published (media id {media_id})")
             except Exception as exc:  # noqa: BLE001
-                row["ig_status"] = f"error:{exc}"
+                row["instagram_status"] = "failed"
                 print(f"{row['post_id']}: Instagram FAILED — {exc}")
             save_manifest(rows)  # save after every step so a crash mid-run doesn't lose progress
 
-        if fb_configured and row["fb_status"] == "pending":
+        if fb_configured and row["facebook_status"] in NOT_DONE:
             try:
                 post_id = publish_facebook_post(row, fb_page_id, fb_token, base_url)
-                row["fb_status"] = f"posted:{post_id}"
+                row["facebook_status"] = "posted"
+                row["facebook_post_id"] = post_id
+                row["published_at"] = datetime.now(timezone.utc).isoformat()
                 print(f"{row['post_id']}: Facebook published (post id {post_id})")
             except Exception as exc:  # noqa: BLE001
-                row["fb_status"] = f"error:{exc}"
+                row["facebook_status"] = "failed"
                 print(f"{row['post_id']}: Facebook FAILED — {exc}")
             save_manifest(rows)
 

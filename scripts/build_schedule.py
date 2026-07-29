@@ -97,23 +97,46 @@ def main() -> None:
 
     # Preserve any already-attempted publish status across regenerations (e.g. cadence
     # changes) — never silently reset a posted/errored row back to "pending", which
-    # would risk re-publishing something that's already live.
+    # would risk re-publishing something that's already live. Also migrates the older
+    # ig_status/fb_status ("posted:123" style) schema into the current split columns.
+    default_status = {
+        "instagram_status": "pending", "facebook_status": "pending",
+        "instagram_post_id": "", "facebook_post_id": "", "published_at": "",
+    }
     existing_status: dict[str, dict[str, str]] = {}
     manifest_path = OUT_DIR / "upload_manifest.csv"
     if manifest_path.exists():
         with manifest_path.open(encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                existing_status[row["post_id"]] = {
-                    "ig_status": row.get("ig_status", row.get("status", "pending")),
-                    "fb_status": row.get("fb_status", "pending"),
-                }
+                if "instagram_status" in row:
+                    existing_status[row["post_id"]] = {
+                        "instagram_status": row["instagram_status"],
+                        "facebook_status": row["facebook_status"],
+                        "instagram_post_id": row.get("instagram_post_id", ""),
+                        "facebook_post_id": row.get("facebook_post_id", ""),
+                        "published_at": row.get("published_at", ""),
+                    }
+                else:
+                    # legacy ig_status/fb_status columns, e.g. "posted:123" or "error:..."
+                    migrated = dict(default_status)
+                    for old_key, status_key, id_key in [("ig_status", "instagram_status", "instagram_post_id"),
+                                                          ("fb_status", "facebook_status", "facebook_post_id")]:
+                        old_val = row.get(old_key, "pending")
+                        if old_val.startswith("posted:"):
+                            migrated[status_key] = "posted"
+                            migrated[id_key] = old_val.split(":", 1)[1]
+                        elif old_val.startswith("error:"):
+                            migrated[status_key] = "failed"
+                        else:
+                            migrated[status_key] = old_val
+                    existing_status[row["post_id"]] = migrated
 
     schedule_rows = []
     manifest_rows = []
     for post, (d, slot) in zip(ordered, dates):
         post_dir = ROOT / "03_generated_posts" / f"{post['post_id']}_{post['slug']}"
         slide_paths = [str(post_dir / f"{post['post_id']}_slide-{n:02d}.png") for n in range(1, 6)]
-        prior = existing_status.get(post["post_id"], {"ig_status": "pending", "fb_status": "pending"})
+        prior = existing_status.get(post["post_id"], default_status)
 
         schedule_rows.append({
             "scheduled_date": d.isoformat(),
@@ -123,8 +146,8 @@ def main() -> None:
             "topic": post["topic"],
             "category": post["category"],
             "folder": str(post_dir.relative_to(ROOT)),
-            "ig_status": prior["ig_status"],
-            "fb_status": prior["fb_status"],
+            "instagram_status": prior["instagram_status"],
+            "facebook_status": prior["facebook_status"],
         })
 
         hashtags_line = " ".join(post["hashtags"])
@@ -139,8 +162,11 @@ def main() -> None:
             "caption": post["caption"],
             "hashtags": hashtags_line,
             "full_caption": full_caption,
-            "ig_status": prior["ig_status"],
-            "fb_status": prior["fb_status"],
+            "instagram_status": prior["instagram_status"],
+            "facebook_status": prior["facebook_status"],
+            "instagram_post_id": prior["instagram_post_id"],
+            "facebook_post_id": prior["facebook_post_id"],
+            "published_at": prior["published_at"],
         })
 
         # Ready-to-paste file living right next to the slide images — no CSV needed.

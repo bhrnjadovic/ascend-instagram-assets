@@ -23,21 +23,31 @@ displayed as Facebook's own multi-photo post format rather than a swipeable caro
    - `pages_manage_posts`
 5. Click **Generate Access Token** — you'll see a Facebook consent screen asking you to
    approve these permissions for your Page. Approve it.
-6. Still in Graph API Explorer, change the **User or Page** dropdown (near the token
-   field) to select your actual Facebook Page — this swaps in a **Page access token**
-   rather than your personal user token. This is the value you need.
-7. Find your Page's numeric ID: query `GET /me/accounts` — the response lists your
-   pages with their `id` and `access_token` fields. The `access_token` shown there is
-   already a long-lived Page token in most cases (Page tokens derived from a long-lived
-   user session typically don't expire on the usual 60-day cycle the way user tokens
-   do — no refresh logic has been built for this one, since it isn't needed the same way).
+6. **This is the step that's easy to get wrong**: the token in the address/token box
+   after step 5 is still your personal **User** token, not a Page token — even though
+   it now carries Page permissions. Posting with it directly fails with `(#100) The
+   global id ... is not allowed for this call`, because whatever ID you use with a User
+   token isn't recognized as a postable target the same way a Page token's own ID is.
+   You must explicitly exchange it: call
+   `GET /me/accounts?fields=id,name,access_token` **using that user token**. The
+   response lists each Page you manage with its real numeric `id` and a **separate**
+   `access_token` field — that `access_token` is the actual Page token, and that `id`
+   is the actual Page ID to use. Use *both* values from that response, not the ID from
+   anywhere else (a Page's URL or About section can show a different-looking "global
+   ID" that won't work here — we hit exactly this the first time through: the Page ID
+   copied from elsewhere was `61588790741504`, but `/me/accounts` returned the real
+   working ID `1172283685977233` for the same Page).
+7. Page tokens derived this way are effectively long-lived already (they don't expire
+   on the ~60-day cycle Instagram's user tokens do) — no refresh logic has been built
+   for this one, since it isn't needed the same way.
 
 ## What to hand back
 
-Add to `.env` yourself (don't paste in chat):
+Add to `.env` yourself (don't paste in chat) — using the `id` and `access_token` from
+the `/me/accounts` response in step 6, not from anywhere else:
 ```
-FACEBOOK_PAGE_ACCESS_TOKEN=<the page access token from step 6/7>
-FACEBOOK_PAGE_ID=<the numeric page id from step 7>
+FACEBOOK_PAGE_ACCESS_TOKEN=<the "access_token" field from /me/accounts>
+FACEBOOK_PAGE_ID=<the "id" field from that same entry>
 ```
 
 ## What happens once this is set
@@ -45,7 +55,8 @@ FACEBOOK_PAGE_ID=<the numeric page id from step 7>
 `instagram_publish.py` already checks for these two variables on every run. If they're
 present, it posts to both Instagram and Facebook for each due post; if either platform
 fails while the other succeeds, only the failed one is retried on the next run (tracked
-via the `ig_status` / `fb_status` columns in `upload_manifest.csv`, independently). If
+via the `instagram_status` / `facebook_status` columns in `upload_manifest.csv`,
+independently, alongside `instagram_post_id` / `facebook_post_id` / `published_at`). If
 these variables are left blank, it just posts to Instagram as before — nothing breaks
 either way.
 
