@@ -158,31 +158,35 @@ def build_photo_scrim(
 
 
 def build_cover_photo_background(post: dict, slide: dict) -> Image.Image:
-    """Full-bleed AI photo with a navy scrim gradient for text legibility, rather than
-    a split navy-band-plus-photo-band layout — the whole canvas is the photo."""
+    """Full-bleed AI photo with a light off-white scrim gradient (navy text on top),
+    rather than a dark navy scrim with white text. A dark scrim made photo covers read
+    almost as dark-navy as the flat covers, defeating the point of alternating them —
+    the light scrim gives the grid genuine light/dark contrast between the two styles."""
     from image_api import get_cover_background  # deferred: avoids requiring requests/network unless used
 
-    navy = hex_to_rgb(COLOURS["navy"])
-    gold = hex_to_rgb(COLOURS["gold"])
+    off_white = hex_to_rgb(COLOURS["off_white"])
+    gold_dark = hex_to_rgb(COLOURS["gold_dark"])
 
     bg_path = get_cover_background(post["post_id"], slide["image_prompt"])
     photo = _cover_fit(Image.open(bg_path).convert("RGB"), CANVAS)
     canvas = photo.convert("RGBA")
-    canvas = Image.alpha_composite(canvas, build_photo_scrim(CANVAS, navy))
+    canvas = Image.alpha_composite(canvas, build_photo_scrim(CANVAS, off_white))
 
     draw = ImageDraw.Draw(canvas)
-    draw_kicker_rule(draw, (*gold, 255))
+    draw_kicker_rule(draw, (*gold_dark, 255))
     return canvas.convert("RGB")
 
 
 def render_slide(post: dict, slide: dict, out_path: Path) -> None:
-    on_dark = slide["slide_type"] in ("cover", "cta", "benefits")
     use_photo_cover = (
         slide["slide_type"] == "cover"
         and CONFIG["background_mode"] in ("mixed", "supplied")
         and post.get("cover_has_photo", True)
     )
     is_flat_cover = slide["slide_type"] == "cover" and not use_photo_cover
+    # Photo covers get the light/navy-text treatment (see build_cover_photo_background);
+    # flat covers and every other slide type keep their existing dark/light logic.
+    on_dark = slide["slide_type"] in ("cta", "benefits") or is_flat_cover
 
     if use_photo_cover:
         bg = build_cover_photo_background(post, slide)
