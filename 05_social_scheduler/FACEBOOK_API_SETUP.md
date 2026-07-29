@@ -37,14 +37,28 @@ displayed as Facebook's own multi-photo post format rather than a swipeable caro
    ID" that won't work here — we hit exactly this the first time through: the Page ID
    copied from elsewhere was `61588790741504`, but `/me/accounts` returned the real
    working ID `1172283685977233` for the same Page).
-7. Page tokens derived this way are effectively long-lived already (they don't expire
-   on the ~60-day cycle Instagram's user tokens do) — no refresh logic has been built
-   for this one, since it isn't needed the same way.
+7. **This was wrong the first time through, corrected here**: a Page token derived
+   directly from step 6 inherits the short (~1-2 hour) expiry of the short-lived User
+   token you started with — it is *not* long-lived by default, whatever some guides
+   claim. It expired mid-session on us. The actual fix is one more exchange, done for
+   you by `scripts/refresh_facebook_token.py`:
+   - Get your app's **App ID** and **App Secret** from
+     developers.facebook.com → your app → **Settings → Basic**.
+   - Add `FACEBOOK_APP_ID`, `FACEBOOK_APP_SECRET`, and a fresh
+     `FACEBOOK_USER_TOKEN` (from steps 3-5 above) to `.env`.
+   - Run `python scripts/refresh_facebook_token.py` — it exchanges the short-lived
+     User token for a long-lived one first, *then* derives the Page token from that.
+     A Page token obtained this way doesn't expire (confirmed via the token debugger:
+     `type: PAGE`, `expires_at: 0`). It writes `FACEBOOK_PAGE_ID` and
+     `FACEBOOK_PAGE_ACCESS_TOKEN` into `.env` automatically.
+   - `FACEBOOK_USER_TOKEN` itself is only needed transiently for this one exchange —
+     safe to clear it from `.env` afterward.
 
 ## What to hand back
 
-Add to `.env` yourself (don't paste in chat) — using the `id` and `access_token` from
-the `/me/accounts` response in step 6, not from anywhere else:
+If running `refresh_facebook_token.py` (recommended — see step 7 above), it writes
+`.env` for you automatically. If doing it manually instead, use the `id` and
+`access_token` from the `/me/accounts` response in step 6:
 ```
 FACEBOOK_PAGE_ACCESS_TOKEN=<the "access_token" field from /me/accounts>
 FACEBOOK_PAGE_ID=<the "id" field from that same entry>
