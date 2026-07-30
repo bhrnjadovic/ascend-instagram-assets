@@ -56,7 +56,7 @@ from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import RetryError, retry, stop_after_attempt, wait_exponential
 
 import facebook_publish
 
@@ -203,6 +203,20 @@ def due_rows(rows: list[dict]) -> list[dict]:
     ]
 
 
+def _describe_error(exc: Exception) -> str:
+    """Unwraps a tenacity RetryError to the actual underlying exception, and pulls the
+    HTTP status/response body out of a requests error if there is one — a bare RetryError
+    repr hides exactly the detail needed to tell a real failure apart from a request that
+    actually succeeded on the server but errored on our end reading the response (e.g. a
+    slow/dropped connection right as Instagram finished processing it). Getting fooled by
+    that distinction once already produced live duplicate posts."""
+    if isinstance(exc, RetryError):
+        exc = exc.last_attempt.exception()
+    if isinstance(exc, requests.HTTPError) and exc.response is not None:
+        return f"HTTP {exc.response.status_code}: {exc.response.text[:500]}"
+    return f"{type(exc).__name__}: {exc}"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Show what would publish, without calling the API")
@@ -269,7 +283,7 @@ def main() -> None:
                 print(f"{row['post_id']}: Instagram published (media id {media_id})")
             except Exception as exc:  # noqa: BLE001
                 row["instagram_status"] = "failed"
-                print(f"{row['post_id']}: Instagram FAILED — {exc}")
+                print(f"{row['post_id']}: Instagram FAILED — {_describe_error(exc)}")
             save_manifest(rows)  # save after every step so a crash mid-run doesn't lose progress
 
         if fb_configured and row["facebook_status"] in NOT_DONE:
@@ -281,7 +295,7 @@ def main() -> None:
                 print(f"{row['post_id']}: Facebook published (post id {post_id})")
             except Exception as exc:  # noqa: BLE001
                 row["facebook_status"] = "failed"
-                print(f"{row['post_id']}: Facebook FAILED — {exc}")
+                print(f"{row['post_id']}: Facebook FAILED — {_describe_error(exc)}")
             save_manifest(rows)
 
 
