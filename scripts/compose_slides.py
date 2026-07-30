@@ -130,29 +130,35 @@ def build_photo_scrim(
     size: tuple[int, int],
     colour: tuple[int, int, int],
     top_alpha: int = 200,
-    mid_alpha: int = 60,
-    bottom_alpha: int = 215,
+    mid_alpha: int = 15,
+    bottom_alpha: int = 190,
     text_zone_end: int = 480,
-    mid_y: int = 760,
+    text_fade_end: int = 560,
+    footer_fade_start: int = 1170,
+    footer_zone_start: int = 1210,
 ) -> Image.Image:
-    """Vertical navy scrim over a full-bleed photo. Three zones: held flat and strong
-    through the headline/subheadline text (0 to text_zone_end), fading down to let the
-    photo read clearly in the middle, then rising again behind the logo/footer. A simple
-    two-point fade left the subheadline dipping in legibility wherever it crossed a
-    bright part of the photo — holding the top alpha flat through the full text zone
-    fixes that regardless of what's in any given photo."""
+    """Scrim over a full-bleed photo, tightened to only where text actually sits —
+    strong behind the headline/subheadline (0 to text_zone_end), a quick fade down to
+    near-nothing so most of the photo shows through untouched, then a quick fade back up
+    just behind the footer band. Earlier versions kept a broad, gradually-strengthening
+    tint across most of the frame — this keeps the photo itself clear except right where
+    text needs to stand out."""
     width, height = size
     overlay = Image.new("RGBA", size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
     for y in range(height):
         if y <= text_zone_end:
             alpha = top_alpha
-        elif y <= mid_y:
-            t = (y - text_zone_end) / max(mid_y - text_zone_end, 1)
+        elif y <= text_fade_end:
+            t = (y - text_zone_end) / max(text_fade_end - text_zone_end, 1)
             alpha = int(top_alpha + (mid_alpha - top_alpha) * t)
-        else:
-            t = (y - mid_y) / max(height - mid_y - 1, 1)
+        elif y <= footer_fade_start:
+            alpha = mid_alpha
+        elif y <= footer_zone_start:
+            t = (y - footer_fade_start) / max(footer_zone_start - footer_fade_start, 1)
             alpha = int(mid_alpha + (bottom_alpha - mid_alpha) * t)
+        else:
+            alpha = bottom_alpha
         draw.line([(0, y), (width, y)], fill=(*colour, alpha))
     return overlay
 
@@ -229,7 +235,8 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
         if subheadline:
             draw_multiline(draw, subheadline, s_font, (MARGIN, y + gap), content_width, gold, align="center")
 
-        paste_logo(canvas, on_dark)
+        if slide["slide_number"] != 1:
+            paste_logo(canvas, on_dark)
         draw_footer(draw, slide["slide_number"], len(post["slides"]), on_dark)
         canvas.convert("RGB").save(out_path, "PNG")
         return
@@ -289,7 +296,8 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
             dy = CANVAS[1] - FOOTER_H - 40
             draw_multiline(draw, disclaimer, disc_font, (MARGIN, dy), content_width, hex_to_rgb(COLOURS["steel"]))
 
-    paste_logo(canvas, on_dark)
+    if slide["slide_number"] != 1:
+        paste_logo(canvas, on_dark)
     draw_footer(draw, slide["slide_number"], len(post["slides"]), on_dark)
 
     canvas.convert("RGB").save(out_path, "PNG")

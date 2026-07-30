@@ -1,31 +1,36 @@
 {
-  "checkpoint_note": "File-based checkpoint, regenerated from ground truth (200/200 complete). Do not rely on chat history to resume.",
-  "checkpoint_timestamp_utc": "2026-07-28T10:45:00Z",
+  "checkpoint_note": "File-based checkpoint, regenerated from ground truth (200/200 content complete, publishing pipeline now live). Do not rely on chat history to resume.",
+  "checkpoint_timestamp_utc": "2026-07-28T12:00:00Z",
   "library_path": "01_content/carousel_library.json",
   "total_posts_in_library": 200,
   "posts_fully_generated_and_approved": 200,
   "slides_fully_approved": 1000,
-  "posts_content_written_but_not_yet_rendered": 0,
-  "last_completed_post_id": "ALP-200",
-  "next_post_id_range_pending": "NONE — library complete",
-  "incident_and_fix": {
-    "what_happened": "An autonomous session (launched via `claude --dangerously-skip-permissions` in a separate terminal) wrote all 200 posts' content and rendered 139 of them before being interrupted by the user, who noticed bullet text running off the edge of the canvas on multiple slides.",
-    "root_cause": "scripts/compose_slides.py drew bullet_points with a plain draw.text() call and no word-wrapping (unlike headline/subheadline/body, which used the wrap-aware draw_multiline helper). Any bullet longer than ~8-9 words ran past the canvas edge. Audit found 773 bullets across 171 of 200 posts would have overflowed — Groups A/B (29 posts, written earlier with strict short bullets) were clean; Groups C-L (171 posts, written by the autonomous session with longer sentence-style bullets) were the ones affected.",
-    "fix_applied": "compose_slides.py render_slide() now wraps bullet text with the existing wrap_text() helper, using dynamic per-bullet vertical spacing (extra line height added only when a bullet actually wraps, so already-correct single-line bullets keep their original spacing). Also added a console WARNING if wrapped bullet content would overlap the footer band.",
-    "verification": "Re-rendered all 139 already-generated posts for $0.00 (cover images are cached separately from text compositing, so no re-billing was needed). All 695 slides re-passed QA. Zero footer-overlap warnings triggered.",
-    "status": "RESOLVED — fix is in the shared renderer. All 200 posts (including the 139 rendered before the fix) were re-rendered under the corrected code and re-passed QA."
+  "content_status": "COMPLETE — all 200 posts authored, rendered, QA-approved (see prior incident_and_fix / second_incident_and_fix history below).",
+  "scheduling_and_publishing_status": {
+    "calendar": "05_social_scheduler/posting_schedule.csv and upload_manifest.csv generated via scripts/build_schedule.py — 200 posts, 4/day weekdays, Aug 3 - Oct 9 2026 (67 days, fits inside Meta's 75-day scheduling window). Times spread through the day (08:00/11:40/15:20/19:00), categories interleaved so the feed doesn't clump by topic.",
+    "caption_files": "Every post folder in 03_generated_posts/ has caption_full.txt (caption + hashtags combined, ready to paste) in addition to the original caption.txt (caption only, no hashtags).",
+    "path_a_manual": "05_social_scheduler/META_BUSINESS_SUITE_GUIDE.md — full manual walkthrough for Meta Business Suite (free, no dev setup, ~3-6 hours of data entry across ~200 posts).",
+    "path_b_api_automation": {
+      "status": "LIVE AND VERIFIED — not yet used for a real scheduled publish run",
+      "instagram_account": "@ascendlendingpartners (Ascend Lending Partners), numeric id 27904812875814952",
+      "token_type": "Instagram User access token (IGAA... prefix) from the Instagram API with Instagram Login flow — uses graph.instagram.com, NOT graph.facebook.com",
+      "image_host": "https://github.com/bhrnjadovic/ascend-instagram-assets (public repo, pushed from ascend_instagram_library/ as its own independent git repo, same pattern as the existing ascend-lending/ nested repo — NOT part of the house-of-diamonds-landing repo)",
+      "env_vars_set": ["INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_BUSINESS_ID=27904812875814952", "PUBLIC_IMAGE_BASE_URL=https://raw.githubusercontent.com/bhrnjadovic/ascend-instagram-assets/main"],
+      "verification_performed": [
+        "Token identity check against graph.instagram.com/v21.0/me — confirmed @ascendlendingpartners",
+        "Confirmed 'id' (27904812875814952) not 'user_id' (17841439322926601) is the correct value for the {ig-user-id} path parameter — both resolve on GET but only 'id' is documented/canonical for publish calls",
+        "Fixed scripts/instagram_publish.py: was hardcoded to graph.facebook.com (Facebook Login for Business flow); corrected to graph.instagram.com to match the Instagram Login token type actually in use",
+        "Confirmed a raw GitHub URL for a real slide image returns HTTP 200 (publicly fetchable)",
+        "Created one real (unpublished) media container via POST /{ig-user-id}/media using a GitHub-hosted image URL — HTTP 200, confirms the token, image host, and API host are all correctly wired end-to-end. This container was never published and auto-expires in 24h — nothing went live.",
+        "Ran scripts/instagram_publish.py --dry-run — correctly reported 'Nothing due today' since the schedule starts 2026-08-03 and today is 2026-07-28"
+      ],
+      "not_yet_done": [
+        "No real --publish-due run has been executed — no post has actually gone live yet",
+        "Long-lived token expires in ~60 days from whenever it was generated — needs periodic renewal or the script will start failing with an auth error. No refresh automation built yet.",
+        "instagram_publish.py needs to be run once a day (Windows Task Scheduler, cron, or similar) for it to act as the scheduler — nothing runs it automatically yet."
+      ]
+    }
   },
-  "second_incident_and_fix": {
-    "what_happened": "Two posts' authored copy tripped the BANNED_PHRASES QA filter: ALP-120 used the bullet 'The cheapest rate isn't automatically the best fit', and ALP-163's caption used the phrase 'no shortcut to guaranteed approval' (both matched banned substrings even though used in a compliant, negating sense).",
-    "fix_applied": "ALP-120 bullet reworded to 'The lowest advertised rate isn't automatically the best fit'. ALP-163 caption reworded to 'no shortcut to a certain outcome'. Full library re-scanned afterward against all 10 BANNED_PHRASES — zero remaining hits.",
-    "status": "RESOLVED — both posts re-rendered and approved."
-  },
-  "run_state_json_reliability_note": "This file has been found stale/self-contradictory more than once this session (a run_sequential.py bug increments posts_fully_generated_and_approved by slide count, not post count, producing bogus totals like '574'). Always verify against 04_quality_control/approved/ folder contents and carousel_library.json before trusting any numbers in this file.",
-  "groups_status": [
-    {"group": "A - Core Product Pages", "range": "ALP-001 to ALP-014", "count": 14, "status": "DONE"},
-    {"group": "B - Product Comparisons", "range": "ALP-015 to ALP-029", "count": 15, "status": "DONE"},
-    {"group": "C-L (remaining)", "range": "ALP-030 to ALP-200", "count": 171, "status": "DONE — content written, rendered, QA approved"}
-  ],
   "target_total_posts": 200,
   "config": {
     "background_mode": "mixed",
@@ -39,16 +44,25 @@
     "actual_spend_so_far_usd": 8.20,
     "user_openai_balance_topped_up_usd": 10.00,
     "estimated_remaining_balance_usd": 1.80,
-    "note": "Project complete — no further image generation spend expected."
+    "note": "Content generation complete — no further image generation spend expected. Instagram API calls (containers, publish) are free."
   },
   "key_paths": {
     "content_library": "01_content/carousel_library.json",
     "generated_posts_dir": "03_generated_posts/",
     "cover_image_cache": "03_generated_posts/_bg_cache/  (200 cached)",
-    "qa_report": "04_quality_control/qa_report.csv  (regenerated with --all: 1000/1000 slides approved, 0 rejected)",
-    "approved_slides": "04_quality_control/approved/{post_id}/  (cumulative, authoritative record — 200 folders, verified)",
+    "qa_report": "04_quality_control/qa_report.csv  (1000/1000 slides approved, 0 rejected)",
+    "approved_slides": "04_quality_control/approved/{post_id}/  (cumulative, authoritative — 200 folders)",
+    "posting_schedule": "05_social_scheduler/posting_schedule.csv",
+    "upload_manifest": "05_social_scheduler/upload_manifest.csv",
     "api_request_log": "scripts/image_api.log  (200 gpt-image-2 requests total)",
-    "env_file": ".env  (IMAGE_API_KEY already set, do not ask user for it again)"
+    "env_file": ".env  (IMAGE_API_KEY, INSTAGRAM_ACCESS_TOKEN, INSTAGRAM_BUSINESS_ID, PUBLIC_IMAGE_BASE_URL all set — do not ask user for any of these again)",
+    "instagram_assets_repo": "https://github.com/bhrnjadovic/ascend-instagram-assets (public, separate git repo nested inside ascend_instagram_library/, not part of house-of-diamonds-landing)"
   },
-  "how_to_resume": "Nothing pending — all 200 posts (ALP-001 to ALP-200) are authored, rendered, and QA-approved. If resuming a future conversation, first verify with: python -c \"import json; from pathlib import Path; lib=json.load(open('01_content/carousel_library.json',encoding='utf-8')); print(len(lib), len({p.name for p in Path('04_quality_control/approved').iterdir() if p.is_dir()}))\" — both numbers should read 200."
+  "prior_incidents_resolved": [
+    "Bullet-text overflow bug in compose_slides.py (no word-wrap) affected 773 bullets across 171/200 posts — fixed, all re-rendered for $0, re-approved.",
+    "run_sequential.py had a checkpoint-counter bug (incremented posts_fully_generated_and_approved by slide count, not post count) and clobbered qa_report.csv every iteration — both fixed.",
+    "Two posts (ALP-120, ALP-163) tripped the BANNED_PHRASES filter on compliant-but-similar wording — reworded and re-approved.",
+    "instagram_publish.py was written assuming a Facebook Page token (graph.facebook.com); the user's actual token is Instagram-native (graph.instagram.com) — corrected."
+  ],
+  "how_to_resume": "Content and QA: nothing pending, 200/200 done. Publishing: either (a) work through 05_social_scheduler/META_BUSINESS_SUITE_GUIDE.md manually, or (b) set up a daily scheduled run of 'python scripts/instagram_publish.py --publish-due' (e.g. Windows Task Scheduler) to start the API automation once ready to go live — recommend running --dry-run first each time to sanity-check what would post. Watch the ~60-day token expiry."
 }
