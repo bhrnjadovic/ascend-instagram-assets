@@ -100,13 +100,14 @@ def paste_logo(canvas: Image.Image, on_dark: bool) -> None:
     canvas.paste(logo, (x, y), logo)
 
 
-def draw_footer(draw: ImageDraw.ImageDraw, slide_number: int, total: int, on_dark: bool) -> None:
-    text_colour = hex_to_rgb(COLOURS["off_white"]) if on_dark else hex_to_rgb(COLOURS["charcoal"])
-    small = font("body", 26)
-    website = "ascendlendingpartners.com.au"
-    y = CANVAS[1] - 46
-    w = draw.textlength(website, font=small)
-    draw.text(((CANVAS[0] - w) / 2, y), website, font=small, fill=text_colour)
+def draw_footer(draw: ImageDraw.ImageDraw, slide_number: int, total: int, on_dark: bool, show_website: bool = True) -> None:
+    if show_website:
+        text_colour = hex_to_rgb(COLOURS["off_white"]) if on_dark else hex_to_rgb(COLOURS["charcoal"])
+        small = font("body", 26)
+        website = "ascendlendingpartners.com.au"
+        y = CANVAS[1] - 46
+        w = draw.textlength(website, font=small)
+        draw.text(((CANVAS[0] - w) / 2, y), website, font=small, fill=text_colour)
 
     page_label = f"{slide_number}/{total}"
     page_font = font("body_semibold", 28)
@@ -130,19 +131,15 @@ def build_photo_scrim(
     size: tuple[int, int],
     colour: tuple[int, int, int],
     top_alpha: int = 200,
-    mid_alpha: int = 15,
-    bottom_alpha: int = 190,
-    text_zone_end: int = 480,
-    text_fade_end: int = 560,
-    footer_fade_start: int = 1170,
-    footer_zone_start: int = 1210,
+    text_zone_end: int = 545,
+    text_fade_end: int = 610,
 ) -> Image.Image:
     """Scrim over a full-bleed photo, tightened to only where text actually sits —
-    strong behind the headline/subheadline (0 to text_zone_end), a quick fade down to
-    near-nothing so most of the photo shows through untouched, then a quick fade back up
-    just behind the footer band. Earlier versions kept a broad, gradually-strengthening
-    tint across most of the frame — this keeps the photo itself clear except right where
-    text needs to stand out."""
+    strong behind the headline/subheadline (0 to text_zone_end), fading to fully
+    transparent by text_fade_end and staying that way for the rest of the frame. No
+    tint at all on the bottom half — the photo shows through completely there, and
+    the footer website text is dropped on this layout since it would sit directly on
+    an untinted photo with no guaranteed contrast (see render_slide's show_website)."""
     width, height = size
     overlay = Image.new("RGBA", size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
@@ -151,14 +148,9 @@ def build_photo_scrim(
             alpha = top_alpha
         elif y <= text_fade_end:
             t = (y - text_zone_end) / max(text_fade_end - text_zone_end, 1)
-            alpha = int(top_alpha + (mid_alpha - top_alpha) * t)
-        elif y <= footer_fade_start:
-            alpha = mid_alpha
-        elif y <= footer_zone_start:
-            t = (y - footer_fade_start) / max(footer_zone_start - footer_fade_start, 1)
-            alpha = int(mid_alpha + (bottom_alpha - mid_alpha) * t)
+            alpha = int(top_alpha * (1 - t))
         else:
-            alpha = bottom_alpha
+            alpha = 0
         draw.line([(0, y), (width, y)], fill=(*colour, alpha))
     return overlay
 
@@ -298,7 +290,7 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
 
     if slide["slide_number"] != 1:
         paste_logo(canvas, on_dark)
-    draw_footer(draw, slide["slide_number"], len(post["slides"]), on_dark)
+    draw_footer(draw, slide["slide_number"], len(post["slides"]), on_dark, show_website=not use_photo_cover)
 
     canvas.convert("RGB").save(out_path, "PNG")
 
