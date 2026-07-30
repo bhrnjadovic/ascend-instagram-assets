@@ -284,7 +284,7 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
     if slide["slide_type"] == "cta":
         disclaimer = post.get("image_disclaimer", "")
         if disclaimer:
-            disc_font = font("body_light", 22)
+            disc_font = font("body_light", 20)
             dy = CANVAS[1] - FOOTER_H - 40
             draw_multiline(draw, disclaimer, disc_font, (MARGIN, dy), content_width, hex_to_rgb(COLOURS["steel"]))
 
