@@ -87,8 +87,8 @@
       "image_prompt": "Create exactly one Instagram carousel slide. The entire canvas is one slide. Do not create multiple panels, a grid, a contact sheet, a collage, alternative layouts, or additional slides. Background only: deep navy (#0A1A2F) field, one small gold line-icon accent top centre, generous clear space bottom third for logo and footer text, no text, no photography, no currency symbols."
     }
   ],
-  "caption": "An establishment fee covers the lender's cost of setting up your facility \u2014 assessing the application, preparing documentation and finalising the agreement. It's typically a one-off charge, separate from any ongoing fees or interest.\n\nBecause establishment fees vary between lenders and facility types, they're worth factoring into any comparison \u2014 a slightly lower rate can be offset by a higher upfront fee, so the total cost of the facility matters more than any single number.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
-  "short_caption": "Establishment fees explained \u2014 what they cover and why they matter when comparing offers.",
+  "caption": "An establishment fee covers the lender's cost of setting up your facility, assessing the application, preparing documentation and finalising the agreement. It's typically a one-off charge, separate from any ongoing fees or interest.\n\nBecause establishment fees vary between lenders and facility types, they're worth factoring into any comparison, a slightly lower rate can be offset by a higher upfront fee, so the total cost of the facility matters more than any single number.\n\nGeneral information only. This does not constitute financial, legal, accounting or tax advice. Credit is subject to lender assessment, eligibility and approval criteria. Fees, charges, terms and conditions may apply.",
+  "short_caption": "Establishment fees explained, what they cover and why they matter when comparing offers.",
   "hashtags": [
     "#AscendLendingPartners",
     "#AustralianBusiness",
@@ -103,7 +103,7 @@
   "suggested_icon_set": "receipt_long; description; account_balance; balance; percent; summarize; fact_check; policy",
   "suggested_filename": "ALP-046_what-is-an-establishment-fee",
   "compliance_notes": [
-    "Educational glossary content \u2014 no product-specific guarantees or figures.",
+    "Educational glossary content, no product-specific guarantees or figures.",
     "All outcomes qualified as illustrative and subject to lender assessment."
   ],
   "image_disclaimer": "General information only. Credit subject to lender assessment and approval criteria.",

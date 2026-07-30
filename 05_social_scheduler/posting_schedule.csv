@@ -1,8 +1,8 @@
 scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagram_status,facebook_status
-2026-07-29,Wednesday,08:00,ALP-175,You've Just Won a Big Contract — Now What?,Scenario-Based,03_generated_posts\ALP-175_youve-just-won-a-big-contract,posted,posted
+2026-07-29,Wednesday,08:00,ALP-175,"You've Just Won a Big Contract, Now What?",Scenario-Based,03_generated_posts\ALP-175_youve-just-won-a-big-contract,posted,posted
 2026-07-29,Wednesday,11:40,ALP-030,What Is Working Capital?,Educational Fundamentals,03_generated_posts\ALP-030_what-is-working-capital,posted,posted
 2026-07-29,Wednesday,15:20,ALP-095,Finance for Hospitality and Cafe Businesses,Industry-Specific,03_generated_posts\ALP-095_finance-for-hospitality-and-cafe-businesses,posted,posted
-2026-07-29,Wednesday,19:00,ALP-115,“My Bank Said No” — What Are Your Other Options?,Problems and Objections,03_generated_posts\ALP-115_bank-said-no-other-options,posted,posted
+2026-07-29,Wednesday,19:00,ALP-115,"“My Bank Said No”, What Are Your Other Options?",Problems and Objections,03_generated_posts\ALP-115_bank-said-no-other-options,posted,posted
 2026-07-30,Thursday,08:00,ALP-015,Secured vs Unsecured Business Loans,Product Comparison,03_generated_posts\ALP-015_secured-vs-unsecured-business-loans,pending,pending
 2026-07-30,Thursday,11:40,ALP-050,What Documents Do You Need to Apply?,Preparing for Finance,03_generated_posts\ALP-050_documents-needed-for-business-finance,pending,pending
 2026-07-30,Thursday,15:20,ALP-065,Cash Flow Problems Don't Mean a Failing Business,Cash-Flow Education,03_generated_posts\ALP-065_cash-flow-problems-dont-mean-failing-business,pending,pending
@@ -30,7 +30,7 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-08-07,Friday,08:00,ALP-177,A Key Piece of Equipment Just Broke Down,Scenario-Based,03_generated_posts\ALP-177_key-equipment-just-broke-down,pending,pending
 2026-08-07,Friday,11:40,ALP-032,What Is a Business Line of Credit?,Educational Fundamentals,03_generated_posts\ALP-032_what-is-a-business-line-of-credit,pending,pending
 2026-08-07,Friday,15:20,ALP-097,Finance for Construction and Trades Businesses,Industry-Specific,03_generated_posts\ALP-097_finance-for-construction-and-trades-businesses,pending,pending
-2026-08-07,Friday,19:00,ALP-117,“I Don't Want to Deal With a Broker” — What Brokers Actually Do,Problems and Objections,03_generated_posts\ALP-117_what-brokers-actually-do,pending,pending
+2026-08-07,Friday,19:00,ALP-117,"“I Don't Want to Deal With a Broker”, What Brokers Actually Do",Problems and Objections,03_generated_posts\ALP-117_what-brokers-actually-do,pending,pending
 2026-08-10,Monday,08:00,ALP-017,Business Loan vs Line of Credit,Product Comparison,03_generated_posts\ALP-017_business-loan-vs-line-of-credit,pending,pending
 2026-08-10,Monday,11:40,ALP-052,Do You Need a Business Plan to Get Finance?,Preparing for Finance,03_generated_posts\ALP-052_do-you-need-a-business-plan-for-finance,pending,pending
 2026-08-10,Monday,15:20,ALP-067,What Causes Most Small Business Cash Flow Problems?,Cash-Flow Education,03_generated_posts\ALP-067_what-causes-most-cash-flow-problems,pending,pending
@@ -57,7 +57,7 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-08-17,Monday,19:00,ALP-179,Your Busiest Season Is About to Start,Scenario-Based,03_generated_posts\ALP-179_busiest-season-about-to-start,pending,pending
 2026-08-18,Tuesday,08:00,ALP-034,How Does Equipment Finance Work?,Educational Fundamentals,03_generated_posts\ALP-034_how-does-equipment-finance-work,pending,pending
 2026-08-18,Tuesday,11:40,ALP-099,Finance for Medical and Allied Health Practices,Industry-Specific,03_generated_posts\ALP-099_finance-for-medical-and-allied-health-practices,pending,pending
-2026-08-18,Tuesday,15:20,ALP-119,“I Don't Have Enough Trading History” — What to Do Instead,Problems and Objections,03_generated_posts\ALP-119_not-enough-trading-history,pending,pending
+2026-08-18,Tuesday,15:20,ALP-119,"“I Don't Have Enough Trading History”, What to Do Instead",Problems and Objections,03_generated_posts\ALP-119_not-enough-trading-history,pending,pending
 2026-08-18,Tuesday,19:00,ALP-019,Invoice Finance vs Business Loan,Product Comparison,03_generated_posts\ALP-019_invoice-finance-vs-business-loan,pending,pending
 2026-08-19,Wednesday,08:00,ALP-054,What Is Your Credit File and Why Does It Matter?,Preparing for Finance,03_generated_posts\ALP-054_what-is-your-credit-file,pending,pending
 2026-08-19,Wednesday,11:40,ALP-069,What Is a Cash Flow Gap and How Finance Can Bridge It,Cash-Flow Education,03_generated_posts\ALP-069_cash-flow-gap-and-how-finance-bridges-it,pending,pending
@@ -78,7 +78,7 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-08-25,Tuesday,08:00,ALP-150,How to Read a Loan Offer Before You Accept It,Broker and Process Education,03_generated_posts\ALP-150_how-to-read-a-loan-offer,pending,pending
 2026-08-25,Tuesday,11:40,ALP-140,Myth: Unsecured Loans Are Always More Expensive,Myth-Busting,03_generated_posts\ALP-140_myth-unsecured-loans-always-more-expensive,pending,pending
 2026-08-25,Tuesday,15:20,ALP-008,Low Doc Business Loans,Core Product,03_generated_posts\ALP-008_low-doc-business-loans,pending,pending
-2026-08-25,Tuesday,19:00,ALP-181,A Competitor Just Went Out of Business — Should You Buy Their Assets?,Scenario-Based,03_generated_posts\ALP-181_competitor-went-out-of-business-buy-assets,pending,pending
+2026-08-25,Tuesday,19:00,ALP-181,"A Competitor Just Went Out of Business, Should You Buy Their Assets?",Scenario-Based,03_generated_posts\ALP-181_competitor-went-out-of-business-buy-assets,pending,pending
 2026-08-26,Wednesday,08:00,ALP-036,What Is Full Doc Lending?,Educational Fundamentals,03_generated_posts\ALP-036_what-is-full-doc-lending,pending,pending
 2026-08-26,Wednesday,11:40,ALP-101,Finance for Manufacturing Businesses,Industry-Specific,03_generated_posts\ALP-101_finance-for-manufacturing-businesses,pending,pending
 2026-08-26,Wednesday,15:20,ALP-121,“I Don't Want to Put Up My House as Security”,Problems and Objections,03_generated_posts\ALP-121_dont-want-to-put-up-my-house,pending,pending
@@ -104,7 +104,7 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-09-02,Wednesday,15:20,ALP-183,You've Got a Tax Bill Due and Not Enough Cash,Scenario-Based,03_generated_posts\ALP-183_tax-bill-due-not-enough-cash,pending,pending
 2026-09-02,Wednesday,19:00,ALP-038,"What Does ""Secured"" Mean?",Educational Fundamentals,03_generated_posts\ALP-038_what-does-secured-mean,pending,pending
 2026-09-03,Thursday,08:00,ALP-103,Finance for Childcare Providers,Industry-Specific,03_generated_posts\ALP-103_finance-for-childcare-providers,pending,pending
-2026-09-03,Thursday,11:40,ALP-123,“I've Been Knocked Back Before” — What Changes the Outcome,Problems and Objections,03_generated_posts\ALP-123_knocked-back-before-what-changes-the-outcome,pending,pending
+2026-09-03,Thursday,11:40,ALP-123,"“I've Been Knocked Back Before”, What Changes the Outcome",Problems and Objections,03_generated_posts\ALP-123_knocked-back-before-what-changes-the-outcome,pending,pending
 2026-09-03,Thursday,15:20,ALP-023,Short-Term vs Long-Term Business Finance,Product Comparison,03_generated_posts\ALP-023_short-term-vs-long-term-business-finance,pending,pending
 2026-09-03,Thursday,19:00,ALP-058,What Lenders Look for in Bank Statements,Preparing for Finance,03_generated_posts\ALP-058_what-lenders-look-for-in-bank-statements,pending,pending
 2026-09-04,Friday,08:00,ALP-073,How GST and Tax Timing Affects Cash Flow,Cash-Flow Education,03_generated_posts\ALP-073_gst-and-tax-timing-effects-on-cash-flow,pending,pending
@@ -126,7 +126,7 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-09-10,Thursday,08:00,ALP-185,You're Ready to Hire Your First Employee,Scenario-Based,03_generated_posts\ALP-185_ready-to-hire-your-first-employee,pending,pending
 2026-09-10,Thursday,11:40,ALP-040,What Is a Personal Guarantee?,Educational Fundamentals,03_generated_posts\ALP-040_what-is-a-personal-guarantee,pending,pending
 2026-09-10,Thursday,15:20,ALP-105,Finance for Automotive Businesses,Industry-Specific,03_generated_posts\ALP-105_finance-for-automotive-businesses,pending,pending
-2026-09-10,Thursday,19:00,ALP-125,“I Don't Understand the Paperwork” — What to Ask For,Problems and Objections,03_generated_posts\ALP-125_dont-understand-the-paperwork,pending,pending
+2026-09-10,Thursday,19:00,ALP-125,"“I Don't Understand the Paperwork”, What to Ask For",Problems and Objections,03_generated_posts\ALP-125_dont-understand-the-paperwork,pending,pending
 2026-09-11,Friday,08:00,ALP-025,Fixed vs Variable Business Finance,Product Comparison,03_generated_posts\ALP-025_fixed-vs-variable-business-finance,pending,pending
 2026-09-11,Friday,11:40,ALP-060,What Happens During the Loan Assessment Process,Preparing for Finance,03_generated_posts\ALP-060_what-happens-during-loan-assessment,pending,pending
 2026-09-11,Friday,15:20,ALP-075,How to Forecast Cash Flow for the Next Quarter,Cash-Flow Education,03_generated_posts\ALP-075_forecast-cash-flow-for-the-next-quarter,pending,pending
@@ -188,14 +188,14 @@ scheduled_date,day_of_week,scheduled_time,post_id,topic,category,folder,instagra
 2026-10-01,Thursday,15:20,ALP-193,You've Been Approached to Export for the First Time,Scenario-Based,03_generated_posts\ALP-193_approached-to-export-for-the-first-time,pending,pending
 2026-10-01,Thursday,19:00,ALP-048,What Is a Loan Term?,Educational Fundamentals,03_generated_posts\ALP-048_what-is-a-loan-term,pending,pending
 2026-10-02,Friday,08:00,ALP-113,Finance for Hair and Salon Businesses,Industry-Specific,03_generated_posts\ALP-113_finance-for-hair-and-salon-businesses,pending,pending
-2026-10-02,Friday,11:40,ALP-133,“I Just Need a Small Amount” — Does That Rule You Out?,Problems and Objections,03_generated_posts\ALP-133_just-need-a-small-amount,pending,pending
-2026-10-02,Friday,15:20,ALP-194,Your Business Just Had Its Best Quarter Ever — Now What?,Scenario-Based,03_generated_posts\ALP-194_best-quarter-ever-now-what,pending,pending
+2026-10-02,Friday,11:40,ALP-133,"“I Just Need a Small Amount”, Does That Rule You Out?",Problems and Objections,03_generated_posts\ALP-133_just-need-a-small-amount,pending,pending
+2026-10-02,Friday,15:20,ALP-194,"Your Business Just Had Its Best Quarter Ever, Now What?",Scenario-Based,03_generated_posts\ALP-194_best-quarter-ever-now-what,pending,pending
 2026-10-02,Friday,19:00,ALP-049,What Is a Credit Limit?,Educational Fundamentals,03_generated_posts\ALP-049_what-is-a-credit-limit,pending,pending
 2026-10-05,Monday,08:00,ALP-114,Finance for Wholesale and Distribution Businesses,Industry-Specific,03_generated_posts\ALP-114_finance-for-wholesale-and-distribution-businesses,pending,pending
 2026-10-05,Monday,11:40,ALP-134,Overcoming the Fear of Applying and Getting Rejected,Problems and Objections,03_generated_posts\ALP-134_overcoming-fear-of-applying-and-rejection,pending,pending
 2026-10-05,Monday,15:20,ALP-195,"A Fire, Flood or Other Disruption Has Hit Your Business",Scenario-Based,03_generated_posts\ALP-195_fire-flood-or-disruption-hit-business,pending,pending
 2026-10-05,Monday,19:00,ALP-196,You're Considering Taking on a Business Partner,Scenario-Based,03_generated_posts\ALP-196_considering-taking-on-a-business-partner,pending,pending
-2026-10-06,Tuesday,08:00,ALP-197,Your Biggest Client Wants Exclusivity — At a Cost,Scenario-Based,03_generated_posts\ALP-197_biggest-client-wants-exclusivity-at-a-cost,pending,pending
+2026-10-06,Tuesday,08:00,ALP-197,"Your Biggest Client Wants Exclusivity, At a Cost",Scenario-Based,03_generated_posts\ALP-197_biggest-client-wants-exclusivity-at-a-cost,pending,pending
 2026-10-06,Tuesday,11:40,ALP-198,You're Ready to Retire and Need a Succession Plan,Scenario-Based,03_generated_posts\ALP-198_ready-to-retire-need-succession-plan,pending,pending
 2026-10-06,Tuesday,15:20,ALP-199,Your Business Has Been Offered a Buyout,Scenario-Based,03_generated_posts\ALP-199_business-offered-a-buyout,pending,pending
-2026-10-06,Tuesday,19:00,ALP-200,200 Posts of Finance Education — What We've Learned,Scenario-Based,03_generated_posts\ALP-200_reflecting-on-200-posts-of-finance-education,pending,pending
+2026-10-06,Tuesday,19:00,ALP-200,"200 Posts of Finance Education, What We've Learned",Scenario-Based,03_generated_posts\ALP-200_reflecting-on-200-posts-of-finance-education,pending,pending
