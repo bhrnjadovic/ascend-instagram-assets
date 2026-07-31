@@ -51,7 +51,7 @@ import argparse
 import csv
 import os
 import time
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -192,13 +192,17 @@ NOT_DONE = ("pending", "failed")  # anything except "posted" is still eligible t
 
 
 def due_rows(rows: list[dict]) -> list[dict]:
-    """A row is due if its date has arrived and at least one platform still needs posting —
+    """A row is due once its scheduled date AND time have both arrived, and at least one
+    platform still needs posting. Comparing only the date (as this used to) meant every
+    post-per-day sharing today's date went out together the moment the daily task ran,
+    regardless of its labelled 08:00/11:40/15:20/19:00 slot — this is what spread the day's
+    4 posts across scheduled_time instead of firing them all in the same run.
     "failed" is retried automatically on the next run, same as "pending", so a transient
     failure on one platform doesn't get stuck forever; only "posted" is treated as done."""
-    today = date.today().isoformat()
+    now = datetime.now()
     return [
         r for r in rows
-        if r["scheduled_date"] <= today
+        if datetime.strptime(f"{r['scheduled_date']} {r['scheduled_time']}", "%Y-%m-%d %H:%M") <= now
         and (r["instagram_status"] in NOT_DONE or r["facebook_status"] in NOT_DONE)
     ]
 
