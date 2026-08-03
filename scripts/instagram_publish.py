@@ -51,7 +51,7 @@ import argparse
 import csv
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -221,6 +221,32 @@ def _describe_error(exc: Exception) -> str:
     return f"{type(exc).__name__}: {exc}"
 
 
+def _find_recent_instagram_post(caption: str, ig_user_id: str, token: str, lookback_minutes: int = 60) -> str | None:
+    """Checks the account's most recent media for one with this exact caption, posted
+    within the last `lookback_minutes`. Called whenever publish_post() raises, BEFORE the
+    row is marked "failed" — this is what stops a publish that actually succeeded on
+    Instagram's side (but errored on our end reading the response) from being retried on
+    the next run into a genuine duplicate. Confirmed via the account's real media list
+    that this exact scenario already produced two live duplicate posts once the daily
+    task started running every few hours instead of once a day."""
+    try:
+        resp = requests.get(
+            f"{GRAPH_BASE}/{ig_user_id}/media",
+            params={"fields": "id,caption,timestamp", "limit": 10, "access_token": token},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        cutoff = datetime.now(timezone.utc) - timedelta(minutes=lookback_minutes)
+        for item in resp.json().get("data", []):
+            if item.get("caption") == caption:
+                posted_at = datetime.fromisoformat(item["timestamp"].replace("Z", "+00:00"))
+                if posted_at >= cutoff:
+                    return item["id"]
+    except Exception:  # noqa: BLE001 — this is a best-effort safety check, not itself
+        pass          # something we want a failure in to mask the original error
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Show what would publish, without calling the API")
@@ -286,8 +312,17 @@ def main() -> None:
                 row["published_at"] = datetime.now(timezone.utc).isoformat()
                 print(f"{row['post_id']}: Instagram published (media id {media_id})")
             except Exception as exc:  # noqa: BLE001
-                row["instagram_status"] = "failed"
-                print(f"{row['post_id']}: Instagram FAILED — {_describe_error(exc)}")
+                caption = f"{row['caption']}\n\n{row['hashtags']}"
+                existing_id = _find_recent_instagram_post(caption, ig_user_id, token)
+                if existing_id:
+                    row["instagram_status"] = "posted"
+                    row["instagram_post_id"] = existing_id
+                    row["published_at"] = datetime.now(timezone.utc).isoformat()
+                    print(f"{row['post_id']}: Instagram actually succeeded despite an error "
+                          f"(media id {existing_id}) — {_describe_error(exc)}")
+                else:
+                    row["instagram_status"] = "failed"
+                    print(f"{row['post_id']}: Instagram FAILED — {_describe_error(exc)}")
             save_manifest(rows)  # save after every step so a crash mid-run doesn't lose progress
 
         if fb_configured and row["facebook_status"] in NOT_DONE:
