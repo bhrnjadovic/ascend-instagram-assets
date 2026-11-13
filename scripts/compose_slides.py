@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 import yaml
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 from generate_backgrounds import build_background, draw_kicker_rule, hex_to_rgb
 from icons import paste_icon
@@ -155,23 +155,109 @@ def build_photo_scrim(
     return overlay
 
 
+def _layout_lines(
+    draw: ImageDraw.ImageDraw, text: str, fnt: ImageFont.FreeTypeFont, xy: tuple[int, int],
+    max_width: int, line_spacing: float,
+) -> tuple[list[tuple[float, int, str]], int]:
+    x, y = xy
+    ascent, descent = fnt.getmetrics()
+    line_height = int((ascent + descent) * line_spacing)
+    placed = []
+    for line in wrap_text(draw, text, fnt, max_width):
+        placed.append((x, y, line))
+        y += line_height
+    return placed, y
+
+
+def draw_embossed_text(
+    canvas: Image.Image,
+    text: str,
+    fnt: ImageFont.FreeTypeFont,
+    xy: tuple[int, int],
+    max_width: int,
+    fill: tuple[int, int, int],
+    line_spacing: float = 1.35,
+    bevel: bool = True,
+    glow_alpha: int = 150,
+) -> int:
+    """Draws text straight onto the photo with an embossed/lifted look instead of a
+    tinted band: a wide soft dark glow for legibility on any photo, a tight drop shadow
+    underneath, and (when bevel=True) a light top edge + slightly shaded lower face so
+    the letters read as raised. Returns the y after the last line."""
+    draw = ImageDraw.Draw(canvas)
+    placed, end_y = _layout_lines(draw, text, fnt, xy, max_width, line_spacing)
+    if not placed:
+        return end_y
+
+    mask = Image.new("L", canvas.size, 0)
+    mdraw = ImageDraw.Draw(mask)
+    for x, y, line in placed:
+        mdraw.text((x, y), line, font=fnt, fill=255)
+
+    def _layer(colour: tuple[int, int, int], alpha_mask: Image.Image) -> Image.Image:
+        layer = Image.new("RGBA", canvas.size, (*colour, 0))
+        layer.putalpha(alpha_mask)
+        return layer
+
+    shadow_rgb = (6, 12, 22)
+    size = fnt.size
+
+    # 1. Wide soft glow — gives contrast on light photos without a visible band.
+    glow = mask.filter(ImageFilter.GaussianBlur(max(10, size // 4)))
+    glow = glow.point(lambda v: min(255, int(v * glow_alpha / 255 * 1.6)))
+    canvas.alpha_composite(_layer(shadow_rgb, glow))
+
+    # 2. Tight drop shadow, offset down-right.
+    off = max(2, size // 28)
+    drop = ImageChops.offset(mask, off, off + 1).filter(ImageFilter.GaussianBlur(max(1.5, size / 40)))
+    drop = drop.point(lambda v: int(v * 0.85))
+    canvas.alpha_composite(_layer(shadow_rgb, drop))
+
+    # 3. Letter face: vertical light-to-slightly-shaded gradient per line.
+    face = Image.new("RGBA", canvas.size, (*fill, 0))
+    if bevel:
+        ascent, descent = fnt.getmetrics()
+        fdraw = ImageDraw.Draw(face)
+        dark = tuple(int(c * 0.80) for c in fill)
+        for _x, y, _line in placed:
+            top, bottom = y, y + ascent + descent
+            for yy in range(top, bottom):
+                t = (yy - top) / max(bottom - top - 1, 1)
+                t = max(0.0, (t - 0.35) / 0.65)  # top 35% stays full brightness
+                c = tuple(int(fill[i] + (dark[i] - fill[i]) * t) for i in range(3))
+                fdraw.line([(0, yy), (canvas.size[0], yy)], fill=(*c, 0))
+    face.putalpha(mask)
+    canvas.alpha_composite(face)
+
+    if bevel:
+        # 4. Bevel: bright hairline on upper edges, darker hairline on lower edges.
+        up = ImageChops.offset(mask, 0, 2)
+        top_edge = ImageChops.subtract(mask, up).filter(ImageFilter.GaussianBlur(0.6))
+        canvas.alpha_composite(_layer((255, 255, 255), top_edge.point(lambda v: int(v * 0.75))))
+        down = ImageChops.offset(mask, 0, -2)
+        bottom_edge = ImageChops.subtract(mask, down).filter(ImageFilter.GaussianBlur(0.6))
+        canvas.alpha_composite(_layer((70, 74, 82), bottom_edge.point(lambda v: int(v * 0.55))))
+
+    return end_y
+
+
 def build_cover_photo_background(post: dict, slide: dict) -> Image.Image:
-    """Full-bleed AI photo with a light off-white scrim gradient (navy text on top),
-    rather than a dark navy scrim with white text. A dark scrim made photo covers read
-    almost as dark-navy as the flat covers, defeating the point of alternating them —
-    the light scrim gives the grid genuine light/dark contrast between the two styles."""
+    """Full-bleed AI photo with NO tinted band over it. Legibility now comes from the
+    embossed text treatment (glow + drop shadow + bevel) drawn in render_slide, so the
+    photo shows through across the whole frame."""
     from image_api import get_cover_background  # deferred: avoids requiring requests/network unless used
 
-    off_white = hex_to_rgb(COLOURS["off_white"])
-    gold_dark = hex_to_rgb(COLOURS["gold_dark"])
+    gold = hex_to_rgb(COLOURS["gold"])
 
     bg_path = get_cover_background(post["post_id"], slide["image_prompt"])
     photo = _cover_fit(Image.open(bg_path).convert("RGB"), CANVAS)
     canvas = photo.convert("RGBA")
-    canvas = Image.alpha_composite(canvas, build_photo_scrim(CANVAS, off_white))
 
-    draw = ImageDraw.Draw(canvas)
-    draw_kicker_rule(draw, (*gold_dark, 255))
+    # Kicker rule with a faint shadow so it holds on light photos too.
+    shadow = Image.new("RGBA", CANVAS, (0, 0, 0, 0))
+    draw_kicker_rule(ImageDraw.Draw(shadow), (6, 12, 22, 200), y=142, x0=91, x1=301)
+    canvas.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(2)))
+    draw_kicker_rule(ImageDraw.Draw(canvas), (*gold, 255))
     return canvas.convert("RGB")
 
 
@@ -234,16 +320,36 @@ def render_slide(post: dict, slide: dict, out_path: Path) -> None:
         return
 
     y = MARGIN + 70
-    heading_font = font("heading_bold", 64) if slide["slide_type"] in ("cover",) else font("heading", 50)
+    heading_font = font("heading_bold", 74 if use_photo_cover else 64) if slide["slide_type"] in ("cover",) else font("heading", 50)
     body_font = font("body", 34)
     bullet_font = font("body_medium", 34)
 
     headline = slide.get("headline", "")
+    subheadline = slide.get("subheadline", "")
+    if use_photo_cover:
+        # Embossed off-white headline + gold subheadline straight on the photo.
+        if headline:
+            y = draw_embossed_text(canvas, headline, heading_font, (MARGIN, y), content_width,
+                                   hex_to_rgb(COLOURS["off_white"]), line_spacing=1.22)
+            y += 34
+        if subheadline:
+            y = draw_embossed_text(canvas, subheadline, font("body_medium", 36), (MARGIN, y), content_width,
+                                   hex_to_rgb(COLOURS["gold_light"]), bevel=False, glow_alpha=170)
+            y += 20
+        # Shadow behind the "1/5" counter so it holds on bright skies/windows;
+        # draw_footer() then draws the same gold label exactly on top of it.
+        page_label = f"{slide['slide_number']}/{len(post['slides'])}"
+        page_font = font("body_semibold", 28)
+        lx = CANVAS[0] - MARGIN - draw.textlength(page_label, font=page_font)
+        draw_embossed_text(canvas, page_label, page_font, (int(lx), MARGIN - 10), CANVAS[0],
+                           gold, bevel=False, glow_alpha=200)
+        headline = subheadline = ""
+        draw = ImageDraw.Draw(canvas)
+
     if headline:
         y = draw_multiline(draw, headline, heading_font, (MARGIN, y), content_width, text_colour, align="left")
         y += 20
 
-    subheadline = slide.get("subheadline", "")
     if subheadline:
         y = draw_multiline(draw, subheadline, font("body", 36), (MARGIN, y), content_width, gold if on_dark else hex_to_rgb(COLOURS["gold_dark"]))
         y += 20

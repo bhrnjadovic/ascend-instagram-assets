@@ -110,7 +110,11 @@ def refresh_token(current_token: str) -> tuple[str, int]:
 
 
 def _image_url(local_path: str, base_url: str) -> str:
-    rel = Path(local_path).relative_to(ROOT).as_posix()
+    # Use only the part from "03_generated_posts" on, so paths saved on another PC
+    # (different Windows username or folder) still map to the right public URL.
+    norm = local_path.replace("\\", "/")
+    idx = norm.find("03_generated_posts/")
+    rel = norm[idx:] if idx >= 0 else Path(local_path).relative_to(ROOT).as_posix()
     return f"{base_url.rstrip('/')}/{rel}"
 
 
@@ -311,6 +315,11 @@ def main() -> None:
                 row["instagram_post_id"] = media_id
                 row["published_at"] = datetime.now(timezone.utc).isoformat()
                 print(f"{row['post_id']}: Instagram published (media id {media_id})")
+                if row.get("replaces_instagram_post_id"):
+                    # Instagram's API can't archive posts, so this is a reminder only —
+                    # see 05_social_scheduler/ARCHIVE_CHECKLIST.csv.
+                    print(f"  REPOST: archive the original {row['post_id'][:-2]} in the Instagram app "
+                          f"(media id {row['replaces_instagram_post_id']}).")
             except Exception as exc:  # noqa: BLE001
                 caption = f"{row['caption']}\n\n{row['hashtags']}"
                 existing_id = _find_recent_instagram_post(caption, ig_user_id, token)
